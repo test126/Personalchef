@@ -1,0 +1,160 @@
+# view res/layout/activity_main.xml #generated:17
+-keep class android.support.v4.app.FragmentTabHost { <init>(...); }
+
+# view res/layout/layout_slideshow.xml #generated:7
+# view res/layout/main.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.goodfriends.personalchef.AddAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.goodfriends.personalchef.AddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.goodfriends.personalchef.ChefDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.goodfriends.personalchef.ChefSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.goodfriends.personalchef.CollectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.goodfriends.personalchef.CouponActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.goodfriends.personalchef.DishDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.goodfriends.personalchef.EvalOrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.goodfriends.personalchef.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.goodfriends.personalchef.ForgetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.goodfriends.personalchef.GuideViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.goodfriends.personalchef.LoadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.goodfriends.personalchef.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.goodfriends.personalchef.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.goodfriends.personalchef.MoreChefActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.goodfriends.personalchef.OrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.goodfriends.personalchef.OrderDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.goodfriends.personalchef.RegActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.goodfriends.personalchef.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.goodfriends.personalchef.WebUrlActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.goodfriends.personalchef.city.CityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.goodfriends.personalchef.city.CitySelect1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.goodfriends.personalchef.city.CitySelect2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.goodfriends.personalchef.service.NetworkStateService { <init>(...); }
+
+# view res/layout/activity_category.xml #generated:66
+# view res/layout/activity_category.xml #generated:72
+-keep class com.goodfriends.personalchef.view.ExpandTabView { <init>(...); }
+
+# view res/layout/activity_address.xml #generated:57
+# view res/layout/activity_category.xml #generated:82
+# view res/layout/activity_category.xml #generated:92
+# view res/layout/activity_chefdetail.xml #generated:288
+# view res/layout/activity_chefsearch.xml #generated:20
+# view res/layout/activity_coupon.xml #generated:53
+# view res/layout/activity_morechef.xml #generated:36
+# view res/layout/activity_order.xml #generated:28
+# view res/layout/collect_cheffragment.xml #generated:7
+# view res/layout/collect_dishfragment.xml #generated:7
+-keep class com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView { <init>(...); }
+
+# view res/layout/activity_bill.xml #generated:224
+-keep class com.goodfriends.personalchef.view.ScrollLayout { <init>(...); }
+
+# view res/layout/activity_chefsearch.xml #generated:8
+-keep class com.goodfriends.personalchef.view.SearchText { <init>(...); }
+
+# view 1280x720\res/layout-1280x720/activity_home.xml #generated:112
+# view 1920x1080\res/layout-1920x1080/activity_home.xml #generated:112
+# view 960x540\res/layout-960x540/activity_home.xml #generated:112
+# view res/layout/activity_home.xml #generated:112
+-keep class com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.goodfriends.personalchef.viewflipper.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.goodfriends.personalchef.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.umeng.socialize.view.ShareActivity { <init>(...); }
+
+# view res/layout/umeng_socialize_post_share.xml #generated:2
+# view sw550dp-large\res/layout-sw550dp-large/umeng_socialize_post_share.xml #generated:2
+-keep class com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:21
+-keep class com.umeng.socialize.view.wigets.SearchBox { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:38
+-keep class com.umeng.socialize.view.wigets.SectionListView { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:47
+-keep class com.umeng.socialize.view.wigets.SlideBar { <init>(...); }
+
+# onClick res/layout/activity_eval.xml #generated:309
+-keepclassmembers class * { *** clearImage(...); }
+
+# onClick res/layout/activity_eval.xml #generated:270
+-keepclassmembers class * { *** showPicture(...); }
+
+# onClick 1280x720\res/layout-1280x720/activity_home.xml #generated:146
+# onClick 1920x1080\res/layout-1920x1080/activity_home.xml #generated:146
+# onClick 960x540\res/layout-960x540/activity_home.xml #generated:146
+# onClick res/layout/activity_home.xml #generated:146
+-keepclassmembers class * { *** toChef(...); }
+
+# onClick res/layout/item03.xml #generated:17
+-keepclassmembers class * { *** toHome(...); }
+
+# onClick res/layout/activity_category.xml #generated:47
+-keepclassmembers class * { *** toSearchChef(...); }
+
+# onClick res/layout/activity_order.xml #generated:12
+# onClick res/layout/activity_order.xml #generated:37
+-keepclassmembers class * { *** toSignup(...); }
+

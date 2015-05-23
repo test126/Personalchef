@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <Button
+        android:id="@+id/order_sure"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chefdetail_yuyue_bg"
+        android:drawableRight="@drawable/catelog_icon_targetright_grey"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height" >
+
+            <ImageView
+                android:id="@id/title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="订单"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/big_size" />
+        </FrameLayout>
+
+        <include layout="@layout/one_greyline" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/order_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/index_icon_frontred"
+                        android:text=" 套餐名称"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/order_introName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/orange"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <include layout="@layout/one_greyline" />
+
+                <TextView
+                    android:id="@+id/order_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/index_icon_frontred"
+                    android:text=" 套餐选择"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ListView
+                    android:id="@+id/list_orderdish"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/catelog_line_03"
+                    android:dividerHeight="1dp"
+                    android:fadingEdge="none"
+                    android:focusable="false"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:scrollingCache="false"
+                    android:visibility="gone" />
+
+                <RadioGroup
+                    android:id="@+id/ll_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/order_pack_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/orange"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <include layout="@layout/one_greyline" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="是否厨师自备食材"
+                        android:textColor="@color/blackword"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" >
+
+                        <ToggleButton
+                            android:id="@+id/slipButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bill_btn_switch_off"
+                            android:textOff=""
+                            android:textOn="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/catelog_line_03" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="是否厨师自带调料"
+                        android:textColor="@color/blackword"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" >
+
+                        <ToggleButton
+                            android:id="@+id/slipButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@drawable/bill_btn_switch_off"
+                            android:textOff=""
+                            android:textOn="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    layout="@layout/one_greyline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/index_icon_frontred"
+                    android:text=" 预约时间"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.goodfriends.personalchef.view.ScrollLayout
+                    android:id="@+id/scrlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/order_billshape"
+                    android:orientation="horizontal"
+                    android:padding="1dp" >
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="10点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="11点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="12点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="13点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/order_billshape"
+                    android:orientation="horizontal"
+                    android:padding="1dp"
+                    android:paddingTop="-5dp" >
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="16点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="17点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="18点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/order_times"
+                        android:gravity="center"
+                        android:text="19点"
+                        android:textColor="@drawable/order_times_color"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    layout="@layout/one_greyline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/index_icon_frontred"
+                    android:text=" 礼券选择"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/coupon_choice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/bill_coupon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="10"
+                        android:src="@drawable/catelog_icon_targetright_grey" />
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    layout="@layout/one_greyline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/index_icon_frontred"
+                    android:text=" 预约地址"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_choice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/bill_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bill_addr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:maxLines="2"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="10"
+                        android:src="@drawable/catelog_icon_targetright_grey" />
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    layout="@layout/one_greyline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/index_icon_frontred"
+                    android:text=" 备注"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" >
+
+                    <EditText
+                        android:id="@+id/order_remark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/bill_img_remark"
+                        android:gravity="top"
+                        android:hint="给厨师留言："
+                        android:imeOptions="actionDone"
+                        android:lines="3"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

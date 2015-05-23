@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_img_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@drawable/splash_icon_logo" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="2"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_size" />
+    <!--
+    "深圳市私厨汇网络科技有限公司 
+     -->
+    
+</LinearLayout>

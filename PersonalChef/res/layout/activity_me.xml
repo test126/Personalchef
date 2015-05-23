@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="我"
+            android:textColor="#FE6138"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@id/mine_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/mine_icon_settings" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mine_img_bg"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/mine_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/login_yijian"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:id="@+id/userinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/nopic" />
+
+                    <TextView
+                        android:id="@+id/me_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/me_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_01"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_addr"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_collect"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_02"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_collect"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@+id/mine_coupon"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_02"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="我的礼券"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_auth"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_03"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_authchef"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_04"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_kehu"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_05"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_feedback"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+
+            <TextView
+                android:id="@id/mine_share"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/mine_icon_list_06"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:gravity="center_vertical"
+                android:text="@string/me_share"
+                android:textColor="#777777"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DCDCDC" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

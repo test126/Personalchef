@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height" >
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/big_size" />
+    </FrameLayout>
+
+    <include layout="@layout/one_greyline" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/catelog_line_01" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/mine_icon_targetright_grey"
+        android:gravity="center_vertical"
+        android:text="@string/setting_about"
+        android:textColor="@color/blackword"
+        android:textSize="18sp" />
+
+    <include layout="@layout/one_greyline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/updata"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="版本更新"
+            android:textColor="@color/blackword"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/updata_info"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_gravity="center_vertical|right"
+                android:drawableRight="@drawable/mine_icon_targetright_grey"
+                android:textColor="@color/greyword"
+                android:textSize="16sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <include layout="@layout/one_greyline" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/catelog_line_01" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/likethis"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/mine_icon_targetright_grey"
+        android:gravity="center_vertical"
+        android:text="评价APP"
+        android:textColor="@color/blackword"
+        android:textSize="18sp" />
+
+    <include layout="@layout/one_greyline" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/catelog_line_01" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="注销并退出"
+        android:textColor="@color/orange"
+        android:textSize="20sp" />
+
+    <include layout="@layout/one_greyline" />
+
+</LinearLayout>

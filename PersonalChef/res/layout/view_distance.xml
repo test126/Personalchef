@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:orientation="vertical" >
+
+        <include layout="@layout/one_greyline" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:cacheColorHint="@color/no_color"
+            android:divider="@color/line_divide"
+            android:dividerHeight="1px" >
+        </ListView>
+
+	<GridView
+	    android:id="@+id/gridview"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:columnWidth="90dp"
+	    android:numColumns="auto_fit"
+	    android:verticalSpacing="10dp"
+	    android:horizontalSpacing="10dp"
+	    android:stretchMode="columnWidth"
+	    android:gravity="center"/>        
+        
+        <include layout="@layout/one_greyline" />
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@color/white"
+            android:text="全部"
+            android:textColor="@color/greyword"
+            android:textSize="@dimen/small_size" />
+    </LinearLayout>
+
+</merge>

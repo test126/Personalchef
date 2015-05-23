@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goodfriends.personalchef"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_128"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="GQWv8sCHNqpPaMGBbwp5HQCd" />
+        <!-- 正式key  ：mzEW402hdYZBcgoeBY5RWOPp -->
+
+        <activity
+            android:name="com.goodfriends.personalchef.LoadingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.city.CityActivity" 
+            android:screenOrientation="portrait"
+            >        
+        </activity>
+	<activity
+            android:name="com.goodfriends.personalchef.city.CitySelect1Activity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light"
+            >
+            <!-- 注意上面这个android:theme其实是有错的，我执行了Android Tools->Clear Linker Matkers -->        
+        </activity>
+	<activity
+            android:name="com.goodfriends.personalchef.city.CitySelect2Activity" 
+            android:screenOrientation="portrait"
+            >        
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.DishDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.ChefDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.WebUrlActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateUnspecified" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.GuideViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.RegActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.ForgetActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.AddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.AddAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.CollectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.OrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.MoreChefActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goodfriends.personalchef.EvalOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goodfriends.personalchef.CouponActivity"
+            android:screenOrientation="portrait" />
+        
+	<activity
+            android:name="com.goodfriends.personalchef.ChefSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+	<service
+	    android:enabled="true"
+	    android:name="com.goodfriends.personalchef.service.NetworkStateService" 
+	    />
+	
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <!-- QQ开放平台申请的ID -->
+                <data android:scheme="1104138513" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.viewflipper.MainActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54bbf104fd98c534d2000082" />
+    </application>
+
+</manifest>

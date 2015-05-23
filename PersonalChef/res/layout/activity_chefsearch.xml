@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <com.goodfriends.personalchef.view.SearchText
+        android:id="@+id/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layx6"
+        android:layout_marginTop="@dimen/layx3"
+        android:layout_marginLeft="@dimen/layx10"
+        >
+    </com.goodfriends.personalchef.view.SearchText>
+    
+    <include layout="@layout/one_greyline" />
+    
+    <com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView
+        android:id="@+id/searchlist_chushi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/line_divide"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView>
+    
+</LinearLayout>

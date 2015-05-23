@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView
+        android:id="@+id/collect_dishlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/line_divide"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</LinearLayout>

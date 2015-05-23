@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/layx25"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/order_pic"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/nopic"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/order_cName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/greyword"
+                android:textSize="@dimen/layx20" />
+
+            <TextView
+                android:id="@+id/order_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/blackword"
+                android:textSize="@dimen/layx20" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@null"
+            android:src="@drawable/catelog_icon_targetright_grey" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/catelog_line_03" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/order_dishNum"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/blackword"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/order_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/blackword"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

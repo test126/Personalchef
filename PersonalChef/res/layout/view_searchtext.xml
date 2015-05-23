@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- 
+    	编辑框控件
+    	宽度匹配屏幕
+    	高度适应文字
+    	在编辑框左边画上搜索的那个图片
+    	单行编辑框
+     -->
+	<EditText 
+	    android:id="@+id/et_searchtext_search"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/layx55"
+	    android:drawableLeft="@drawable/search_bar_icon_normal"
+	    android:singleLine="true"/>
+	<!-- 
+		图片控件
+		宽度高度都是适应图片大小
+		图片资源来自一个配置文件
+		对齐在编辑框的右边
+		默认不可见且不占用屏幕位置
+	 -->
+	<ImageView
+	    android:id="@+id/ib_searchtext_delete"
+	    android:layout_width="@dimen/layx30"
+	    android:layout_height="@dimen/layx30"
+	    android:src="@drawable/searchtext_selector"
+	    android:layout_alignRight="@id/et_searchtext_search"
+	    android:layout_marginRight="@dimen/layx15"
+	    android:layout_centerVertical="true"
+	    android:visibility="gone"/>
+	
+	<Button
+	    android:id="@+id/tv_search_cancel"
+	    android:layout_width="@dimen/layx60"
+	    android:layout_height="@dimen/layx35"
+	    android:layout_toRightOf="@id/et_searchtext_search" 
+	    android:layout_centerVertical="true"
+	    android:textColor="@color/white"
+	    android:layout_marginLeft="@dimen/layx10"
+            android:textSize="@dimen/layx20"
+            android:background="@drawable/chefdetail_yijian_bg"
+	    android:text="确定"
+	    />
+</RelativeLayout>

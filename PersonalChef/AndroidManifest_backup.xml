@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goodfriends.personalchef"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_128"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="GQWv8sCHNqpPaMGBbwp5HQCd" /> <!-- 正式key  ：mzEW402hdYZBcgoeBY5RWOPp -->
+
+        <activity
+            android:name="com.goodfriends.personalchef.LoadingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.DishDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.ChefDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.WebUrlActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateUnspecified" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.GuideViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.RegActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.ForgetActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.AddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.AddAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.CollectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.OrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.MoreChefActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.goodfriends.personalchef.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goodfriends.personalchef.EvalOrderActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,2682 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+com.baidu.location.BDLocation
+com.baidu.location.BDLocation: android.os.Parcelable$Creator CREATOR
+com.baidu.location.CommonEncrypt
+com.baidu.location.CommonEncrypt: byte[] encrypt(byte[])
+com.baidu.location.I$a
+com.baidu.location.Jni
+com.baidu.location.Jni: java.lang.String a(byte[],int)
+com.baidu.location.Jni: java.lang.String sky()
+com.baidu.location.Jni: java.lang.String b(double,double,int,int)
+com.baidu.location.Jni: java.lang.String c(byte[],int)
+com.baidu.location.Jni: java.lang.String g(byte[])
+com.baidu.location.Jni: void f(byte[],byte[])
+com.baidu.location.LocationClientOption$LocationMode: com.baidu.location.LocationClientOption$LocationMode[] values()
+com.baidu.location.LocationClientOption$LocationMode: com.baidu.location.LocationClientOption$LocationMode valueOf(java.lang.String)
+com.baidu.location.U$a
+com.baidu.location.f
+com.baidu.location.f: f()
+com.baidu.location.i$c
+com.baidu.location.k$b
+com.baidu.location.m
+com.goodfriends.personalchef.AddAddressActivity
+com.goodfriends.personalchef.AddAddressActivity: AddAddressActivity()
+com.goodfriends.personalchef.AddressActivity
+com.goodfriends.personalchef.AddressActivity: AddressActivity()
+com.goodfriends.personalchef.BaseActivity
+com.goodfriends.personalchef.BaseActivity: BaseActivity()
+com.goodfriends.personalchef.ChefDetailActivity
+com.goodfriends.personalchef.ChefDetailActivity: ChefDetailActivity()
+com.goodfriends.personalchef.ChefSearchActivity
+com.goodfriends.personalchef.ChefSearchActivity: ChefSearchActivity()
+com.goodfriends.personalchef.CollectActivity
+com.goodfriends.personalchef.CollectActivity: CollectActivity()
+com.goodfriends.personalchef.CouponActivity
+com.goodfriends.personalchef.CouponActivity: CouponActivity()
+com.goodfriends.personalchef.DishDetailActivity
+com.goodfriends.personalchef.DishDetailActivity: DishDetailActivity()
+com.goodfriends.personalchef.EvalOrderActivity
+com.goodfriends.personalchef.EvalOrderActivity: EvalOrderActivity()
+com.goodfriends.personalchef.EvalOrderActivity: void showPicture(android.view.View)
+com.goodfriends.personalchef.EvalOrderActivity: void clearImage(android.view.View)
+com.goodfriends.personalchef.FeedBackActivity
+com.goodfriends.personalchef.FeedBackActivity: FeedBackActivity()
+com.goodfriends.personalchef.ForgetActivity
+com.goodfriends.personalchef.ForgetActivity: ForgetActivity()
+com.goodfriends.personalchef.GuideViewActivity
+com.goodfriends.personalchef.GuideViewActivity: GuideViewActivity()
+com.goodfriends.personalchef.GuideViewActivity: void toHome(android.view.View)
+com.goodfriends.personalchef.LoadingActivity
+com.goodfriends.personalchef.LoadingActivity: LoadingActivity()
+com.goodfriends.personalchef.LoadingActivity: void toHome()
+com.goodfriends.personalchef.MainActivity
+com.goodfriends.personalchef.MainActivity: MainActivity()
+com.goodfriends.personalchef.MainActivity: void toSignup(android.view.View)
+com.goodfriends.personalchef.MainActivity: void toSearchChef(android.view.View)
+com.goodfriends.personalchef.MoreChefActivity
+com.goodfriends.personalchef.MoreChefActivity: MoreChefActivity()
+com.goodfriends.personalchef.OrderActivity
+com.goodfriends.personalchef.OrderActivity: OrderActivity()
+com.goodfriends.personalchef.OrderDetailActivity
+com.goodfriends.personalchef.OrderDetailActivity: OrderDetailActivity()
+com.goodfriends.personalchef.RegActivity
+com.goodfriends.personalchef.RegActivity: RegActivity()
+com.goodfriends.personalchef.SettingActivity
+com.goodfriends.personalchef.SettingActivity: SettingActivity()
+com.goodfriends.personalchef.WebUrlActivity
+com.goodfriends.personalchef.WebUrlActivity: WebUrlActivity()
+com.goodfriends.personalchef.application.SysApplication
+com.goodfriends.personalchef.city.City
+com.goodfriends.personalchef.city.City: android.os.Parcelable$Creator CREATOR
+com.goodfriends.personalchef.city.CityActivity
+com.goodfriends.personalchef.city.CityActivity: CityActivity()
+com.goodfriends.personalchef.city.CitySelect1Activity
+com.goodfriends.personalchef.city.CitySelect1Activity: CitySelect1Activity()
+com.goodfriends.personalchef.city.CitySelect2Activity
+com.goodfriends.personalchef.city.CitySelect2Activity: CitySelect2Activity()
+com.goodfriends.personalchef.common.UIHelper: void toSearchChef(android.content.Context)
+com.goodfriends.personalchef.common.UIHelper: void toSignup(android.content.Context)
+com.goodfriends.personalchef.fragment.HomeFragment: void toChef(android.view.View)
+com.goodfriends.personalchef.view.ExpandTabView
+com.goodfriends.personalchef.view.ExpandTabView: ExpandTabView(android.content.Context)
+com.goodfriends.personalchef.view.ExpandTabView: ExpandTabView(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.MyScrollView
+com.goodfriends.personalchef.view.MyScrollView: MyScrollView(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.MyScrollView: MyScrollView(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.NoScrollListview
+com.goodfriends.personalchef.view.NoScrollListview: NoScrollListview(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.FooterLoadingLayout
+com.goodfriends.personalchef.view.PullToRefreshListView.FooterLoadingLayout: FooterLoadingLayout(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.HeaderLoadingLayout
+com.goodfriends.personalchef.view.PullToRefreshListView.HeaderLoadingLayout: HeaderLoadingLayout(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.ILoadingLayout$State: com.goodfriends.personalchef.view.PullToRefreshListView.ILoadingLayout$State[] values()
+com.goodfriends.personalchef.view.PullToRefreshListView.ILoadingLayout$State: com.goodfriends.personalchef.view.PullToRefreshListView.ILoadingLayout$State valueOf(java.lang.String)
+com.goodfriends.personalchef.view.PullToRefreshListView.LoadingLayout
+com.goodfriends.personalchef.view.PullToRefreshListView.LoadingLayout: LoadingLayout(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.LoadingLayout: LoadingLayout(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase: PullToRefreshBase(android.content.Context)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase: PullToRefreshBase(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase: PullToRefreshBase(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView: PullToRefreshListView(android.content.Context)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView: PullToRefreshListView(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView: PullToRefreshListView(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.PullToRefreshListView.RotateLoadingLayout
+com.goodfriends.personalchef.view.PullToRefreshListView.RotateLoadingLayout: RotateLoadingLayout(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.RoundImageView
+com.goodfriends.personalchef.view.RoundImageView: RoundImageView(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.RoundImageView: RoundImageView(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.ScrollLayout
+com.goodfriends.personalchef.view.ScrollLayout: ScrollLayout(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.ScrollLayout: ScrollLayout(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.SearchText
+com.goodfriends.personalchef.view.SearchText: SearchText(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.ViewLeft
+com.goodfriends.personalchef.view.ViewLeft: ViewLeft(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.ViewLeft: ViewLeft(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.ViewMiddle1
+com.goodfriends.personalchef.view.ViewMiddle1: ViewMiddle1(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.ViewMiddle1: ViewMiddle1(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.ViewRight
+com.goodfriends.personalchef.view.ViewRight: ViewRight(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.ViewRight: ViewRight(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.view.ViewRightFoods
+com.goodfriends.personalchef.view.ViewRightFoods: ViewRightFoods(android.content.Context,android.util.AttributeSet,int)
+com.goodfriends.personalchef.view.ViewRightFoods: ViewRightFoods(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager
+com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager: InfiniteLoopViewPager(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager: InfiniteLoopViewPager(android.content.Context)
+com.goodfriends.personalchef.viewflipper.MyViewPager
+com.goodfriends.personalchef.viewflipper.MyViewPager: MyViewPager(android.content.Context)
+com.goodfriends.personalchef.viewflipper.MyViewPager: MyViewPager(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.viewflipper.MyViewPager$LayoutParams
+com.goodfriends.personalchef.viewflipper.MyViewPager$LayoutParams: MyViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+com.goodfriends.personalchef.viewflipper.MyViewPager$SavedState
+com.goodfriends.personalchef.viewflipper.MyViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.goodfriends.personalchef.wxapi.WXEntryActivity
+com.goodfriends.personalchef.wxapi.WXEntryActivity: WXEntryActivity()
+com.tencent.connect.UserInfo
+com.tencent.connect.UserInfo: java.lang.String GRAPH_OPEN_ID
+com.tencent.connect.UserInfo: UserInfo(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.UserInfo: UserInfo(android.content.Context,com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+com.tencent.connect.UserInfo: void getUserInfo(com.tencent.tauth.IUiListener)
+com.tencent.connect.UserInfo: void getVipUserInfo(com.tencent.tauth.IUiListener)
+com.tencent.connect.UserInfo: void getVipUserRichInfo(com.tencent.tauth.IUiListener)
+com.tencent.connect.UserInfo: void getTenPayAddr(com.tencent.tauth.IUiListener)
+com.tencent.connect.UserInfo: void getOpenId(com.tencent.tauth.IUiListener)
+com.tencent.connect.a.a
+com.tencent.connect.a.a: java.lang.Class a
+com.tencent.connect.a.a: java.lang.Class b
+com.tencent.connect.a.a: java.lang.reflect.Method c
+com.tencent.connect.a.a: java.lang.reflect.Method d
+com.tencent.connect.a.a: java.lang.reflect.Method e
+com.tencent.connect.a.a: java.lang.reflect.Method f
+com.tencent.connect.a.a: boolean g
+com.tencent.connect.a.a: boolean a(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.a.a: void b(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.a.a: void c(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.a.a: void d(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.a.a: void a(android.content.Context,com.tencent.connect.auth.QQToken,java.lang.String,java.lang.String[])
+com.tencent.connect.a.a: void <clinit>()
+com.tencent.connect.auth.AuthAgent
+com.tencent.connect.auth.AuthAgent: java.lang.String SECURE_LIB_FILE_NAME
+com.tencent.connect.auth.AuthAgent: java.lang.String SECURE_LIB_NAME
+com.tencent.connect.auth.AuthAgent: com.tencent.tauth.IUiListener a
+com.tencent.connect.auth.AuthAgent: java.lang.String b
+com.tencent.connect.auth.AuthAgent: android.app.Activity c
+com.tencent.connect.auth.AuthAgent: AuthAgent(com.tencent.connect.auth.QQToken)
+com.tencent.connect.auth.AuthAgent: int doLogin(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.AuthAgent: int doLogin(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,boolean,android.support.v4.app.Fragment)
+com.tencent.connect.auth.AuthAgent: void releaseResource()
+com.tencent.connect.auth.AuthAgent: int a(boolean,com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.AuthAgent: boolean a(android.app.Activity,android.support.v4.app.Fragment,boolean)
+com.tencent.connect.auth.AuthAgent: void a(com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.AuthAgent: void b(com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.AuthAgent: void onActivityResult(android.app.Activity,int,int,android.content.Intent)
+com.tencent.connect.auth.AuthAgent: void a(java.lang.String)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken a(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken b(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken c(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken d(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: android.app.Activity e(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken f(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: android.os.Bundle g(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent: com.tencent.connect.auth.QQToken h(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthConstants
+com.tencent.connect.auth.AuthConstants: java.lang.String CANCEL_URI
+com.tencent.connect.auth.AuthConstants: java.lang.String CLOSE_URI
+com.tencent.connect.auth.AuthConstants: java.lang.String REDIRECT_BROWSER_URI
+com.tencent.connect.auth.AuthConstants: java.lang.String DOWNLOAD_URI
+com.tencent.connect.auth.AuthConstants: java.lang.String PROGRESS_URI
+com.tencent.connect.auth.AuthConstants: java.lang.String ON_LOGIN_URI
+com.tencent.connect.auth.AuthConstants: AuthConstants()
+com.tencent.connect.auth.AuthDialog
+com.tencent.connect.auth.AuthDialog: java.lang.String a
+com.tencent.connect.auth.AuthDialog: java.lang.String b
+com.tencent.connect.auth.AuthDialog: com.tencent.connect.auth.AuthDialog$OnTimeListener c
+com.tencent.connect.auth.AuthDialog: com.tencent.tauth.IUiListener d
+com.tencent.connect.auth.AuthDialog: android.os.Handler e
+com.tencent.connect.auth.AuthDialog: android.widget.FrameLayout f
+com.tencent.connect.auth.AuthDialog: android.widget.LinearLayout g
+com.tencent.connect.auth.AuthDialog: android.widget.FrameLayout h
+com.tencent.connect.auth.AuthDialog: android.widget.ProgressBar i
+com.tencent.connect.auth.AuthDialog: java.lang.String j
+com.tencent.connect.auth.AuthDialog: com.tencent.open.c.c k
+com.tencent.connect.auth.AuthDialog: android.content.Context l
+com.tencent.connect.auth.AuthDialog: com.tencent.open.web.security.b m
+com.tencent.connect.auth.AuthDialog: boolean n
+com.tencent.connect.auth.AuthDialog: int o
+com.tencent.connect.auth.AuthDialog: java.lang.String p
+com.tencent.connect.auth.AuthDialog: java.lang.String q
+com.tencent.connect.auth.AuthDialog: long r
+com.tencent.connect.auth.AuthDialog: long s
+com.tencent.connect.auth.AuthDialog: java.util.HashMap t
+com.tencent.connect.auth.AuthDialog: AuthDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken)
+com.tencent.connect.auth.AuthDialog: void onCreate(android.os.Bundle)
+com.tencent.connect.auth.AuthDialog: void onBackPressed()
+com.tencent.connect.auth.AuthDialog: void onStop()
+com.tencent.connect.auth.AuthDialog: java.lang.String a(java.lang.String)
+com.tencent.connect.auth.AuthDialog: java.lang.String b()
+com.tencent.connect.auth.AuthDialog: void c()
+com.tencent.connect.auth.AuthDialog: void d()
+com.tencent.connect.auth.AuthDialog: void e()
+com.tencent.connect.auth.AuthDialog: boolean f()
+com.tencent.connect.auth.AuthDialog: void b(android.content.Context,java.lang.String)
+com.tencent.connect.auth.AuthDialog: void callJs(java.lang.String,java.lang.String)
+com.tencent.connect.auth.AuthDialog: void dismiss()
+com.tencent.connect.auth.AuthDialog: android.content.Context a(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: void a(android.content.Context,java.lang.String)
+com.tencent.connect.auth.AuthDialog: java.lang.String a(com.tencent.connect.auth.AuthDialog,java.lang.String)
+com.tencent.connect.auth.AuthDialog: java.lang.String a()
+com.tencent.connect.auth.AuthDialog: boolean a(com.tencent.connect.auth.AuthDialog,boolean)
+com.tencent.connect.auth.AuthDialog: boolean b(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: boolean c(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: java.lang.String a(com.tencent.connect.auth.AuthDialog,java.lang.Object)
+com.tencent.connect.auth.AuthDialog: java.lang.String d(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: com.tencent.open.c.c e(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: com.tencent.connect.auth.AuthDialog$OnTimeListener f(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: android.widget.FrameLayout g(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: java.lang.String b(com.tencent.connect.auth.AuthDialog,java.lang.String)
+com.tencent.connect.auth.AuthDialog: com.tencent.open.web.security.b h(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: java.lang.String i(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: long j(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: int k(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: long l(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: int m(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: android.os.Handler n(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: java.lang.String o(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: long a(com.tencent.connect.auth.AuthDialog,long)
+com.tencent.connect.auth.AuthDialog: java.util.HashMap p(com.tencent.connect.auth.AuthDialog)
+com.tencent.connect.auth.AuthDialog: java.lang.String c(com.tencent.connect.auth.AuthDialog,java.lang.String)
+com.tencent.connect.auth.AuthDialog: void <clinit>()
+com.tencent.connect.auth.AuthMap
+com.tencent.connect.auth.AuthMap: int b
+com.tencent.connect.auth.AuthMap: com.tencent.connect.auth.AuthMap sInstance
+com.tencent.connect.auth.AuthMap: java.util.HashMap authMap
+com.tencent.connect.auth.AuthMap: java.lang.String KEY_CHAR_LIST
+com.tencent.connect.auth.AuthMap: boolean a
+com.tencent.connect.auth.AuthMap: AuthMap()
+com.tencent.connect.auth.AuthMap: com.tencent.connect.auth.AuthMap getInstance()
+com.tencent.connect.auth.AuthMap: com.tencent.connect.auth.AuthMap$Auth get(java.lang.String)
+com.tencent.connect.auth.AuthMap: int getSerial()
+com.tencent.connect.auth.AuthMap: java.lang.String set(com.tencent.connect.auth.AuthMap$Auth)
+com.tencent.connect.auth.AuthMap: void remove(java.lang.String)
+com.tencent.connect.auth.AuthMap: java.lang.String makeKey()
+com.tencent.connect.auth.AuthMap: java.lang.String decode(java.lang.String,java.lang.String)
+com.tencent.connect.auth.AuthMap: java.lang.String a(java.lang.String,java.lang.String)
+com.tencent.connect.auth.AuthMap: void <clinit>()
+com.tencent.connect.auth.AuthMap$Auth
+com.tencent.connect.auth.AuthMap$Auth: com.tencent.tauth.IUiListener listener
+com.tencent.connect.auth.AuthMap$Auth: com.tencent.connect.auth.AuthDialog dialog
+com.tencent.connect.auth.AuthMap$Auth: java.lang.String key
+com.tencent.connect.auth.AuthMap$Auth: AuthMap$Auth()
+com.tencent.connect.auth.QQAuth
+com.tencent.connect.auth.QQAuth: com.tencent.connect.auth.AuthAgent a
+com.tencent.connect.auth.QQAuth: com.tencent.connect.auth.QQToken b
+com.tencent.connect.auth.QQAuth: QQAuth(java.lang.String,android.content.Context)
+com.tencent.connect.auth.QQAuth: com.tencent.connect.auth.QQAuth createInstance(java.lang.String,android.content.Context)
+com.tencent.connect.auth.QQAuth: int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.QQAuth: int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+com.tencent.connect.auth.QQAuth: int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+com.tencent.connect.auth.QQAuth: int a(android.app.Activity,android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+com.tencent.connect.auth.QQAuth: int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.connect.auth.QQAuth: int reAuth(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.QQAuth: void reportDAU()
+com.tencent.connect.auth.QQAuth: void checkLogin(com.tencent.tauth.IUiListener)
+com.tencent.connect.auth.QQAuth: void logout(android.content.Context)
+com.tencent.connect.auth.QQAuth: com.tencent.connect.auth.QQToken getQQToken()
+com.tencent.connect.auth.QQAuth: void setAccessToken(java.lang.String,java.lang.String)
+com.tencent.connect.auth.QQAuth: boolean isSessionValid()
+com.tencent.connect.auth.QQAuth: void setOpenId(android.content.Context,java.lang.String)
+com.tencent.connect.auth.QQAuth: boolean onActivityResult(int,int,android.content.Intent)
+com.tencent.connect.auth.QQToken
+com.tencent.connect.auth.QQToken: int AUTH_WEB
+com.tencent.connect.auth.QQToken: int AUTH_QQ
+com.tencent.connect.auth.QQToken: int AUTH_QZONE
+com.tencent.connect.auth.QQToken: java.lang.String a
+com.tencent.connect.auth.QQToken: java.lang.String b
+com.tencent.connect.auth.QQToken: java.lang.String c
+com.tencent.connect.auth.QQToken: int d
+com.tencent.connect.auth.QQToken: long e
+com.tencent.connect.auth.QQToken: QQToken(java.lang.String)
+com.tencent.connect.auth.QQToken: boolean isSessionValid()
+com.tencent.connect.auth.QQToken: java.lang.String getAppId()
+com.tencent.connect.auth.QQToken: void setAppId(java.lang.String)
+com.tencent.connect.auth.QQToken: java.lang.String getAccessToken()
+com.tencent.connect.auth.QQToken: void setAccessToken(java.lang.String,java.lang.String)
+com.tencent.connect.auth.QQToken: java.lang.String getOpenId()
+com.tencent.connect.auth.QQToken: void setOpenId(java.lang.String)
+com.tencent.connect.auth.QQToken: int getAuthSource()
+com.tencent.connect.auth.QQToken: void setAuthSource(int)
+com.tencent.connect.auth.QQToken: long getExpireTimeInSecond()
+com.tencent.connect.common.AssistActivity
+com.tencent.connect.common.AssistActivity: com.tencent.connect.common.BaseApi sApiObject
+com.tencent.connect.common.AssistActivity: java.lang.String RESTART_FLAG
+com.tencent.connect.common.AssistActivity: java.lang.String TAG
+com.tencent.connect.common.AssistActivity: com.tencent.connect.common.BaseApi mAPiObject
+com.tencent.connect.common.AssistActivity: boolean isQQMobileShare
+com.tencent.connect.common.AssistActivity: boolean hackShareSend
+com.tencent.connect.common.AssistActivity: AssistActivity()
+com.tencent.connect.common.AssistActivity: android.content.Intent getAssistActivityIntent(android.content.Context)
+com.tencent.connect.common.AssistActivity: void onCreate(android.os.Bundle)
+com.tencent.connect.common.AssistActivity: void onStart()
+com.tencent.connect.common.AssistActivity: void onResume()
+com.tencent.connect.common.AssistActivity: void onPause()
+com.tencent.connect.common.AssistActivity: void onStop()
+com.tencent.connect.common.AssistActivity: void onDestroy()
+com.tencent.connect.common.AssistActivity: void onNewIntent(android.content.Intent)
+com.tencent.connect.common.AssistActivity: void onSaveInstanceState(android.os.Bundle)
+com.tencent.connect.common.AssistActivity: void onActivityResult(int,int,android.content.Intent)
+com.tencent.connect.common.AssistActivity: void setApiObject(com.tencent.connect.common.BaseApi)
+com.tencent.connect.common.AssistActivity: void setResultDataForLogin(android.app.Activity,android.content.Intent)
+com.tencent.connect.common.AssistActivity: void openBrowser(android.os.Bundle)
+com.tencent.connect.common.AssistActivity: void <clinit>()
+com.tencent.connect.common.BaseApi
+com.tencent.connect.common.BaseApi: java.lang.String KEY_REQUEST_CODE
+com.tencent.connect.common.BaseApi: java.lang.String DEFAULT_PF
+com.tencent.connect.common.BaseApi: java.lang.String PREFERENCE_PF
+com.tencent.connect.common.BaseApi: java.lang.String ACTIVITY_ENCRY_TOKEN
+com.tencent.connect.common.BaseApi: java.lang.String ACTIVITY_AGENT
+com.tencent.connect.common.BaseApi: java.lang.String ACTION_CHECK_TOKEN
+com.tencent.connect.common.BaseApi: java.lang.String PARAM_ENCRY_EOKEN
+com.tencent.connect.common.BaseApi: java.lang.String TAG
+com.tencent.connect.common.BaseApi: int MSG_COMPLETE
+com.tencent.connect.common.BaseApi: com.tencent.connect.auth.QQAuth mQQAuth
+com.tencent.connect.common.BaseApi: com.tencent.connect.auth.QQToken mToken
+com.tencent.connect.common.BaseApi: java.util.List mTaskList
+com.tencent.connect.common.BaseApi: android.content.Intent mActivityIntent
+com.tencent.connect.common.BaseApi: int sRequestCode
+com.tencent.connect.common.BaseApi: com.tencent.tauth.IUiListener mUiListener
+com.tencent.connect.common.BaseApi: java.lang.String registerChannel
+com.tencent.connect.common.BaseApi: java.lang.String installChannel
+com.tencent.connect.common.BaseApi: java.lang.String businessId
+com.tencent.connect.common.BaseApi: boolean isOEM
+com.tencent.connect.common.BaseApi: java.lang.String VERSION
+com.tencent.connect.common.BaseApi: java.lang.String PLATFORM
+com.tencent.connect.common.BaseApi: android.app.ProgressDialog mProgressDialog
+com.tencent.connect.common.BaseApi: BaseApi(com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+com.tencent.connect.common.BaseApi: BaseApi(com.tencent.connect.auth.QQToken)
+com.tencent.connect.common.BaseApi: void onActivityResult(android.app.Activity,int,int,android.content.Intent)
+com.tencent.connect.common.BaseApi: void handleDataToListener(android.content.Intent,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi: android.content.Intent getActivityIntent()
+com.tencent.connect.common.BaseApi: android.os.Bundle composeCGIParams()
+com.tencent.connect.common.BaseApi: java.lang.String getCommonDownloadQQUrl(java.lang.String)
+com.tencent.connect.common.BaseApi: android.os.Bundle composeActivityParams()
+com.tencent.connect.common.BaseApi: android.content.Intent getAssitIntent(android.app.Activity)
+com.tencent.connect.common.BaseApi: void startAssistActivity(android.app.Activity,int)
+com.tencent.connect.common.BaseApi: void startAssistActivity(android.app.Activity,android.os.Bundle,int)
+com.tencent.connect.common.BaseApi: void startAssitActivity(android.app.Activity,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi: void startAssitActivity(android.support.v4.app.Fragment,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi: boolean hasActivityForIntent()
+com.tencent.connect.common.BaseApi: android.content.Intent getTargetActivityIntent(java.lang.String)
+com.tencent.connect.common.BaseApi: void handleDownloadLastestQQ(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi: void showProgressDialog(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.connect.common.BaseApi: android.content.Intent getAgentIntent()
+com.tencent.connect.common.BaseApi: android.content.Intent getAgentIntentWithTarget(java.lang.String)
+com.tencent.connect.common.BaseApi: void releaseResource()
+com.tencent.connect.common.BaseApi: void <clinit>()
+com.tencent.connect.common.BaseApi$ApiTask
+com.tencent.connect.common.BaseApi$ApiTask: int mRequestCode
+com.tencent.connect.common.BaseApi$ApiTask: com.tencent.tauth.IUiListener mListener
+com.tencent.connect.common.BaseApi$ApiTask: com.tencent.connect.common.BaseApi this$0
+com.tencent.connect.common.BaseApi$ApiTask: BaseApi$ApiTask(com.tencent.connect.common.BaseApi,int,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi$TempRequestListener
+com.tencent.connect.common.BaseApi$TempRequestListener: com.tencent.tauth.IUiListener mListener
+com.tencent.connect.common.BaseApi$TempRequestListener: android.os.Handler mHandler
+com.tencent.connect.common.BaseApi$TempRequestListener: com.tencent.connect.common.BaseApi this$0
+com.tencent.connect.common.BaseApi$TempRequestListener: BaseApi$TempRequestListener(com.tencent.connect.common.BaseApi,com.tencent.tauth.IUiListener)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onComplete(org.json.JSONObject)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onIOException(java.io.IOException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onMalformedURLException(java.net.MalformedURLException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onJSONException(org.json.JSONException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onConnectTimeoutException(org.apache.http.conn.ConnectTimeoutException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onSocketTimeoutException(java.net.SocketTimeoutException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onNetworkUnavailableException(com.tencent.open.utils.HttpUtils$NetworkUnavailableException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onHttpStatusException(com.tencent.open.utils.HttpUtils$HttpStatusException)
+com.tencent.connect.common.BaseApi$TempRequestListener: void onUnknowException(java.lang.Exception)
+com.tencent.connect.common.BaseApi$TempRequestListener: com.tencent.tauth.IUiListener access$000(com.tencent.connect.common.BaseApi$TempRequestListener)
+com.tencent.connect.common.Constants
+com.tencent.connect.common.Constants: java.lang.String DEFAULT_UIN
+com.tencent.connect.common.Constants: java.lang.String PACKAGE_QZONE
+com.tencent.connect.common.Constants: java.lang.String PACKAGE_QQ
+com.tencent.connect.common.Constants: java.lang.String QQ_APPID
+com.tencent.connect.common.Constants: java.lang.String SIGNATRUE_QZONE
+com.tencent.connect.common.Constants: boolean ISLITE
+com.tencent.connect.common.Constants: java.lang.String SDK_VER
+com.tencent.connect.common.Constants: java.lang.String SDK_VERSION
+com.tencent.connect.common.Constants: java.lang.String SDK_QUA
+com.tencent.connect.common.Constants: java.lang.String SDK_VERSION_STRING
+com.tencent.connect.common.Constants: java.lang.String SDK_VERSION_REPORT
+com.tencent.connect.common.Constants: java.lang.String SDK_BUILD
+com.tencent.connect.common.Constants: java.lang.String PARAM_ACCESS_TOKEN
+com.tencent.connect.common.Constants: java.lang.String PARAM_KEY_STR
+com.tencent.connect.common.Constants: java.lang.String PARAM_KEY_TYPE
+com.tencent.connect.common.Constants: java.lang.String PARAM_PLATFORM
+com.tencent.connect.common.Constants: java.lang.String SOURCE_QZONE
+com.tencent.connect.common.Constants: java.lang.String SOURCE_QQ
+com.tencent.connect.common.Constants: java.lang.String DEFAULT_PF
+com.tencent.connect.common.Constants: boolean FLAG_DEBUG
+com.tencent.connect.common.Constants: java.lang.String LOGIN_INFO
+com.tencent.connect.common.Constants: java.lang.String PARAM_CLIENT_ID
+com.tencent.connect.common.Constants: java.lang.String PARAM_APP_ID
+com.tencent.connect.common.Constants: java.lang.String PARAM_CONSUMER_KEY
+com.tencent.connect.common.Constants: java.lang.String PARAM_OPEN_ID
+com.tencent.connect.common.Constants: java.lang.String PARAM_HOPEN_ID
+com.tencent.connect.common.Constants: java.lang.String PARAM_PLATFORM_ID
+com.tencent.connect.common.Constants: java.lang.String KEY_REQUEST_CODE
+com.tencent.connect.common.Constants: java.lang.String PREFERENCE_PF
+com.tencent.connect.common.Constants: java.lang.String PARAM_SCOPE
+com.tencent.connect.common.Constants: java.lang.String PARAM_EXPIRES_IN
+com.tencent.connect.common.Constants: int ERROR_IO
+com.tencent.connect.common.Constants: int ERROR_URL
+com.tencent.connect.common.Constants: int ERROR_JSON
+com.tencent.connect.common.Constants: int ERROR_PARAM
+com.tencent.connect.common.Constants: int ERROR_UNKNOWN
+com.tencent.connect.common.Constants: int ERROR_CONNECTTIMEOUT
+com.tencent.connect.common.Constants: int ERROR_SOCKETTIMEOUT
+com.tencent.connect.common.Constants: int ERROR_HTTPSTATUS_ERROR
+com.tencent.connect.common.Constants: int ERROR_NETWORK_UNAVAILABLE
+com.tencent.connect.common.Constants: int ERROR_FILE_EXISTED
+com.tencent.connect.common.Constants: int ERROR_NO_SDCARD
+com.tencent.connect.common.Constants: int ERROR_LOCATION_TIMEOUT
+com.tencent.connect.common.Constants: int ERROR_LOCATION_VERIFY_FAILED
+com.tencent.connect.common.Constants: int ERROR_QQVERSION_LOW
+com.tencent.connect.common.Constants: java.lang.String MSG_LOCATION_TIMEOUT_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_LOCATION_VERIFY_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_IO_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_URL_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_JSON_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_SHARE_TYPE_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_NULL_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_QQ_VERSION_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_TITLE_NULL_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_IMAGE_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_TARGETURL_NULL_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_TARGETURL_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_IMAGE_URL_FORMAT_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_IMAGE_URL_MUST_BE_LOCAL
+com.tencent.connect.common.Constants: java.lang.String MSG_PARAM_APPSHARE_TOO_LOW
+com.tencent.connect.common.Constants: java.lang.String MSG_UNKNOWN_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_CONNECTTIMEOUT_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_SOCKETTIMEOUT_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_IMAGE_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_OPEN_BROWSER_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_SHARE_NOSD_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_SHARE_GETIMG_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_SHARE_TO_QQ_ERROR
+com.tencent.connect.common.Constants: java.lang.String MSG_NO_SDCARD
+com.tencent.connect.common.Constants: java.lang.String HTTP_GET
+com.tencent.connect.common.Constants: java.lang.String HTTP_POST
+com.tencent.connect.common.Constants: java.lang.String GRAPH_BASE
+com.tencent.connect.common.Constants: java.lang.String GRAPH_INTIMATE_FRIENDS
+com.tencent.connect.common.Constants: java.lang.String GRAPH_NICK_TIPS
+com.tencent.connect.common.Constants: java.lang.String KEY_PARAMS
+com.tencent.connect.common.Constants: java.lang.String KEY_ACTION
+com.tencent.connect.common.Constants: java.lang.String KEY_RESPONSE
+com.tencent.connect.common.Constants: java.lang.String KEY_ERROR_CODE
+com.tencent.connect.common.Constants: java.lang.String KEY_ERROR_MSG
+com.tencent.connect.common.Constants: java.lang.String KEY_ERROR_DETAIL
+com.tencent.connect.common.Constants: java.lang.String KEY_APP_NAME
+com.tencent.connect.common.Constants: int CODE_REQUEST_MIN
+com.tencent.connect.common.Constants: int CODE_REQUEST_MAX
+com.tencent.connect.common.Constants: int UI_NONE
+com.tencent.connect.common.Constants: int UI_ACTIVITY
+com.tencent.connect.common.Constants: int UI_DIALOG
+com.tencent.connect.common.Constants: int UI_CHECK_TOKEN
+com.tencent.connect.common.Constants: int UI_DOWNLOAD_QQ
+com.tencent.connect.common.Constants: int ACTIVITY_OK
+com.tencent.connect.common.Constants: int ACTIVITY_CANCEL
+com.tencent.connect.common.Constants: int REQUEST_API
+com.tencent.connect.common.Constants: int RESULT_LOGIN
+com.tencent.connect.common.Constants: int REQUEST_APPBAR
+com.tencent.connect.common.Constants: int REQUEST_QQ_SHARE
+com.tencent.connect.common.Constants: int REQUEST_QZONE_SHARE
+com.tencent.connect.common.Constants: int REQUEST_QQ_FAVORITES
+com.tencent.connect.common.Constants: int REQUEST_SEND_TO_MY_COMPUTER
+com.tencent.connect.common.Constants: int REQUEST_SHARE_TO_TROOP_BAR
+com.tencent.connect.common.Constants: java.lang.String MOBILEQQ_PACKAGE_NAME
+com.tencent.connect.common.Constants: java.lang.String CANCEL_URI
+com.tencent.connect.common.Constants: java.lang.String CLOSE_URI
+com.tencent.connect.common.Constants: java.lang.String DOWNLOAD_URI
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_SSO_LOGIN
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_SHARE_TO_QQ
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_SHARE_TO_QZONE
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_SET_AVATAR
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_JOININ_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_MAKE_FRIEND
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_WPA_STATE
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_START_WAP
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_BIND_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_QQFAVORITES
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_DATALINE
+com.tencent.connect.common.Constants: java.lang.String VIA_REPORT_TYPE_SHARE_TO_TROOPBAR
+com.tencent.connect.common.Constants: java.lang.String VIA_RESULT_SUCCESS
+com.tencent.connect.common.Constants: java.lang.String VIA_RESULT_FAIL
+com.tencent.connect.common.Constants: java.lang.String VIA_ACT_TYPE_THREE
+com.tencent.connect.common.Constants: java.lang.String VIA_ACT_TYPE_FIVE
+com.tencent.connect.common.Constants: java.lang.String VIA_ACT_TYPE_TWENTY_EIGHT
+com.tencent.connect.common.Constants: java.lang.String VIA_ACT_TYPE_EIGHTEEN
+com.tencent.connect.common.Constants: java.lang.String VIA_ACT_TYPE_NINETEEN
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_IMAGE_TEXT
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_IMAGE
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_MUSIC
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_APP
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_TEXT
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TYPE_INFO
+com.tencent.connect.common.Constants: java.lang.String VIA_TO_TYPE_QQ_FRIEND
+com.tencent.connect.common.Constants: java.lang.String VIA_TO_TYPE_QQ_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_TO_TYPE_QQ_DISCUSS_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_TO_TYPE_QZONE
+com.tencent.connect.common.Constants: java.lang.String VIA_SET_AVATAR
+com.tencent.connect.common.Constants: java.lang.String VIA_SET_AVATAR_SUCCEED
+com.tencent.connect.common.Constants: java.lang.String VIA_WAP_STATE
+com.tencent.connect.common.Constants: java.lang.String VIA_START_WAP
+com.tencent.connect.common.Constants: java.lang.String VIA_JOIN_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_MAKE_FRIEND
+com.tencent.connect.common.Constants: java.lang.String VIA_BIND_GROUP
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TO_QQ
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TO_QZONE
+com.tencent.connect.common.Constants: java.lang.String VIA_SHARE_TO_TROOPBAR
+com.tencent.connect.common.Constants: java.lang.String VIA_SSO_LOGIN
+com.tencent.connect.common.Constants: java.lang.String VIA_CALL_SOURCE_SQ
+com.tencent.connect.common.Constants: java.lang.String VIA_CALL_SOURCE_H5
+com.tencent.connect.common.Constants: java.lang.String VIA_SDK
+com.tencent.connect.common.Constants: java.lang.String STR_EMPTY
+com.tencent.connect.common.Constants: java.lang.String VIA_NO_VALUE
+com.tencent.connect.common.Constants: Constants()
+com.tencent.connect.share.QQShare
+com.tencent.connect.share.QQShare: java.lang.String a
+com.tencent.connect.share.QQShare: int QQ_SHARE_TITLE_MAX_LENGTH
+com.tencent.connect.share.QQShare: int QQ_SHARE_SUMMARY_MAX_LENGTH
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_IMAGE_URL
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_IMAGE_LOCAL_URL
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_TITLE
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_SUMMARY
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_SITE
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_TARGET_URL
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_APP_NAME
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_AUDIO_URL
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_KEY_TYPE
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_EXT_STR
+com.tencent.connect.share.QQShare: java.lang.String SHARE_TO_QQ_EXT_INT
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_FLAG_QZONE_AUTO_OPEN
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_FLAG_QZONE_ITEM_HIDE
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_TYPE_DEFAULT
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_TYPE_AUDIO
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_TYPE_IMAGE
+com.tencent.connect.share.QQShare: int SHARE_TO_QQ_TYPE_APP
+com.tencent.connect.share.QQShare: java.lang.String mViaShareQQType
+com.tencent.connect.share.QQShare: QQShare(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.share.QQShare: void shareToQQ(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QQShare: void a(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QQShare: void b(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QQShare: void c(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QQShare: java.lang.StringBuffer a(java.lang.StringBuffer,android.os.Bundle)
+com.tencent.connect.share.QQShare: void releaseResource()
+com.tencent.connect.share.QQShare: void onActivityResult(android.app.Activity,int,int,android.content.Intent)
+com.tencent.connect.share.QQShare: java.lang.String a()
+com.tencent.connect.share.QQShare: com.tencent.connect.auth.QQToken a(com.tencent.connect.share.QQShare)
+com.tencent.connect.share.QQShare: void a(com.tencent.connect.share.QQShare,android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QQShare: com.tencent.connect.auth.QQToken b(com.tencent.connect.share.QQShare)
+com.tencent.connect.share.QQShare: void <clinit>()
+com.tencent.connect.share.QzoneShare
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QZONE_KEY_TYPE
+com.tencent.connect.share.QzoneShare: int SHARE_TO_QZONE_TYPE_NO_TYPE
+com.tencent.connect.share.QzoneShare: int SHARE_TO_QZONE_TYPE_IMAGE_TEXT
+com.tencent.connect.share.QzoneShare: int SHARE_TO_QZONE_TYPE_IMAGE
+com.tencent.connect.share.QzoneShare: int SHARE_TO_QZONE_TYPE_APP
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_IMAGE_URL
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_IMAGE_LOCAL_URL
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_TITLE
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_SUMMARY
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_SITE
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_TARGET_URL
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_APP_NAME
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_AUDIO_URL
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_EXT_STR
+com.tencent.connect.share.QzoneShare: java.lang.String SHARE_TO_QQ_EXT_INT
+com.tencent.connect.share.QzoneShare: java.lang.String mViaShareQzoneType
+com.tencent.connect.share.QzoneShare: boolean a
+com.tencent.connect.share.QzoneShare: boolean b
+com.tencent.connect.share.QzoneShare: boolean c
+com.tencent.connect.share.QzoneShare: boolean d
+com.tencent.connect.share.QzoneShare: QzoneShare(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.share.QzoneShare: void shareToQzone(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QzoneShare: void a(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QzoneShare: void b(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.QzoneShare: java.lang.StringBuffer a(java.lang.StringBuffer,android.os.Bundle)
+com.tencent.connect.share.QzoneShare: void releaseResource()
+com.tencent.connect.share.QzoneShare: void onActivityResult(android.app.Activity,int,int,android.content.Intent)
+com.tencent.connect.share.QzoneShare: void a(com.tencent.connect.share.QzoneShare,android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.connect.share.a
+com.tencent.connect.share.a: void a(android.content.Context,java.lang.String,com.tencent.open.utils.AsynLoadImgBack)
+com.tencent.connect.share.a: void a(android.content.Context,java.util.ArrayList,com.tencent.open.utils.AsynLoadImgBack)
+com.tencent.connect.share.a: android.graphics.Bitmap a(android.graphics.Bitmap,int)
+com.tencent.connect.share.a: java.lang.String a(android.graphics.Bitmap,java.lang.String,java.lang.String)
+com.tencent.connect.share.a: boolean b(java.lang.String,int,int)
+com.tencent.connect.share.a: android.graphics.Bitmap a(java.lang.String,int)
+com.tencent.connect.share.a: int a(android.graphics.BitmapFactory$Options,int,int)
+com.tencent.connect.share.a: int b(android.graphics.BitmapFactory$Options,int,int)
+com.tencent.connect.share.a: boolean a(java.lang.String,int,int)
+com.tencent.mm.a.a
+com.tencent.mm.a.a: java.lang.String a(byte[])
+com.tencent.mm.sdk.a
+com.tencent.mm.sdk.a: android.content.ContentResolver a
+com.tencent.mm.sdk.a: java.lang.String[] b
+com.tencent.mm.sdk.a: java.util.HashMap c
+com.tencent.mm.sdk.a: com.tencent.mm.sdk.a$a d
+com.tencent.mm.sdk.a: a(android.content.Context)
+com.tencent.mm.sdk.a: java.lang.Object getValue(java.lang.String)
+com.tencent.mm.sdk.a: java.util.Map getAll()
+com.tencent.mm.sdk.a: java.lang.String getString(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.a: int getInt(java.lang.String,int)
+com.tencent.mm.sdk.a: long getLong(java.lang.String,long)
+com.tencent.mm.sdk.a: float getFloat(java.lang.String,float)
+com.tencent.mm.sdk.a: boolean getBoolean(java.lang.String,boolean)
+com.tencent.mm.sdk.a: boolean contains(java.lang.String)
+com.tencent.mm.sdk.a: android.content.SharedPreferences$Editor edit()
+com.tencent.mm.sdk.a: void registerOnSharedPreferenceChangeListener(android.content.SharedPreferences$OnSharedPreferenceChangeListener)
+com.tencent.mm.sdk.a: void unregisterOnSharedPreferenceChangeListener(android.content.SharedPreferences$OnSharedPreferenceChangeListener)
+com.tencent.mm.sdk.a: java.util.Set getStringSet(java.lang.String,java.util.Set)
+com.tencent.mm.sdk.a.a
+com.tencent.mm.sdk.a.a: boolean a(android.content.Context,com.tencent.mm.sdk.a.a$a)
+com.tencent.mm.sdk.a.a$a
+com.tencent.mm.sdk.a.a$a: java.lang.String h
+com.tencent.mm.sdk.a.a$a: java.lang.String i
+com.tencent.mm.sdk.a.a$a: java.lang.String j
+com.tencent.mm.sdk.a.a$a: int flags
+com.tencent.mm.sdk.a.a$a: android.os.Bundle k
+com.tencent.mm.sdk.a.a$a: a$a()
+com.tencent.mm.sdk.a.a.a
+com.tencent.mm.sdk.a.a.a: boolean a(android.content.Context,com.tencent.mm.sdk.a.a.a$a)
+com.tencent.mm.sdk.a.a.a$a
+com.tencent.mm.sdk.a.a.a$a: java.lang.String l
+com.tencent.mm.sdk.a.a.a$a: java.lang.String m
+com.tencent.mm.sdk.a.a.a$a: java.lang.String j
+com.tencent.mm.sdk.a.a.a$a: android.os.Bundle k
+com.tencent.mm.sdk.a.a.a$a: a$a()
+com.tencent.mm.sdk.a.a.b
+com.tencent.mm.sdk.a.a.b: byte[] a(java.lang.String,int,java.lang.String)
+com.tencent.mm.sdk.b.a
+com.tencent.mm.sdk.b.a: int level
+com.tencent.mm.sdk.b.a: com.tencent.mm.sdk.b.a$a n
+com.tencent.mm.sdk.b.a: com.tencent.mm.sdk.b.a$a o
+com.tencent.mm.sdk.b.a: java.lang.String p
+com.tencent.mm.sdk.b.a: void a(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a: void b(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a: void c(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a: void a(java.lang.String,java.lang.String,java.lang.Object[])
+com.tencent.mm.sdk.b.a: int a()
+com.tencent.mm.sdk.b.a: void <clinit>()
+com.tencent.mm.sdk.b.a$a
+com.tencent.mm.sdk.b.a$a: void d(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a$a: void e(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a$a: void f(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.b.a$a: int b()
+com.tencent.mm.sdk.b.c
+com.tencent.mm.sdk.b.c: long[] q
+com.tencent.mm.sdk.b.c: java.util.TimeZone GMT
+com.tencent.mm.sdk.b.c: char[] r
+com.tencent.mm.sdk.b.c: java.lang.String[] s
+com.tencent.mm.sdk.b.c: boolean a(java.lang.String)
+com.tencent.mm.sdk.b.c: void <clinit>()
+com.tencent.mm.sdk.c.a
+com.tencent.mm.sdk.c.a$a
+com.tencent.mm.sdk.c.a$a: java.lang.Object a(int,java.lang.String)
+com.tencent.mm.sdk.c.a$b
+com.tencent.mm.sdk.c.a$b: android.net.Uri CONTENT_URI
+com.tencent.mm.sdk.c.a$b: void <clinit>()
+com.tencent.mm.sdk.constants.Build
+com.tencent.mm.sdk.constants.Build: int SDK_INT
+com.tencent.mm.sdk.constants.Build: java.lang.String SDK_VERSION_NAME
+com.tencent.mm.sdk.constants.Build: int MIN_SDK_INT
+com.tencent.mm.sdk.constants.Build: int TIMELINE_SUPPORTED_SDK_INT
+com.tencent.mm.sdk.constants.Build: int EMOJI_SUPPORTED_SDK_INT
+com.tencent.mm.sdk.constants.Build: int MUSIC_DATA_URL_SUPPORTED_SDK_INT
+com.tencent.mm.sdk.constants.Build: int PAY_SUPPORTED_SDK_INT
+com.tencent.mm.sdk.constants.Build: int OPENID_SUPPORTED_SDK_INT
+com.tencent.mm.sdk.constants.Build: Build()
+com.tencent.mm.sdk.constants.Build: int getMajorVersion()
+com.tencent.mm.sdk.constants.Build: int getMinorVersion()
+com.tencent.mm.sdk.constants.ConstantsAPI
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String ACTION_HANDLE_APP_REGISTER
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String ACTION_HANDLE_APP_UNREGISTER
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String ACTION_REFRESH_WXAPP
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_UNKNOWN
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_SENDAUTH
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_SENDMESSAGE_TO_WX
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_GETMESSAGE_FROM_WX
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_SHOWMESSAGE_FROM_WX
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_PAY_BY_WX
+com.tencent.mm.sdk.constants.ConstantsAPI: int COMMAND_LAUNCH_BY_WX
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String APP_PACKAGE
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String SDK_VERSION
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String CONTENT
+com.tencent.mm.sdk.constants.ConstantsAPI: java.lang.String CHECK_SUM
+com.tencent.mm.sdk.constants.ConstantsAPI$Token
+com.tencent.mm.sdk.constants.ConstantsAPI$Token: java.lang.String WX_TOKEN_KEY
+com.tencent.mm.sdk.constants.ConstantsAPI$Token: java.lang.String WX_TOKEN_VALUE_MSG
+com.tencent.mm.sdk.constants.ConstantsAPI$Token: java.lang.String WX_TOKEN_PLATFORMID_KEY
+com.tencent.mm.sdk.constants.ConstantsAPI$Token: java.lang.String WX_TOKEN_PLATFORMID_VALUE
+com.tencent.mm.sdk.constants.ConstantsAPI$Token: ConstantsAPI$Token()
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp: java.lang.String WXAPP_PACKAGE_NAME
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp: java.lang.String WXAPP_BROADCAST_PERMISSION
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp: java.lang.String WXAPP_MSG_ENTRY_CLASSNAME
+com.tencent.mm.sdk.constants.ConstantsAPI$WXApp: ConstantsAPI$WXApp()
+com.tencent.mm.sdk.modelbase.BaseReq
+com.tencent.mm.sdk.modelbase.BaseReq: java.lang.String transaction
+com.tencent.mm.sdk.modelbase.BaseReq: java.lang.String openId
+com.tencent.mm.sdk.modelbase.BaseReq: BaseReq()
+com.tencent.mm.sdk.modelbase.BaseReq: int getType()
+com.tencent.mm.sdk.modelbase.BaseReq: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelbase.BaseReq: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelbase.BaseReq: boolean checkArgs()
+com.tencent.mm.sdk.modelbase.BaseResp
+com.tencent.mm.sdk.modelbase.BaseResp: int errCode
+com.tencent.mm.sdk.modelbase.BaseResp: java.lang.String errStr
+com.tencent.mm.sdk.modelbase.BaseResp: java.lang.String transaction
+com.tencent.mm.sdk.modelbase.BaseResp: java.lang.String openId
+com.tencent.mm.sdk.modelbase.BaseResp: BaseResp()
+com.tencent.mm.sdk.modelbase.BaseResp: int getType()
+com.tencent.mm.sdk.modelbase.BaseResp: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelbase.BaseResp: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelbase.BaseResp: boolean checkArgs()
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_OK
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_COMM
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_USER_CANCEL
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_SENT_FAILED
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_AUTH_DENIED
+com.tencent.mm.sdk.modelbase.BaseResp$ErrCode: int ERR_UNSUPPORT
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX: GetMessageFromWX()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: java.lang.String username
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: GetMessageFromWX$Req()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: GetMessageFromWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: int getType()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Req: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: com.tencent.mm.sdk.modelmsg.WXMediaMessage message
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: GetMessageFromWX$Resp()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: GetMessageFromWX$Resp(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: int getType()
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.GetMessageFromWX$Resp: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX
+com.tencent.mm.sdk.modelmsg.LaunchFromWX: LaunchFromWX()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Req
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Req: LaunchFromWX$Req()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Req: LaunchFromWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Req: int getType()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Req: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp: LaunchFromWX$Resp()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp: LaunchFromWX$Resp(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp: int getType()
+com.tencent.mm.sdk.modelmsg.LaunchFromWX$Resp: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.SendAuth
+com.tencent.mm.sdk.modelmsg.SendAuth: SendAuth()
+com.tencent.mm.sdk.modelmsg.SendAuth$Req
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: java.lang.String scope
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: java.lang.String state
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: SendAuth$Req()
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: SendAuth$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: int getType()
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Req: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: java.lang.String code
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: java.lang.String state
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: java.lang.String url
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: SendAuth$Resp()
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: SendAuth$Resp(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: int getType()
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendAuth$Resp: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX
+com.tencent.mm.sdk.modelmsg.SendMessageToWX: SendMessageToWX()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int WXSceneSession
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int WXSceneTimeline
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int WXSceneFavorite
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int FAV_CONTENT_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: com.tencent.mm.sdk.modelmsg.WXMediaMessage message
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int scene
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: SendMessageToWX$Req()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: SendMessageToWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: int getType()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Req: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: SendMessageToWX$Resp()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: SendMessageToWX$Resp(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: int getType()
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.SendMessageToWX$Resp: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX: ShowMessageFromWX()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: com.tencent.mm.sdk.modelmsg.WXMediaMessage message
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: ShowMessageFromWX$Req()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: ShowMessageFromWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: int getType()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Req: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp: ShowMessageFromWX$Resp()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp: ShowMessageFromWX$Resp(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp: int getType()
+com.tencent.mm.sdk.modelmsg.ShowMessageFromWX$Resp: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: int EXTINFO_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: int PATH_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: int CONTENT_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: java.lang.String extInfo
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: java.lang.String filePath
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: byte[] fileData
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: WXAppExtendObject()
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: WXAppExtendObject(java.lang.String,byte[])
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: WXAppExtendObject(java.lang.String,java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: int type()
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXAppExtendObject: int getFileSize(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: java.lang.String ACTION_HANDLE_WXAPPLAUNCH
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: java.lang.String ACTION_HANDLE_WXAPP_RESULT
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: java.lang.String ACTION_HANDLE_WXAPP_SHOW
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: int launchType
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: java.lang.String message
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData: WXAppLaunchData()
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData$Builder
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData$Builder: WXAppLaunchData$Builder()
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData$Builder: com.tencent.mm.sdk.modelmsg.WXAppLaunchData fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXAppLaunchData$Builder: android.os.Bundle toBundle(com.tencent.mm.sdk.modelmsg.WXAppLaunchData)
+com.tencent.mm.sdk.modelmsg.WXEmojiObject
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: int CONTENT_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: byte[] emojiData
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: java.lang.String emojiPath
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: WXEmojiObject()
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: WXEmojiObject(byte[])
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: WXEmojiObject(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: void setEmojiData(byte[])
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: void setEmojiPath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: int type()
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXEmojiObject: int getFileSize(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXFileObject
+com.tencent.mm.sdk.modelmsg.WXFileObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXFileObject: int CONTENT_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXFileObject: int contentLengthLimit
+com.tencent.mm.sdk.modelmsg.WXFileObject: byte[] fileData
+com.tencent.mm.sdk.modelmsg.WXFileObject: java.lang.String filePath
+com.tencent.mm.sdk.modelmsg.WXFileObject: WXFileObject()
+com.tencent.mm.sdk.modelmsg.WXFileObject: WXFileObject(byte[])
+com.tencent.mm.sdk.modelmsg.WXFileObject: WXFileObject(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXFileObject: void setFileData(byte[])
+com.tencent.mm.sdk.modelmsg.WXFileObject: void setFilePath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXFileObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXFileObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXFileObject: int type()
+com.tencent.mm.sdk.modelmsg.WXFileObject: void setContentLengthLimit(int)
+com.tencent.mm.sdk.modelmsg.WXFileObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXFileObject: int getFileSize(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXImageObject
+com.tencent.mm.sdk.modelmsg.WXImageObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXImageObject: int CONTENT_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXImageObject: int PATH_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXImageObject: int URL_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXImageObject: byte[] imageData
+com.tencent.mm.sdk.modelmsg.WXImageObject: java.lang.String imagePath
+com.tencent.mm.sdk.modelmsg.WXImageObject: java.lang.String imageUrl
+com.tencent.mm.sdk.modelmsg.WXImageObject: WXImageObject()
+com.tencent.mm.sdk.modelmsg.WXImageObject: WXImageObject(byte[])
+com.tencent.mm.sdk.modelmsg.WXImageObject: WXImageObject(android.graphics.Bitmap)
+com.tencent.mm.sdk.modelmsg.WXImageObject: void setImagePath(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXImageObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXImageObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXImageObject: int type()
+com.tencent.mm.sdk.modelmsg.WXImageObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXImageObject: int getFileSize(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int THUMB_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int TITLE_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int DESCRIPTION_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int MEDIA_TAG_NAME_LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: java.lang.String ACTION_WXAPPMESSAGE
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int sdkVer
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: java.lang.String title
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: java.lang.String description
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: byte[] thumbData
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject mediaObject
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: java.lang.String mediaTagName
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: WXMediaMessage()
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: WXMediaMessage(com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: int getType()
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: void setThumbImage(android.graphics.Bitmap)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: java.lang.String KEY_IDENTIFIER
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: WXMediaMessage$Builder()
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: android.os.Bundle toBundle(com.tencent.mm.sdk.modelmsg.WXMediaMessage)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: java.lang.String pathNewToOld(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: java.lang.String pathOldToNew(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_UNKNOWN
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_TEXT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_IMAGE
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_MUSIC
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_VIDEO
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_URL
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_FILE
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_APPDATA
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_EMOJI
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int TYPE_PRODUCT
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: int type()
+com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXMusicObject
+com.tencent.mm.sdk.modelmsg.WXMusicObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXMusicObject: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXMusicObject: java.lang.String musicUrl
+com.tencent.mm.sdk.modelmsg.WXMusicObject: java.lang.String musicLowBandUrl
+com.tencent.mm.sdk.modelmsg.WXMusicObject: java.lang.String musicDataUrl
+com.tencent.mm.sdk.modelmsg.WXMusicObject: java.lang.String musicLowBandDataUrl
+com.tencent.mm.sdk.modelmsg.WXMusicObject: WXMusicObject()
+com.tencent.mm.sdk.modelmsg.WXMusicObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXMusicObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXMusicObject: int type()
+com.tencent.mm.sdk.modelmsg.WXMusicObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXTextObject
+com.tencent.mm.sdk.modelmsg.WXTextObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXTextObject: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXTextObject: java.lang.String text
+com.tencent.mm.sdk.modelmsg.WXTextObject: WXTextObject()
+com.tencent.mm.sdk.modelmsg.WXTextObject: WXTextObject(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXTextObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXTextObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXTextObject: int type()
+com.tencent.mm.sdk.modelmsg.WXTextObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXVideoObject
+com.tencent.mm.sdk.modelmsg.WXVideoObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXVideoObject: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXVideoObject: java.lang.String videoUrl
+com.tencent.mm.sdk.modelmsg.WXVideoObject: java.lang.String videoLowBandUrl
+com.tencent.mm.sdk.modelmsg.WXVideoObject: WXVideoObject()
+com.tencent.mm.sdk.modelmsg.WXVideoObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXVideoObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXVideoObject: int type()
+com.tencent.mm.sdk.modelmsg.WXVideoObject: boolean checkArgs()
+com.tencent.mm.sdk.modelmsg.WXWebpageObject
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: java.lang.String TAG
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: int LENGTH_LIMIT
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: java.lang.String webpageUrl
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: WXWebpageObject()
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: WXWebpageObject(java.lang.String)
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: void serialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: void unserialize(android.os.Bundle)
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: int type()
+com.tencent.mm.sdk.modelmsg.WXWebpageObject: boolean checkArgs()
+com.tencent.mm.sdk.modelpay.PayReq
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String TAG
+com.tencent.mm.sdk.modelpay.PayReq: int EXTDATA_MAX_LENGTH
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String appId
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String partnerId
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String prepayId
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String nonceStr
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String timeStamp
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String packageValue
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String sign
+com.tencent.mm.sdk.modelpay.PayReq: java.lang.String extData
+com.tencent.mm.sdk.modelpay.PayReq: com.tencent.mm.sdk.modelpay.PayReq$Options options
+com.tencent.mm.sdk.modelpay.PayReq: PayReq()
+com.tencent.mm.sdk.modelpay.PayReq: boolean checkArgs()
+com.tencent.mm.sdk.modelpay.PayReq: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayReq: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayReq: int getType()
+com.tencent.mm.sdk.modelpay.PayReq$Options
+com.tencent.mm.sdk.modelpay.PayReq$Options: int INVALID_FLAGS
+com.tencent.mm.sdk.modelpay.PayReq$Options: java.lang.String callbackClassName
+com.tencent.mm.sdk.modelpay.PayReq$Options: int callbackFlags
+com.tencent.mm.sdk.modelpay.PayReq$Options: PayReq$Options()
+com.tencent.mm.sdk.modelpay.PayReq$Options: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayReq$Options: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayResp
+com.tencent.mm.sdk.modelpay.PayResp: java.lang.String prepayId
+com.tencent.mm.sdk.modelpay.PayResp: java.lang.String returnKey
+com.tencent.mm.sdk.modelpay.PayResp: java.lang.String extData
+com.tencent.mm.sdk.modelpay.PayResp: PayResp()
+com.tencent.mm.sdk.modelpay.PayResp: PayResp(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayResp: void toBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayResp: void fromBundle(android.os.Bundle)
+com.tencent.mm.sdk.modelpay.PayResp: int getType()
+com.tencent.mm.sdk.modelpay.PayResp: boolean checkArgs()
+com.tencent.mm.sdk.openapi.IWXAPI
+com.tencent.mm.sdk.openapi.IWXAPI: boolean registerApp(java.lang.String)
+com.tencent.mm.sdk.openapi.IWXAPI: void unregisterApp()
+com.tencent.mm.sdk.openapi.IWXAPI: boolean handleIntent(android.content.Intent,com.tencent.mm.sdk.openapi.IWXAPIEventHandler)
+com.tencent.mm.sdk.openapi.IWXAPI: boolean isWXAppInstalled()
+com.tencent.mm.sdk.openapi.IWXAPI: boolean isWXAppSupportAPI()
+com.tencent.mm.sdk.openapi.IWXAPI: int getWXAppSupportAPI()
+com.tencent.mm.sdk.openapi.IWXAPI: boolean openWXApp()
+com.tencent.mm.sdk.openapi.IWXAPI: boolean sendReq(com.tencent.mm.sdk.modelbase.BaseReq)
+com.tencent.mm.sdk.openapi.IWXAPI: boolean sendResp(com.tencent.mm.sdk.modelbase.BaseResp)
+com.tencent.mm.sdk.openapi.IWXAPI: void detach()
+com.tencent.mm.sdk.openapi.IWXAPIEventHandler
+com.tencent.mm.sdk.openapi.IWXAPIEventHandler: void onReq(com.tencent.mm.sdk.modelbase.BaseReq)
+com.tencent.mm.sdk.openapi.IWXAPIEventHandler: void onResp(com.tencent.mm.sdk.modelbase.BaseResp)
+com.tencent.mm.sdk.openapi.WXAPIFactory
+com.tencent.mm.sdk.openapi.WXAPIFactory: java.lang.String TAG
+com.tencent.mm.sdk.openapi.WXAPIFactory: com.tencent.mm.sdk.openapi.IWXAPI createWXAPI(android.content.Context,java.lang.String)
+com.tencent.mm.sdk.openapi.WXAPIFactory: com.tencent.mm.sdk.openapi.IWXAPI createWXAPI(android.content.Context,java.lang.String,boolean)
+com.tencent.mm.sdk.openapi.WXAPIFactory: WXAPIFactory()
+com.tencent.open.PKDialog
+com.tencent.open.PKDialog: java.lang.String TAG
+com.tencent.open.PKDialog: int WEBVIEW_HEIGHT
+com.tencent.open.PKDialog: int MSG_COMPLETE
+com.tencent.open.PKDialog: int MSG_CANCEL
+com.tencent.open.PKDialog: int MSG_SHOW_TIPS
+com.tencent.open.PKDialog: int MSG_ON_LOAD
+com.tencent.open.PKDialog: int MSG_SHOW_PROCESS
+com.tencent.open.PKDialog: java.lang.String mUrl
+com.tencent.open.PKDialog: com.tencent.tauth.IUiListener listener
+com.tencent.open.PKDialog: com.tencent.open.PKDialog$OnTimeListener mListener
+com.tencent.open.PKDialog: android.os.Handler mHandler
+com.tencent.open.PKDialog: com.tencent.open.c.a mFlMain
+com.tencent.open.PKDialog: com.tencent.open.c.b mWebView
+com.tencent.open.PKDialog: java.lang.ref.WeakReference mWeakContext
+com.tencent.open.PKDialog: int mWebviewHeight
+com.tencent.open.PKDialog: android.widget.Toast sToast
+com.tencent.open.PKDialog: PKDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken)
+com.tencent.open.PKDialog: void onBackPressed()
+com.tencent.open.PKDialog: void onCreate(android.os.Bundle)
+com.tencent.open.PKDialog: void createViews()
+com.tencent.open.PKDialog: void initViews()
+com.tencent.open.PKDialog: void callJs(java.lang.String,java.lang.String)
+com.tencent.open.PKDialog: void showTips(android.content.Context,java.lang.String)
+com.tencent.open.PKDialog: void showProcessDialog(android.content.Context,java.lang.String)
+com.tencent.open.PKDialog: void loadUrlWithBrowser(java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.PKDialog: void onKeyboardShown(int)
+com.tencent.open.PKDialog: void onKeyboardHidden()
+com.tencent.open.PKDialog: void onConsoleMessage(java.lang.String)
+com.tencent.open.PKDialog: android.os.Handler access$200(com.tencent.open.PKDialog)
+com.tencent.open.PKDialog: java.lang.String access$300()
+com.tencent.open.PKDialog: java.lang.ref.WeakReference access$400(com.tencent.open.PKDialog)
+com.tencent.open.PKDialog: com.tencent.open.PKDialog$OnTimeListener access$500(com.tencent.open.PKDialog)
+com.tencent.open.PKDialog: com.tencent.open.c.b access$600(com.tencent.open.PKDialog)
+com.tencent.open.PKDialog: void access$800(android.content.Context,java.lang.String)
+com.tencent.open.PKDialog: void access$900(android.content.Context,java.lang.String)
+com.tencent.open.PKDialog: void <clinit>()
+com.tencent.open.SocialApi
+com.tencent.open.SocialApi: com.tencent.open.SocialApiIml a
+com.tencent.open.SocialApi: SocialApi(com.tencent.connect.auth.QQToken)
+com.tencent.open.SocialApi: void invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApi: void story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApi: void gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApi: void ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml
+com.tencent.open.SocialApiIml: java.lang.String a
+com.tencent.open.SocialApiIml: android.app.Activity b
+com.tencent.open.SocialApiIml: SocialApiIml(com.tencent.connect.auth.QQToken)
+com.tencent.open.SocialApiIml: SocialApiIml(com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+com.tencent.open.SocialApiIml: void gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void a(android.app.Activity,java.lang.String,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void a(android.app.Activity,android.content.Intent,java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IUiListener,boolean)
+com.tencent.open.SocialApiIml: void a(android.app.Activity,android.content.Intent,java.lang.String,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void a(android.app.Activity,java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void a(android.content.Context,java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void writeEncryToken(android.content.Context)
+com.tencent.open.SocialApiIml: android.content.Intent getTargetActivityIntent(java.lang.String)
+com.tencent.open.SocialApiIml: android.app.Activity a(com.tencent.open.SocialApiIml)
+com.tencent.open.SocialApiIml: void a(com.tencent.open.SocialApiIml,android.content.Context,java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.open.SocialApiIml: void <clinit>()
+com.tencent.open.SocialConstants
+com.tencent.open.SocialConstants: java.lang.String PARAM_APP_ID
+com.tencent.open.SocialConstants: java.lang.String PARAM_OPEN_ID
+com.tencent.open.SocialConstants: java.lang.String PARAM_HOPEN_ID
+com.tencent.open.SocialConstants: java.lang.String PARAM_SOURCE
+com.tencent.open.SocialConstants: java.lang.String PARAM_ACT
+com.tencent.open.SocialConstants: java.lang.String PARAM_CONSUMER_KEY
+com.tencent.open.SocialConstants: java.lang.String PARAM_APP_ICON
+com.tencent.open.SocialConstants: java.lang.String PARAM_APP_DESC
+com.tencent.open.SocialConstants: java.lang.String PARAM_APP_CUSTOM
+com.tencent.open.SocialConstants: java.lang.String PARAM_IMG_DATA
+com.tencent.open.SocialConstants: java.lang.String PARAM_EXCLUDE
+com.tencent.open.SocialConstants: java.lang.String PARAM_SPECIFIED
+com.tencent.open.SocialConstants: java.lang.String PARAM_ONLY
+com.tencent.open.SocialConstants: java.lang.String PARAM_RECEIVER
+com.tencent.open.SocialConstants: java.lang.String PARAM_TITLE
+com.tencent.open.SocialConstants: java.lang.String PARAM_COMMENT
+com.tencent.open.SocialConstants: java.lang.String PARAM_SUMMARY
+com.tencent.open.SocialConstants: java.lang.String PARAM_APPNAME
+com.tencent.open.SocialConstants: java.lang.String PARAM_IMAGE
+com.tencent.open.SocialConstants: java.lang.String PARAM_IMAGE_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_TARGET_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_APP_SOURCE
+com.tencent.open.SocialConstants: java.lang.String PARAM_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_TYPE
+com.tencent.open.SocialConstants: java.lang.String PARAM_PLAY_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_SHARE_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_AVATAR_URI
+com.tencent.open.SocialConstants: java.lang.String PARAM_IMG_URL
+com.tencent.open.SocialConstants: java.lang.String PARAM_SEND_MSG
+com.tencent.open.SocialConstants: java.lang.String PARAM_TYPE_ID
+com.tencent.open.SocialConstants: java.lang.String PARAM_ENCRY_EOKEN
+com.tencent.open.SocialConstants: java.lang.String PARAM_SEND_IMG
+com.tencent.open.SocialConstants: java.lang.String PARAM_REC_IMG
+com.tencent.open.SocialConstants: java.lang.String PARAM_REC_IMG_DESC
+com.tencent.open.SocialConstants: java.lang.String ACTION_STORY
+com.tencent.open.SocialConstants: java.lang.String ACTION_INVITE
+com.tencent.open.SocialConstants: java.lang.String ACTION_CHALLENGE
+com.tencent.open.SocialConstants: java.lang.String ACTION_BRAG
+com.tencent.open.SocialConstants: java.lang.String ACTION_ASK
+com.tencent.open.SocialConstants: java.lang.String ACTION_GIFT
+com.tencent.open.SocialConstants: java.lang.String ACTION_GRADE
+com.tencent.open.SocialConstants: java.lang.String ACTION_CHECK_TOKEN
+com.tencent.open.SocialConstants: java.lang.String ACTION_VOICE
+com.tencent.open.SocialConstants: java.lang.String ACTION_REACTIVE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_ASK_GIFT
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_CHALLENGE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_BRAG
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_INVITE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_STORY
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_GRADE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_VOICE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_CHECK_FUNCTION
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_REACTIVE
+com.tencent.open.SocialConstants: java.lang.String ACTIVITY_FRIEND_CHOOSER
+com.tencent.open.SocialConstants: java.lang.String TYPE_REQUEST
+com.tencent.open.SocialConstants: java.lang.String TYPE_FREEGIFT
+com.tencent.open.SocialConstants: java.lang.String TYPE_REACTIVE
+com.tencent.open.SocialConstants: SocialConstants()
+com.tencent.open.TDialog
+com.tencent.open.TDialog: android.widget.FrameLayout$LayoutParams a
+com.tencent.open.TDialog: java.lang.ref.WeakReference c
+com.tencent.open.TDialog: java.lang.ref.WeakReference d
+com.tencent.open.TDialog: java.lang.String e
+com.tencent.open.TDialog: com.tencent.open.TDialog$OnTimeListener f
+com.tencent.open.TDialog: com.tencent.tauth.IUiListener g
+com.tencent.open.TDialog: android.widget.FrameLayout h
+com.tencent.open.TDialog: com.tencent.open.c.b i
+com.tencent.open.TDialog: android.os.Handler j
+com.tencent.open.TDialog: boolean k
+com.tencent.open.TDialog: com.tencent.connect.auth.QQToken l
+com.tencent.open.TDialog: android.widget.Toast b
+com.tencent.open.TDialog: TDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken)
+com.tencent.open.TDialog: void onCreate(android.os.Bundle)
+com.tencent.open.TDialog: void onBackPressed()
+com.tencent.open.TDialog: void a()
+com.tencent.open.TDialog: void onConsoleMessage(java.lang.String)
+com.tencent.open.TDialog: void b()
+com.tencent.open.TDialog: void c(android.content.Context,java.lang.String)
+com.tencent.open.TDialog: void d(android.content.Context,java.lang.String)
+com.tencent.open.TDialog: java.lang.ref.WeakReference a(com.tencent.open.TDialog)
+com.tencent.open.TDialog: void a(android.content.Context,java.lang.String)
+com.tencent.open.TDialog: void b(android.content.Context,java.lang.String)
+com.tencent.open.TDialog: android.os.Handler b(com.tencent.open.TDialog)
+com.tencent.open.TDialog: com.tencent.open.TDialog$OnTimeListener c(com.tencent.open.TDialog)
+com.tencent.open.TDialog: com.tencent.open.c.b d(com.tencent.open.TDialog)
+com.tencent.open.TDialog: void <clinit>()
+com.tencent.open.a
+com.tencent.open.a: java.lang.String b
+com.tencent.open.a: java.util.HashMap a
+com.tencent.open.a: a()
+com.tencent.open.a: void a(com.tencent.open.a$b,java.lang.String)
+com.tencent.open.a: void a(java.lang.String,java.lang.String,java.util.List,com.tencent.open.a$a)
+com.tencent.open.a: boolean a(android.webkit.WebView,java.lang.String)
+com.tencent.open.a: java.lang.String a()
+com.tencent.open.a: void <clinit>()
+com.tencent.open.a$a
+com.tencent.open.a$a: java.lang.ref.WeakReference a
+com.tencent.open.a$a: long b
+com.tencent.open.a$a: java.lang.String c
+com.tencent.open.a$a: a$a(android.webkit.WebView,long,java.lang.String)
+com.tencent.open.a$a: void a(java.lang.Object)
+com.tencent.open.a$a: void a()
+com.tencent.open.a$a: void a(java.lang.String)
+com.tencent.open.a$b
+com.tencent.open.a$b: a$b()
+com.tencent.open.a$b: void call(java.lang.String,java.util.List,com.tencent.open.a$a)
+com.tencent.open.a$b: boolean customCallback()
+com.tencent.open.a.a
+com.tencent.open.a.a: com.tencent.open.a.b a
+com.tencent.open.a.a: java.io.FileWriter b
+com.tencent.open.a.a: java.io.File c
+com.tencent.open.a.a: char[] d
+com.tencent.open.a.a: com.tencent.open.a.g e
+com.tencent.open.a.a: com.tencent.open.a.g f
+com.tencent.open.a.a: com.tencent.open.a.g g
+com.tencent.open.a.a: com.tencent.open.a.g h
+com.tencent.open.a.a: boolean i
+com.tencent.open.a.a: android.os.HandlerThread j
+com.tencent.open.a.a: android.os.Handler k
+com.tencent.open.a.a: a(com.tencent.open.a.b)
+com.tencent.open.a.a: a(int,boolean,com.tencent.open.a.h,com.tencent.open.a.b)
+com.tencent.open.a.a: void a()
+com.tencent.open.a.a: void b()
+com.tencent.open.a.a: void a(int,java.lang.Thread,long,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.a: void a(java.lang.String)
+com.tencent.open.a.a: boolean handleMessage(android.os.Message)
+com.tencent.open.a.a: void f()
+com.tencent.open.a.a: java.io.Writer g()
+com.tencent.open.a.a: void h()
+com.tencent.open.a.a: void i()
+com.tencent.open.a.a: com.tencent.open.a.b c()
+com.tencent.open.a.a: void a(com.tencent.open.a.b)
+com.tencent.open.a.b
+com.tencent.open.a.b: java.text.SimpleDateFormat a
+com.tencent.open.a.b: java.io.FileFilter b
+com.tencent.open.a.b: java.lang.String c
+com.tencent.open.a.b: int d
+com.tencent.open.a.b: int e
+com.tencent.open.a.b: int f
+com.tencent.open.a.b: long g
+com.tencent.open.a.b: java.io.File h
+com.tencent.open.a.b: int i
+com.tencent.open.a.b: java.lang.String j
+com.tencent.open.a.b: long k
+com.tencent.open.a.b: java.io.FileFilter l
+com.tencent.open.a.b: java.util.Comparator m
+com.tencent.open.a.b: long a(java.io.File)
+com.tencent.open.a.b: b(java.io.File,int,int,int,java.lang.String,long,int,java.lang.String,long)
+com.tencent.open.a.b: java.io.File a()
+com.tencent.open.a.b: java.io.File d(long)
+com.tencent.open.a.b: java.io.File a(long)
+com.tencent.open.a.b: java.io.File e(java.io.File)
+com.tencent.open.a.b: java.io.File[] b(java.io.File)
+com.tencent.open.a.b: void b()
+com.tencent.open.a.b: java.io.File[] a(java.io.File[])
+com.tencent.open.a.b: int f(java.io.File)
+com.tencent.open.a.b: java.lang.String c()
+com.tencent.open.a.b: void a(java.lang.String)
+com.tencent.open.a.b: int d()
+com.tencent.open.a.b: void a(int)
+com.tencent.open.a.b: int e()
+com.tencent.open.a.b: void b(int)
+com.tencent.open.a.b: int f()
+com.tencent.open.a.b: void c(int)
+com.tencent.open.a.b: void b(long)
+com.tencent.open.a.b: java.io.File g()
+com.tencent.open.a.b: void c(java.io.File)
+com.tencent.open.a.b: int h()
+com.tencent.open.a.b: void d(int)
+com.tencent.open.a.b: java.lang.String i()
+com.tencent.open.a.b: void b(java.lang.String)
+com.tencent.open.a.b: long j()
+com.tencent.open.a.b: void c(long)
+com.tencent.open.a.b: int d(java.io.File)
+com.tencent.open.a.b: void <clinit>()
+com.tencent.open.a.c
+com.tencent.open.a.c: java.lang.String a
+com.tencent.open.a.c: int b
+com.tencent.open.a.c: int c
+com.tencent.open.a.c: boolean d
+com.tencent.open.a.c: boolean e
+com.tencent.open.a.c: boolean f
+com.tencent.open.a.c: java.lang.String g
+com.tencent.open.a.c: java.lang.String h
+com.tencent.open.a.c: java.lang.String i
+com.tencent.open.a.c: java.lang.String j
+com.tencent.open.a.c: java.lang.String k
+com.tencent.open.a.c: long l
+com.tencent.open.a.c: int m
+com.tencent.open.a.c: int n
+com.tencent.open.a.c: int o
+com.tencent.open.a.c: java.lang.String p
+com.tencent.open.a.c: java.lang.String q
+com.tencent.open.a.c: java.lang.String r
+com.tencent.open.a.c: int s
+com.tencent.open.a.c: long t
+com.tencent.open.a.c: void <clinit>()
+com.tencent.open.a.d
+com.tencent.open.a.d$a
+com.tencent.open.a.d$a: boolean a(int,int)
+com.tencent.open.a.d$b
+com.tencent.open.a.d$b: boolean a(java.io.File)
+com.tencent.open.a.d$c
+com.tencent.open.a.d$c: boolean a()
+com.tencent.open.a.d$c: com.tencent.open.a.d$d b()
+com.tencent.open.a.d$d
+com.tencent.open.a.d$d: java.io.File a
+com.tencent.open.a.d$d: long b
+com.tencent.open.a.d$d: long c
+com.tencent.open.a.d$d: d$d()
+com.tencent.open.a.d$d: java.io.File a()
+com.tencent.open.a.d$d: void a(java.io.File)
+com.tencent.open.a.d$d: long b()
+com.tencent.open.a.d$d: void a(long)
+com.tencent.open.a.d$d: long c()
+com.tencent.open.a.d$d: void b(long)
+com.tencent.open.a.d$d: com.tencent.open.a.d$d b(java.io.File)
+com.tencent.open.a.d$d: java.lang.String toString()
+com.tencent.open.a.d$e
+com.tencent.open.a.d$e: java.text.SimpleDateFormat a(java.lang.String)
+com.tencent.open.a.e
+com.tencent.open.a.e: com.tencent.open.a.e a
+com.tencent.open.a.e: e()
+com.tencent.open.a.e: void a(int,java.lang.Thread,long,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.e: void <clinit>()
+com.tencent.open.a.f
+com.tencent.open.a.f: com.tencent.open.a.f a
+com.tencent.open.a.f: com.tencent.open.a.a b
+com.tencent.open.a.f: com.tencent.open.a.b c
+com.tencent.open.a.f: java.lang.String d
+com.tencent.open.a.f: com.tencent.open.a.f a()
+com.tencent.open.a.f: f()
+com.tencent.open.a.f: void a(int,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.f: void a(java.lang.String,java.lang.String)
+com.tencent.open.a.f: void b(java.lang.String,java.lang.String)
+com.tencent.open.a.f: void a(java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.f: void c(java.lang.String,java.lang.String)
+com.tencent.open.a.f: void d(java.lang.String,java.lang.String)
+com.tencent.open.a.f: void e(java.lang.String,java.lang.String)
+com.tencent.open.a.f: void b(java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.f: void b()
+com.tencent.open.a.f: java.io.File c()
+com.tencent.open.a.f: void d()
+com.tencent.open.a.f: void <clinit>()
+com.tencent.open.a.g
+com.tencent.open.a.g: java.util.concurrent.ConcurrentLinkedQueue a
+com.tencent.open.a.g: java.util.concurrent.atomic.AtomicInteger b
+com.tencent.open.a.g: g()
+com.tencent.open.a.g: int a(java.lang.String)
+com.tencent.open.a.g: void a(java.io.Writer,char[])
+com.tencent.open.a.g: int a()
+com.tencent.open.a.g: void b()
+com.tencent.open.a.g: java.util.Iterator iterator()
+com.tencent.open.a.h
+com.tencent.open.a.h: com.tencent.open.a.h a
+com.tencent.open.a.h: h()
+com.tencent.open.a.h: java.lang.String a(int)
+com.tencent.open.a.h: java.lang.String a(int,java.lang.Thread,long,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.h: void <clinit>()
+com.tencent.open.a.i
+com.tencent.open.a.i: int a
+com.tencent.open.a.i: boolean b
+com.tencent.open.a.i: com.tencent.open.a.h c
+com.tencent.open.a.i: i()
+com.tencent.open.a.i: i(int,boolean,com.tencent.open.a.h)
+com.tencent.open.a.i: void b(int,java.lang.Thread,long,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.i: void a(int,java.lang.Thread,long,java.lang.String,java.lang.String,java.lang.Throwable)
+com.tencent.open.a.i: void a(int)
+com.tencent.open.a.i: boolean d()
+com.tencent.open.a.i: void a(boolean)
+com.tencent.open.a.i: com.tencent.open.a.h e()
+com.tencent.open.a.i: void a(com.tencent.open.a.h)
+com.tencent.open.b
+com.tencent.open.b: com.tencent.open.a jsBridge
+com.tencent.open.b: android.webkit.WebChromeClient mChromeClient
+com.tencent.open.b: b(android.content.Context)
+com.tencent.open.b: b(android.content.Context,int)
+com.tencent.open.b: void onCreate(android.os.Bundle)
+com.tencent.open.b: void onConsoleMessage(java.lang.String)
+com.tencent.open.b.a
+com.tencent.open.b.a: java.lang.String a
+com.tencent.open.b.a: android.net.Uri b
+com.tencent.open.b.a: a()
+com.tencent.open.b.a: java.lang.String a(android.content.Context)
+com.tencent.open.b.a: java.lang.String b(android.content.Context)
+com.tencent.open.b.a: java.lang.String c(android.content.Context)
+com.tencent.open.b.a: int d(android.content.Context)
+com.tencent.open.b.a: java.lang.String e(android.content.Context)
+com.tencent.open.b.a: void <clinit>()
+com.tencent.open.b.b
+com.tencent.open.b.b: java.util.HashMap a
+com.tencent.open.b.b: b(android.os.Bundle)
+com.tencent.open.b.c
+com.tencent.open.b.c: java.lang.String d
+com.tencent.open.b.c: java.lang.String a
+com.tencent.open.b.c: java.lang.String b
+com.tencent.open.b.c: java.lang.String c
+com.tencent.open.b.c: java.lang.String e
+com.tencent.open.b.c: java.lang.String a()
+com.tencent.open.b.c: java.lang.String a(android.content.Context)
+com.tencent.open.b.c: java.lang.String b()
+com.tencent.open.b.c: java.lang.String b(android.content.Context)
+com.tencent.open.b.c: java.lang.String c(android.content.Context)
+com.tencent.open.b.c: java.lang.String d(android.content.Context)
+com.tencent.open.b.c: java.lang.String e(android.content.Context)
+com.tencent.open.b.c: void <clinit>()
+com.tencent.open.b.d
+com.tencent.open.b.d: com.tencent.open.b.d a
+com.tencent.open.b.d: d()
+com.tencent.open.b.d: com.tencent.open.b.d a()
+com.tencent.open.b.d: void a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.b.d: void a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.b.d: void a(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Long,int,int,java.lang.String)
+com.tencent.open.b.e
+com.tencent.open.b.e: int a(java.lang.String)
+com.tencent.open.b.e: int a()
+com.tencent.open.b.f
+com.tencent.open.b.f: java.lang.String a
+com.tencent.open.b.f: java.lang.String[] b
+com.tencent.open.b.f: com.tencent.open.b.f c
+com.tencent.open.b.f: com.tencent.open.b.f a()
+com.tencent.open.b.f: f(android.content.Context)
+com.tencent.open.b.f: void onCreate(android.database.sqlite.SQLiteDatabase)
+com.tencent.open.b.f: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+com.tencent.open.b.f: java.util.List a(java.lang.String)
+com.tencent.open.b.f: void a(java.lang.String,java.util.List)
+com.tencent.open.b.f: void b(java.lang.String)
+com.tencent.open.b.f: void <clinit>()
+com.tencent.open.b.g
+com.tencent.open.b.g: java.lang.String a
+com.tencent.open.b.g: com.tencent.open.b.g b
+com.tencent.open.b.g: java.util.Random c
+com.tencent.open.b.g: java.util.List d
+com.tencent.open.b.g: java.util.List e
+com.tencent.open.b.g: android.os.HandlerThread f
+com.tencent.open.b.g: android.os.Handler g
+com.tencent.open.b.g: com.tencent.open.b.g a()
+com.tencent.open.b.g: g()
+com.tencent.open.b.g: void a(android.os.Bundle,java.lang.String,boolean)
+com.tencent.open.b.g: void a(java.lang.String,long,long,long,int)
+com.tencent.open.b.g: void a(java.lang.String,long,long,long,int,java.lang.String,boolean)
+com.tencent.open.b.g: void b()
+com.tencent.open.b.g: boolean a(java.lang.String,java.lang.String)
+com.tencent.open.b.g: boolean a(java.lang.String,int)
+com.tencent.open.b.g: int a(int)
+com.tencent.open.b.g: android.os.Bundle c()
+com.tencent.open.b.g: android.os.Bundle d()
+com.tencent.open.b.g: void e()
+com.tencent.open.b.g: void a(java.lang.String,java.lang.String,android.os.Bundle,boolean)
+com.tencent.open.b.g: void <clinit>()
+com.tencent.open.c.a
+com.tencent.open.c.a: java.lang.String a
+com.tencent.open.c.a: android.graphics.Rect b
+com.tencent.open.c.a: boolean c
+com.tencent.open.c.a: com.tencent.open.c.a$a d
+com.tencent.open.c.a: a(android.content.Context)
+com.tencent.open.c.a: void a(com.tencent.open.c.a$a)
+com.tencent.open.c.a: void onMeasure(int,int)
+com.tencent.open.c.a: void <clinit>()
+com.tencent.open.c.a$a
+com.tencent.open.c.a$a: void onKeyboardShown(int)
+com.tencent.open.c.a$a: void onKeyboardHidden()
+com.tencent.open.c.b
+com.tencent.open.c.b: b(android.content.Context)
+com.tencent.open.c.b: void onAttachedToWindow()
+com.tencent.open.c.c
+com.tencent.open.c.c: android.view.KeyEvent b
+com.tencent.open.c.c: com.tencent.open.web.security.a c
+com.tencent.open.c.c: boolean a
+com.tencent.open.c.c: c(android.content.Context)
+com.tencent.open.c.c: boolean dispatchKeyEvent(android.view.KeyEvent)
+com.tencent.open.c.c: boolean onKeyDown(int,android.view.KeyEvent)
+com.tencent.open.c.c: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)
+com.tencent.open.utils.ApkExternalInfoTool
+com.tencent.open.utils.ApkExternalInfoTool: com.tencent.open.utils.ZipLong a
+com.tencent.open.utils.ApkExternalInfoTool: java.lang.String CHANNELID
+com.tencent.open.utils.ApkExternalInfoTool: com.tencent.open.utils.ZipShort b
+com.tencent.open.utils.ApkExternalInfoTool: ApkExternalInfoTool()
+com.tencent.open.utils.ApkExternalInfoTool: java.lang.String read(java.io.File,java.lang.String)
+com.tencent.open.utils.ApkExternalInfoTool: java.lang.String readChannelId(java.io.File)
+com.tencent.open.utils.ApkExternalInfoTool: byte[] a(java.io.RandomAccessFile)
+com.tencent.open.utils.ApkExternalInfoTool: com.tencent.open.utils.ZipShort a()
+com.tencent.open.utils.ApkExternalInfoTool: void <clinit>()
+com.tencent.open.utils.AsynLoadImg
+com.tencent.open.utils.AsynLoadImg: java.lang.String a
+com.tencent.open.utils.AsynLoadImg: com.tencent.open.utils.AsynLoadImgBack b
+com.tencent.open.utils.AsynLoadImg: java.lang.String c
+com.tencent.open.utils.AsynLoadImg: long d
+com.tencent.open.utils.AsynLoadImg: android.os.Handler e
+com.tencent.open.utils.AsynLoadImg: java.lang.Runnable f
+com.tencent.open.utils.AsynLoadImg: AsynLoadImg(android.app.Activity)
+com.tencent.open.utils.AsynLoadImg: void save(java.lang.String,com.tencent.open.utils.AsynLoadImgBack)
+com.tencent.open.utils.AsynLoadImg: boolean saveFile(android.graphics.Bitmap,java.lang.String)
+com.tencent.open.utils.AsynLoadImg: android.graphics.Bitmap getbitmap(java.lang.String)
+com.tencent.open.utils.AsynLoadImg: com.tencent.open.utils.AsynLoadImgBack a(com.tencent.open.utils.AsynLoadImg)
+com.tencent.open.utils.AsynLoadImg: java.lang.String b(com.tencent.open.utils.AsynLoadImg)
+com.tencent.open.utils.AsynLoadImg: java.lang.String a()
+com.tencent.open.utils.AsynLoadImg: android.os.Handler c(com.tencent.open.utils.AsynLoadImg)
+com.tencent.open.utils.AsynLoadImg: long d(com.tencent.open.utils.AsynLoadImg)
+com.tencent.open.utils.AsynLoadImgBack
+com.tencent.open.utils.AsynLoadImgBack: int LOAD_IMAGE_COMPLETED
+com.tencent.open.utils.AsynLoadImgBack: int LOAD_IMAGE_PATH_NULL
+com.tencent.open.utils.AsynLoadImgBack: int LOAD_IMAGE_NO_SDCARD
+com.tencent.open.utils.AsynLoadImgBack: int LOAD_IMAGE_IMAGE_FORMAT_ERROR
+com.tencent.open.utils.AsynLoadImgBack: void saved(int,java.lang.String)
+com.tencent.open.utils.AsynLoadImgBack: void batchSaved(int,java.util.ArrayList)
+com.tencent.open.utils.DataConvert
+com.tencent.open.utils.DataConvert: DataConvert()
+com.tencent.open.utils.DataConvert: byte[] intToBytes2(int)
+com.tencent.open.utils.DataConvert: java.lang.String toHexString(byte[])
+com.tencent.open.utils.DataConvert: byte[] string2bytes(java.lang.String)
+com.tencent.open.utils.DataConvert: int putInt2Bytes(int,byte[],int)
+com.tencent.open.utils.DataConvert: int putShort2Bytes(int,byte[],int)
+com.tencent.open.utils.DataConvert: int putString2Bytes(java.lang.String,byte[],int)
+com.tencent.open.utils.DataConvert: int putBytes2Bytes(byte[],byte[],int)
+com.tencent.open.utils.DataConvert: int putBytes2Bytes(byte[],int,byte[],int)
+com.tencent.open.utils.Global
+com.tencent.open.utils.Global: android.content.Context a
+com.tencent.open.utils.Global: Global()
+com.tencent.open.utils.Global: android.content.Context getContext()
+com.tencent.open.utils.Global: void setContext(android.content.Context)
+com.tencent.open.utils.Global: java.lang.String getPackageName()
+com.tencent.open.utils.Global: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)
+com.tencent.open.utils.Global: java.io.File getFilesDir()
+com.tencent.open.utils.Global: void saveVersionCode()
+com.tencent.open.utils.Global: int getVersionCode()
+com.tencent.open.utils.HttpUtils
+com.tencent.open.utils.HttpUtils: java.lang.String a
+com.tencent.open.utils.HttpUtils: HttpUtils()
+com.tencent.open.utils.HttpUtils: org.json.JSONObject request(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle,java.lang.String)
+com.tencent.open.utils.HttpUtils: void requestAsync(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IRequestListener)
+com.tencent.open.utils.HttpUtils: void a(android.content.Context,com.tencent.connect.auth.QQToken,java.lang.String)
+com.tencent.open.utils.HttpUtils: int getErrorCodeFromException(java.io.IOException)
+com.tencent.open.utils.HttpUtils: com.tencent.open.utils.Util$Statistic openUrl2(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle)
+com.tencent.open.utils.HttpUtils: java.lang.String a(org.apache.http.HttpResponse)
+com.tencent.open.utils.HttpUtils: org.apache.http.client.HttpClient getHttpClient(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.open.utils.HttpUtils: java.lang.String encodeUrl(android.os.Bundle)
+com.tencent.open.utils.HttpUtils: java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+com.tencent.open.utils.HttpUtils: com.tencent.open.utils.HttpUtils$NetworkProxy getProxy(android.content.Context)
+com.tencent.open.utils.HttpUtils: int a(android.content.Context)
+com.tencent.open.utils.HttpUtils: java.lang.String b(android.content.Context)
+com.tencent.open.utils.HttpUtils: org.json.JSONObject upload(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle)
+com.tencent.open.utils.HttpUtils: void <clinit>()
+com.tencent.open.utils.HttpUtils$CustomSSLSocketFactory
+com.tencent.open.utils.HttpUtils$CustomSSLSocketFactory: javax.net.ssl.SSLContext a
+com.tencent.open.utils.HttpUtils$CustomSSLSocketFactory: HttpUtils$CustomSSLSocketFactory(java.security.KeyStore)
+com.tencent.open.utils.HttpUtils$CustomSSLSocketFactory: java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean)
+com.tencent.open.utils.HttpUtils$CustomSSLSocketFactory: java.net.Socket createSocket()
+com.tencent.open.utils.HttpUtils$HttpStatusException
+com.tencent.open.utils.HttpUtils$HttpStatusException: java.lang.String ERROR_INFO
+com.tencent.open.utils.HttpUtils$HttpStatusException: HttpUtils$HttpStatusException(java.lang.String)
+com.tencent.open.utils.HttpUtils$MyX509TrustManager
+com.tencent.open.utils.HttpUtils$MyX509TrustManager: javax.net.ssl.X509TrustManager a
+com.tencent.open.utils.HttpUtils$MyX509TrustManager: HttpUtils$MyX509TrustManager()
+com.tencent.open.utils.HttpUtils$MyX509TrustManager: void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
+com.tencent.open.utils.HttpUtils$MyX509TrustManager: void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+com.tencent.open.utils.HttpUtils$MyX509TrustManager: java.security.cert.X509Certificate[] getAcceptedIssuers()
+com.tencent.open.utils.HttpUtils$NetworkProxy
+com.tencent.open.utils.HttpUtils$NetworkProxy: java.lang.String host
+com.tencent.open.utils.HttpUtils$NetworkProxy: int port
+com.tencent.open.utils.HttpUtils$NetworkProxy: HttpUtils$NetworkProxy(java.lang.String,int)
+com.tencent.open.utils.HttpUtils$NetworkProxy: HttpUtils$NetworkProxy(java.lang.String,int,com.tencent.open.utils.HttpUtils$1)
+com.tencent.open.utils.HttpUtils$NetworkUnavailableException
+com.tencent.open.utils.HttpUtils$NetworkUnavailableException: java.lang.String ERROR_INFO
+com.tencent.open.utils.HttpUtils$NetworkUnavailableException: HttpUtils$NetworkUnavailableException(java.lang.String)
+com.tencent.open.utils.OpenConfig
+com.tencent.open.utils.OpenConfig: java.util.HashMap a
+com.tencent.open.utils.OpenConfig: java.lang.String b
+com.tencent.open.utils.OpenConfig: android.content.Context c
+com.tencent.open.utils.OpenConfig: java.lang.String d
+com.tencent.open.utils.OpenConfig: org.json.JSONObject e
+com.tencent.open.utils.OpenConfig: long f
+com.tencent.open.utils.OpenConfig: int g
+com.tencent.open.utils.OpenConfig: boolean h
+com.tencent.open.utils.OpenConfig: com.tencent.open.utils.OpenConfig getInstance(android.content.Context,java.lang.String)
+com.tencent.open.utils.OpenConfig: OpenConfig(android.content.Context,java.lang.String)
+com.tencent.open.utils.OpenConfig: void a()
+com.tencent.open.utils.OpenConfig: java.lang.String a(java.lang.String)
+com.tencent.open.utils.OpenConfig: void a(java.lang.String,java.lang.String)
+com.tencent.open.utils.OpenConfig: void b()
+com.tencent.open.utils.OpenConfig: void a(org.json.JSONObject)
+com.tencent.open.utils.OpenConfig: void c()
+com.tencent.open.utils.OpenConfig: int getInt(java.lang.String)
+com.tencent.open.utils.OpenConfig: long getLong(java.lang.String)
+com.tencent.open.utils.OpenConfig: boolean getBoolean(java.lang.String)
+com.tencent.open.utils.OpenConfig: void b(java.lang.String)
+com.tencent.open.utils.OpenConfig: android.content.Context a(com.tencent.open.utils.OpenConfig)
+com.tencent.open.utils.OpenConfig: void a(com.tencent.open.utils.OpenConfig,org.json.JSONObject)
+com.tencent.open.utils.OpenConfig: int a(com.tencent.open.utils.OpenConfig,int)
+com.tencent.open.utils.OpenConfig: void <clinit>()
+com.tencent.open.utils.ServerSetting
+com.tencent.open.utils.ServerSetting: java.lang.String a
+com.tencent.open.utils.ServerSetting: int ENVIRONMENT_NORMOL
+com.tencent.open.utils.ServerSetting: int ENVIRONMENT_EXPERIENCE
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_OPEN_SETTING
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_OPEN_ENV
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_FUSION
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_APPIC
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_OPEN_MOBILE
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_MAPP_QZONE
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_ANALY
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_QZAPP_QLOGO
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_I_GTIMG
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_APP_SUPPORT
+com.tencent.open.utils.ServerSetting: java.lang.String KEY_HOST_QZS_QQ
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_REDIRECT_URI
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_CGI_AUTHORIZE
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_SEND_STORY
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_INVITE
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_REPORT
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_GRAPH_BASE
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_BRAG
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_ASK
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_GIFT
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_LOCAL_STORAGE_URI
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_VOICE
+com.tencent.open.utils.ServerSetting: java.lang.String DEFAULT_URL_REACTIVE
+com.tencent.open.utils.ServerSetting: java.lang.String DOWNLOAD_QQ_URL
+com.tencent.open.utils.ServerSetting: java.lang.String DOWNLOAD_QQ_URL_COMMON
+com.tencent.open.utils.ServerSetting: java.lang.String CGI_FETCH_QQ_URL
+com.tencent.open.utils.ServerSetting: java.lang.String APP_DETAIL_PAGE
+com.tencent.open.utils.ServerSetting: java.lang.String URL_FUSION_BASE
+com.tencent.open.utils.ServerSetting: java.lang.String URL_FUSION_CGI_BASE
+com.tencent.open.utils.ServerSetting: java.lang.String URL_PRIZE_MAKE_SHARE_URL
+com.tencent.open.utils.ServerSetting: java.lang.String URL_PRIZE_GET_ACTIVITY_STATE
+com.tencent.open.utils.ServerSetting: java.lang.String URL_PRIZE_QUERY_UNEXCHANGE
+com.tencent.open.utils.ServerSetting: java.lang.String URL_PRIZE_EXCHANGE
+com.tencent.open.utils.ServerSetting: java.lang.String NEED_QQ_VERSION_TIPS_URL
+com.tencent.open.utils.ServerSetting: com.tencent.open.utils.ServerSetting b
+com.tencent.open.utils.ServerSetting: java.lang.ref.WeakReference c
+com.tencent.open.utils.ServerSetting: ServerSetting()
+com.tencent.open.utils.ServerSetting: com.tencent.open.utils.ServerSetting getInstance()
+com.tencent.open.utils.ServerSetting: void changeServer()
+com.tencent.open.utils.ServerSetting: java.lang.String getEnvUrl(android.content.Context,java.lang.String)
+com.tencent.open.utils.ServerSetting: void setEnvironment(android.content.Context,int)
+com.tencent.open.utils.ServerSetting: void <clinit>()
+com.tencent.open.utils.SystemUtils
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_4_2_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_4_3_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_4_5_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_4_6_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_5_0_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_5_1_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_5_2_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_VERSION_NAME_5_3_0
+com.tencent.open.utils.SystemUtils: java.lang.String QQ_SHARE_CALLBACK_ACTION
+com.tencent.open.utils.SystemUtils: java.lang.String QZONE_SHARE_CALLBACK_ACTION
+com.tencent.open.utils.SystemUtils: java.lang.String QQFAVORITES_CALLBACK_ACTION
+com.tencent.open.utils.SystemUtils: java.lang.String QQDATALINE_CALLBACK_ACTION
+com.tencent.open.utils.SystemUtils: java.lang.String TROOPBAR_CALLBACK_ACTION
+com.tencent.open.utils.SystemUtils: java.lang.String ACTION_LOGIN
+com.tencent.open.utils.SystemUtils: java.lang.String ACTION_SHARE
+com.tencent.open.utils.SystemUtils: java.lang.String IS_LOGIN
+com.tencent.open.utils.SystemUtils: java.lang.String IS_QQ_MOBILE_SHARE
+com.tencent.open.utils.SystemUtils: java.lang.String H5_SHARE_DATA
+com.tencent.open.utils.SystemUtils: java.lang.String a
+com.tencent.open.utils.SystemUtils: SystemUtils()
+com.tencent.open.utils.SystemUtils: java.lang.String getAppVersionName(android.content.Context,java.lang.String)
+com.tencent.open.utils.SystemUtils: int compareVersion(java.lang.String,java.lang.String)
+com.tencent.open.utils.SystemUtils: boolean isAppSignatureValid(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.open.utils.SystemUtils: java.lang.String getAppSignatureMD5(android.content.Context,java.lang.String)
+com.tencent.open.utils.SystemUtils: boolean isActivityExist(android.content.Context,android.content.Intent)
+com.tencent.open.utils.SystemUtils: java.lang.String getRealPathFromUri(android.app.Activity,android.net.Uri)
+com.tencent.open.utils.SystemUtils: java.lang.String getAppName(android.content.Context)
+com.tencent.open.utils.SystemUtils: int compareQQVersion(android.content.Context,java.lang.String)
+com.tencent.open.utils.SystemUtils: boolean checkMobileQQ(android.content.Context)
+com.tencent.open.utils.SystemUtils: int getAndroidSDKVersion()
+com.tencent.open.utils.SystemUtils: boolean isSupportMultiTouch()
+com.tencent.open.utils.SystemUtils: boolean extractSecureLib(java.lang.String,java.lang.String,int)
+com.tencent.open.utils.SystemUtils: boolean isLibExtracted(java.lang.String,int)
+com.tencent.open.utils.SystemUtils: long a(java.io.InputStream,java.io.OutputStream)
+com.tencent.open.utils.SystemUtils: void <clinit>()
+com.tencent.open.utils.TemporaryStorage
+com.tencent.open.utils.TemporaryStorage: java.util.HashMap a
+com.tencent.open.utils.TemporaryStorage: TemporaryStorage()
+com.tencent.open.utils.TemporaryStorage: java.lang.Object set(java.lang.String,java.lang.Object)
+com.tencent.open.utils.TemporaryStorage: java.lang.Object get(java.lang.String)
+com.tencent.open.utils.TemporaryStorage: void remove(java.lang.String)
+com.tencent.open.utils.TemporaryStorage: void <clinit>()
+com.tencent.open.utils.ThreadManager
+com.tencent.open.utils.ThreadManager: boolean DEBUG_THREAD
+com.tencent.open.utils.ThreadManager: java.util.concurrent.Executor NETWORK_EXECUTOR
+com.tencent.open.utils.ThreadManager: android.os.Handler a
+com.tencent.open.utils.ThreadManager: android.os.HandlerThread b
+com.tencent.open.utils.ThreadManager: android.os.Handler c
+com.tencent.open.utils.ThreadManager: android.os.HandlerThread d
+com.tencent.open.utils.ThreadManager: ThreadManager()
+com.tencent.open.utils.ThreadManager: java.util.concurrent.Executor a()
+com.tencent.open.utils.ThreadManager: void init()
+com.tencent.open.utils.ThreadManager: void executeOnNetWorkThread(java.lang.Runnable)
+com.tencent.open.utils.ThreadManager: android.os.Handler getFileThreadHandler()
+com.tencent.open.utils.ThreadManager: android.os.Looper getFileThreadLooper()
+com.tencent.open.utils.ThreadManager: java.lang.Thread getSubThread()
+com.tencent.open.utils.ThreadManager: android.os.Handler getSubThreadHandler()
+com.tencent.open.utils.ThreadManager: android.os.Looper getSubThreadLooper()
+com.tencent.open.utils.ThreadManager: void executeOnSubThread(java.lang.Runnable)
+com.tencent.open.utils.ThreadManager: void <clinit>()
+com.tencent.open.utils.Util
+com.tencent.open.utils.Util: java.lang.String a
+com.tencent.open.utils.Util: java.lang.String b
+com.tencent.open.utils.Util: java.lang.String c
+com.tencent.open.utils.Util: java.lang.String d
+com.tencent.open.utils.Util: java.lang.String e
+com.tencent.open.utils.Util: int f
+com.tencent.open.utils.Util: java.lang.String g
+com.tencent.open.utils.Util: boolean h
+com.tencent.open.utils.Util: java.lang.String i
+com.tencent.open.utils.Util: Util()
+com.tencent.open.utils.Util: java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String encodeUrl(android.os.Bundle)
+com.tencent.open.utils.Util: android.os.Bundle decodeUrl(java.lang.String)
+com.tencent.open.utils.Util: org.json.JSONObject decodeUrlToJson(org.json.JSONObject,java.lang.String)
+com.tencent.open.utils.Util: android.os.Bundle parseUrl(java.lang.String)
+com.tencent.open.utils.Util: org.json.JSONObject parseUrlToJson(java.lang.String)
+com.tencent.open.utils.Util: com.tencent.open.utils.Util$Statistic upload(android.content.Context,java.lang.String,android.os.Bundle)
+com.tencent.open.utils.Util: java.lang.String a(org.apache.http.HttpResponse)
+com.tencent.open.utils.Util: org.json.JSONObject parseJson(java.lang.String)
+com.tencent.open.utils.Util: void showAlert(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: void logd(java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getUserIp()
+com.tencent.open.utils.Util: boolean isEmpty(java.lang.String)
+com.tencent.open.utils.Util: boolean a(android.content.Context)
+com.tencent.open.utils.Util: boolean openBrowser(android.content.Context,java.lang.String)
+com.tencent.open.utils.Util: void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: boolean isMobileQQSupportShare(android.content.Context)
+com.tencent.open.utils.Util: java.lang.String encrypt(java.lang.String)
+com.tencent.open.utils.Util: char a(int)
+com.tencent.open.utils.Util: void reportBernoulli(android.content.Context,java.lang.String,long,java.lang.String)
+com.tencent.open.utils.Util: boolean hasSDCard()
+com.tencent.open.utils.Util: java.lang.String toHexString(byte[])
+com.tencent.open.utils.Util: java.lang.String toHexString(java.lang.String)
+com.tencent.open.utils.Util: java.lang.String hexToString(java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getAppVersion(android.content.Context)
+com.tencent.open.utils.Util: java.lang.String getApplicationLable(android.content.Context)
+com.tencent.open.utils.Util: boolean isValidUrl(java.lang.String)
+com.tencent.open.utils.Util: boolean isValidPath(java.lang.String)
+com.tencent.open.utils.Util: boolean fileExists(java.lang.String)
+com.tencent.open.utils.Util: java.lang.String subString(java.lang.String,int,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: int parseIntValue(java.lang.String)
+com.tencent.open.utils.Util: int parseIntValue(java.lang.String,int)
+com.tencent.open.utils.Util: boolean checkNetWork(android.content.Context)
+com.tencent.open.utils.Util: android.os.Bundle composeViaReportParams(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: android.os.Bundle composeViaReportParams(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: android.os.Bundle composeHaboCgiReportParams(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getLocation(android.content.Context)
+com.tencent.open.utils.Util: void getPackageInfo(android.content.Context,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getVersionName(android.content.Context,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getAppVersionName(android.content.Context,java.lang.String)
+com.tencent.open.utils.Util: java.lang.String getQUA3(android.content.Context,java.lang.String)
+com.tencent.open.utils.Util: byte[] getBytesUTF8(java.lang.String)
+com.tencent.open.utils.Util: boolean isNumeric(java.lang.String)
+com.tencent.open.utils.Util: java.lang.String a()
+com.tencent.open.utils.Util: void <clinit>()
+com.tencent.open.utils.Util$Statistic
+com.tencent.open.utils.Util$Statistic: java.lang.String response
+com.tencent.open.utils.Util$Statistic: long reqSize
+com.tencent.open.utils.Util$Statistic: long rspSize
+com.tencent.open.utils.Util$Statistic: Util$Statistic(java.lang.String,int)
+com.tencent.open.utils.ZipLong
+com.tencent.open.utils.ZipLong: long a
+com.tencent.open.utils.ZipLong: ZipLong(byte[])
+com.tencent.open.utils.ZipLong: ZipLong(byte[],int)
+com.tencent.open.utils.ZipLong: ZipLong(long)
+com.tencent.open.utils.ZipLong: boolean equals(java.lang.Object)
+com.tencent.open.utils.ZipLong: byte[] getBytes()
+com.tencent.open.utils.ZipLong: long getValue()
+com.tencent.open.utils.ZipLong: int hashCode()
+com.tencent.open.utils.ZipShort
+com.tencent.open.utils.ZipShort: int a
+com.tencent.open.utils.ZipShort: ZipShort(byte[])
+com.tencent.open.utils.ZipShort: ZipShort(byte[],int)
+com.tencent.open.utils.ZipShort: ZipShort(int)
+com.tencent.open.utils.ZipShort: boolean equals(java.lang.Object)
+com.tencent.open.utils.ZipShort: byte[] getBytes()
+com.tencent.open.utils.ZipShort: int getValue()
+com.tencent.open.utils.ZipShort: int hashCode()
+com.tencent.open.web.security.JniInterface
+com.tencent.open.web.security.JniInterface: JniInterface()
+com.tencent.open.web.security.JniInterface: java.lang.String getPWDKeyToMD5(java.lang.String)
+com.tencent.open.web.security.JniInterface: boolean insetTextToArray(int,java.lang.String,int)
+com.tencent.open.web.security.JniInterface: boolean BackSpaceChar(boolean,int)
+com.tencent.open.web.security.JniInterface: boolean clearAllPWD()
+com.tencent.open.web.security.SecureJsInterface
+com.tencent.open.web.security.SecureJsInterface: java.lang.String a
+com.tencent.open.web.security.SecureJsInterface: boolean isPWDEdit
+com.tencent.open.web.security.SecureJsInterface: java.lang.String b
+com.tencent.open.web.security.SecureJsInterface: SecureJsInterface()
+com.tencent.open.web.security.SecureJsInterface: boolean customCallback()
+com.tencent.open.web.security.SecureJsInterface: void curPosFromJS(java.lang.String)
+com.tencent.open.web.security.SecureJsInterface: void isPasswordEdit(java.lang.String)
+com.tencent.open.web.security.SecureJsInterface: void clearAllEdit()
+com.tencent.open.web.security.SecureJsInterface: java.lang.String getMD5FromNative()
+com.tencent.open.web.security.SecureJsInterface: void <clinit>()
+com.tencent.open.web.security.a
+com.tencent.open.web.security.a: java.lang.String a
+com.tencent.open.web.security.a: boolean b
+com.tencent.open.web.security.a: boolean c
+com.tencent.open.web.security.a: a(android.view.inputmethod.InputConnection,boolean)
+com.tencent.open.web.security.a: boolean setComposingText(java.lang.CharSequence,int)
+com.tencent.open.web.security.a: boolean commitText(java.lang.CharSequence,int)
+com.tencent.open.web.security.a: boolean sendKeyEvent(android.view.KeyEvent)
+com.tencent.open.web.security.a: void <clinit>()
+com.tencent.open.web.security.b
+com.tencent.open.web.security.b: java.lang.String b
+com.tencent.open.web.security.b: b()
+com.tencent.open.web.security.b: void a(java.lang.String,java.lang.String,java.util.List,com.tencent.open.a$a)
+com.tencent.open.web.security.b: boolean a(android.webkit.WebView,java.lang.String)
+com.tencent.open.web.security.b: void <clinit>()
+com.tencent.open.web.security.c
+com.tencent.open.web.security.c: java.lang.String d
+com.tencent.open.web.security.c: java.lang.String e
+com.tencent.open.web.security.c: c(android.webkit.WebView,long,java.lang.String,java.lang.String)
+com.tencent.open.web.security.c: void a(java.lang.Object)
+com.tencent.open.web.security.c: void a()
+com.tencent.open.web.security.c: void a(java.lang.String)
+com.tencent.open.web.security.c: void b(java.lang.String)
+com.tencent.open.web.security.c: void <clinit>()
+com.tencent.stat.DeviceInfo
+com.tencent.stat.DeviceInfo: int NEW_USER
+com.tencent.stat.DeviceInfo: int OLD_USER
+com.tencent.stat.DeviceInfo: int UPGRADE_USER
+com.tencent.stat.DeviceInfo: java.lang.String TAG_MID
+com.tencent.stat.DeviceInfo: java.lang.String TAG_IMEI
+com.tencent.stat.DeviceInfo: java.lang.String TAG_MAC
+com.tencent.stat.DeviceInfo: java.lang.String TAG_ANDROID_ID
+com.tencent.stat.DeviceInfo: java.lang.String TAG_TIMESTAMPS
+com.tencent.stat.DeviceInfo: java.lang.String TAG_VERSION
+com.tencent.stat.DeviceInfo: java.lang.String TAG_FLAG
+com.tencent.stat.DeviceInfo: java.lang.String a
+com.tencent.stat.DeviceInfo: java.lang.String b
+com.tencent.stat.DeviceInfo: java.lang.String c
+com.tencent.stat.DeviceInfo: java.lang.String d
+com.tencent.stat.DeviceInfo: int e
+com.tencent.stat.DeviceInfo: int f
+com.tencent.stat.DeviceInfo: long g
+com.tencent.stat.DeviceInfo: com.tencent.stat.common.StatLogger h
+com.tencent.stat.DeviceInfo: int a()
+com.tencent.stat.DeviceInfo: void a(int)
+com.tencent.stat.DeviceInfo: long b()
+com.tencent.stat.DeviceInfo: void a(long)
+com.tencent.stat.DeviceInfo: DeviceInfo()
+com.tencent.stat.DeviceInfo: DeviceInfo(java.lang.String,java.lang.String,int)
+com.tencent.stat.DeviceInfo: com.tencent.stat.DeviceInfo a(java.lang.String)
+com.tencent.stat.DeviceInfo: int a(com.tencent.stat.DeviceInfo)
+com.tencent.stat.DeviceInfo: java.lang.String toString()
+com.tencent.stat.DeviceInfo: org.json.JSONObject c()
+com.tencent.stat.DeviceInfo: void b(java.lang.String)
+com.tencent.stat.DeviceInfo: java.lang.String getMid()
+com.tencent.stat.DeviceInfo: void c(java.lang.String)
+com.tencent.stat.DeviceInfo: void d(java.lang.String)
+com.tencent.stat.DeviceInfo: java.lang.String getImei()
+com.tencent.stat.DeviceInfo: void e(java.lang.String)
+com.tencent.stat.DeviceInfo: java.lang.String getMac()
+com.tencent.stat.DeviceInfo: void b(int)
+com.tencent.stat.DeviceInfo: int getUserType()
+com.tencent.stat.DeviceInfo: void <clinit>()
+com.tencent.stat.EasyActivity
+com.tencent.stat.EasyActivity: EasyActivity()
+com.tencent.stat.EasyActivity: void onResume()
+com.tencent.stat.EasyActivity: void onPause()
+com.tencent.stat.EasyListActivity
+com.tencent.stat.EasyListActivity: EasyListActivity()
+com.tencent.stat.EasyListActivity: void onResume()
+com.tencent.stat.EasyListActivity: void onPause()
+com.tencent.stat.MtaSDkException
+com.tencent.stat.MtaSDkException: MtaSDkException()
+com.tencent.stat.MtaSDkException: MtaSDkException(java.lang.String)
+com.tencent.stat.MtaSDkException: MtaSDkException(java.lang.String,java.lang.Throwable)
+com.tencent.stat.MtaSDkException: MtaSDkException(java.lang.Throwable)
+com.tencent.stat.NetworkMonitor
+com.tencent.stat.NetworkMonitor: long a
+com.tencent.stat.NetworkMonitor: int b
+com.tencent.stat.NetworkMonitor: java.lang.String c
+com.tencent.stat.NetworkMonitor: int d
+com.tencent.stat.NetworkMonitor: java.lang.String e
+com.tencent.stat.NetworkMonitor: NetworkMonitor()
+com.tencent.stat.NetworkMonitor: long getMillisecondsConsume()
+com.tencent.stat.NetworkMonitor: void setMillisecondsConsume(long)
+com.tencent.stat.NetworkMonitor: int getStatusCode()
+com.tencent.stat.NetworkMonitor: void setStatusCode(int)
+com.tencent.stat.NetworkMonitor: java.lang.String getDomain()
+com.tencent.stat.NetworkMonitor: void setDomain(java.lang.String)
+com.tencent.stat.NetworkMonitor: int getPort()
+com.tencent.stat.NetworkMonitor: void setPort(int)
+com.tencent.stat.NetworkMonitor: java.lang.String getRemoteIp()
+com.tencent.stat.NetworkMonitor: void setRemoteIp(java.lang.String)
+com.tencent.stat.NetworkMonitor: org.json.JSONObject toJSONObject()
+com.tencent.stat.StatAppMonitor
+com.tencent.stat.StatAppMonitor: int SUCCESS_RESULT_TYPE
+com.tencent.stat.StatAppMonitor: int FAILURE_RESULT_TYPE
+com.tencent.stat.StatAppMonitor: int LOGIC_FAILURE_RESULT_TYPE
+com.tencent.stat.StatAppMonitor: java.lang.String a
+com.tencent.stat.StatAppMonitor: long b
+com.tencent.stat.StatAppMonitor: long c
+com.tencent.stat.StatAppMonitor: int d
+com.tencent.stat.StatAppMonitor: long e
+com.tencent.stat.StatAppMonitor: int f
+com.tencent.stat.StatAppMonitor: int g
+com.tencent.stat.StatAppMonitor: StatAppMonitor(java.lang.String)
+com.tencent.stat.StatAppMonitor: StatAppMonitor(java.lang.String,int,int,long,long,long,int)
+com.tencent.stat.StatAppMonitor: java.lang.String getInterfaceName()
+com.tencent.stat.StatAppMonitor: void setInterfaceName(java.lang.String)
+com.tencent.stat.StatAppMonitor: long getReqSize()
+com.tencent.stat.StatAppMonitor: void setReqSize(long)
+com.tencent.stat.StatAppMonitor: long getRespSize()
+com.tencent.stat.StatAppMonitor: void setRespSize(long)
+com.tencent.stat.StatAppMonitor: int getResultType()
+com.tencent.stat.StatAppMonitor: void setResultType(int)
+com.tencent.stat.StatAppMonitor: long getMillisecondsConsume()
+com.tencent.stat.StatAppMonitor: void setMillisecondsConsume(long)
+com.tencent.stat.StatAppMonitor: int getReturnCode()
+com.tencent.stat.StatAppMonitor: void setReturnCode(int)
+com.tencent.stat.StatAppMonitor: int getSampling()
+com.tencent.stat.StatAppMonitor: void setSampling(int)
+com.tencent.stat.StatAppMonitor: com.tencent.stat.StatAppMonitor clone()
+com.tencent.stat.StatAppMonitor: java.lang.Object clone()
+com.tencent.stat.StatConfig
+com.tencent.stat.StatConfig: com.tencent.stat.common.StatLogger e
+com.tencent.stat.StatConfig: com.tencent.stat.b a
+com.tencent.stat.StatConfig: com.tencent.stat.b b
+com.tencent.stat.StatConfig: com.tencent.stat.StatReportStrategy f
+com.tencent.stat.StatConfig: boolean g
+com.tencent.stat.StatConfig: int h
+com.tencent.stat.StatConfig: int i
+com.tencent.stat.StatConfig: int j
+com.tencent.stat.StatConfig: int k
+com.tencent.stat.StatConfig: int l
+com.tencent.stat.StatConfig: java.lang.String c
+com.tencent.stat.StatConfig: java.lang.String m
+com.tencent.stat.StatConfig: java.lang.String n
+com.tencent.stat.StatConfig: java.lang.String o
+com.tencent.stat.StatConfig: java.lang.String d
+com.tencent.stat.StatConfig: int p
+com.tencent.stat.StatConfig: int q
+com.tencent.stat.StatConfig: boolean r
+com.tencent.stat.StatConfig: long s
+com.tencent.stat.StatConfig: long t
+com.tencent.stat.StatConfig: boolean isAutoExceptionCaught
+com.tencent.stat.StatConfig: java.lang.String u
+com.tencent.stat.StatConfig: int v
+com.tencent.stat.StatConfig: int w
+com.tencent.stat.StatConfig: int x
+com.tencent.stat.StatConfig: int y
+com.tencent.stat.StatConfig: boolean z
+com.tencent.stat.StatConfig: int A
+com.tencent.stat.StatConfig: boolean B
+com.tencent.stat.StatConfig: java.lang.String C
+com.tencent.stat.StatConfig: StatConfig()
+com.tencent.stat.StatConfig: boolean a(int,int,int)
+com.tencent.stat.StatConfig: com.tencent.stat.StatReportStrategy getStatSendStrategy()
+com.tencent.stat.StatConfig: void setStatSendStrategy(com.tencent.stat.StatReportStrategy)
+com.tencent.stat.StatConfig: boolean isDebugEnable()
+com.tencent.stat.StatConfig: void setDebugEnable(boolean)
+com.tencent.stat.StatConfig: boolean isEnableStatService()
+com.tencent.stat.StatConfig: void setEnableStatService(boolean)
+com.tencent.stat.StatConfig: int getSessionTimoutMillis()
+com.tencent.stat.StatConfig: void setSessionTimoutMillis(int)
+com.tencent.stat.StatConfig: int getMaxBatchReportCount()
+com.tencent.stat.StatConfig: void setMaxBatchReportCount(int)
+com.tencent.stat.StatConfig: void setMaxSendRetryCount(int)
+com.tencent.stat.StatConfig: int getMaxSendRetryCount()
+com.tencent.stat.StatConfig: int a()
+com.tencent.stat.StatConfig: int getMaxStoreEventCount()
+com.tencent.stat.StatConfig: void setMaxStoreEventCount(int)
+com.tencent.stat.StatConfig: java.lang.String getCustomProperty(java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String a(java.lang.String,java.lang.String)
+com.tencent.stat.StatConfig: void a(org.json.JSONObject)
+com.tencent.stat.StatConfig: void a(com.tencent.stat.b,org.json.JSONObject)
+com.tencent.stat.StatConfig: void b(org.json.JSONObject)
+com.tencent.stat.StatConfig: void a(com.tencent.stat.b)
+com.tencent.stat.StatConfig: void c(org.json.JSONObject)
+com.tencent.stat.StatConfig: org.apache.http.HttpHost b()
+com.tencent.stat.StatConfig: void a(android.content.Context,java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String a(android.content.Context)
+com.tencent.stat.StatConfig: java.lang.String getAppKey(android.content.Context)
+com.tencent.stat.StatConfig: boolean a(java.lang.String)
+com.tencent.stat.StatConfig: void setAppKey(android.content.Context,java.lang.String)
+com.tencent.stat.StatConfig: void setAppKey(java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String getInstallChannel(android.content.Context)
+com.tencent.stat.StatConfig: void setInstallChannel(java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String getQQ()
+com.tencent.stat.StatConfig: void setQQ(android.content.Context,java.lang.String)
+com.tencent.stat.StatConfig: void setSendPeriodMinutes(int)
+com.tencent.stat.StatConfig: int getSendPeriodMinutes()
+com.tencent.stat.StatConfig: int getMaxParallelTimmingEvents()
+com.tencent.stat.StatConfig: void setMaxParallelTimmingEvents(int)
+com.tencent.stat.StatConfig: boolean isEnableSmartReporting()
+com.tencent.stat.StatConfig: void setEnableSmartReporting(boolean)
+com.tencent.stat.StatConfig: boolean isAutoExceptionCaught()
+com.tencent.stat.StatConfig: void setAutoExceptionCaught(boolean)
+com.tencent.stat.StatConfig: java.lang.String getStatReportUrl()
+com.tencent.stat.StatConfig: void setStatReportUrl(java.lang.String)
+com.tencent.stat.StatConfig: int getMaxSessionStatReportCount()
+com.tencent.stat.StatConfig: void setMaxSessionStatReportCount(int)
+com.tencent.stat.StatConfig: int getCurSessionStatReportCount()
+com.tencent.stat.StatConfig: void a(int)
+com.tencent.stat.StatConfig: void c()
+com.tencent.stat.StatConfig: int getMaxDaySessionNumbers()
+com.tencent.stat.StatConfig: void setMaxDaySessionNumbers(int)
+com.tencent.stat.StatConfig: void d()
+com.tencent.stat.StatConfig: void b(int)
+com.tencent.stat.StatConfig: int e()
+com.tencent.stat.StatConfig: int getMaxReportEventLength()
+com.tencent.stat.StatConfig: void setMaxReportEventLength(int)
+com.tencent.stat.StatConfig: boolean isEnableConcurrentProcess()
+com.tencent.stat.StatConfig: void setEnableConcurrentProcess(boolean)
+com.tencent.stat.StatConfig: java.lang.String getCustomUserId(android.content.Context)
+com.tencent.stat.StatConfig: void setCustomUserId(android.content.Context,java.lang.String)
+com.tencent.stat.StatConfig: void a(boolean)
+com.tencent.stat.StatConfig: void initNativeCrashReport(android.content.Context,java.lang.String)
+com.tencent.stat.StatConfig: java.lang.String getMid(android.content.Context)
+com.tencent.stat.StatConfig: com.tencent.stat.DeviceInfo getDeviceInfo(android.content.Context)
+com.tencent.stat.StatConfig: void <clinit>()
+com.tencent.stat.StatGameUser
+com.tencent.stat.StatGameUser: java.lang.String a
+com.tencent.stat.StatGameUser: java.lang.String b
+com.tencent.stat.StatGameUser: java.lang.String c
+com.tencent.stat.StatGameUser: StatGameUser()
+com.tencent.stat.StatGameUser: java.lang.String getWorldName()
+com.tencent.stat.StatGameUser: void setWorldName(java.lang.String)
+com.tencent.stat.StatGameUser: java.lang.String getAccount()
+com.tencent.stat.StatGameUser: void setAccount(java.lang.String)
+com.tencent.stat.StatGameUser: java.lang.String getLevel()
+com.tencent.stat.StatGameUser: void setLevel(java.lang.String)
+com.tencent.stat.StatGameUser: com.tencent.stat.StatGameUser clone()
+com.tencent.stat.StatGameUser: java.lang.Object clone()
+com.tencent.stat.StatMid
+com.tencent.stat.StatMid: com.tencent.stat.common.StatLogger a
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo b
+com.tencent.stat.StatMid: StatMid()
+com.tencent.stat.StatMid: java.lang.String getMid(android.content.Context)
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo getDeviceInfo(android.content.Context)
+com.tencent.stat.StatMid: void updateDeviceInfo(android.content.Context,java.lang.String)
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo a(com.tencent.stat.DeviceInfo,com.tencent.stat.DeviceInfo)
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo a(com.tencent.stat.DeviceInfo,com.tencent.stat.DeviceInfo,com.tencent.stat.DeviceInfo)
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo a(android.content.Context)
+com.tencent.stat.StatMid: com.tencent.stat.DeviceInfo a(java.lang.String)
+com.tencent.stat.StatMid: void <clinit>()
+com.tencent.stat.StatNativeCrashReport
+com.tencent.stat.StatNativeCrashReport: com.tencent.stat.common.StatLogger b
+com.tencent.stat.StatNativeCrashReport: com.tencent.stat.StatNativeCrashReport a
+com.tencent.stat.StatNativeCrashReport: boolean c
+com.tencent.stat.StatNativeCrashReport: java.lang.String PRE_TAG_TOMBSTONE_FNAME
+com.tencent.stat.StatNativeCrashReport: boolean d
+com.tencent.stat.StatNativeCrashReport: boolean e
+com.tencent.stat.StatNativeCrashReport: java.lang.String f
+com.tencent.stat.StatNativeCrashReport: StatNativeCrashReport()
+com.tencent.stat.StatNativeCrashReport: java.lang.String stringFromJNI()
+com.tencent.stat.StatNativeCrashReport: boolean initJNICrash(java.lang.String)
+com.tencent.stat.StatNativeCrashReport: void enableNativeCrashDebug(boolean)
+com.tencent.stat.StatNativeCrashReport: void enableNativeCrash(boolean)
+com.tencent.stat.StatNativeCrashReport: java.lang.String makeJniCrash()
+com.tencent.stat.StatNativeCrashReport: java.lang.String onNativeCrashHappened()
+com.tencent.stat.StatNativeCrashReport: void doNativeCrashTest()
+com.tencent.stat.StatNativeCrashReport: void setNativeCrashEnable(boolean)
+com.tencent.stat.StatNativeCrashReport: boolean isNativeCrashEnable()
+com.tencent.stat.StatNativeCrashReport: void setNativeCrashDebugEnable(boolean)
+com.tencent.stat.StatNativeCrashReport: boolean isNativeCrashDebugEnable()
+com.tencent.stat.StatNativeCrashReport: void initNativeCrash(android.content.Context,java.lang.String)
+com.tencent.stat.StatNativeCrashReport: java.lang.String getTombstonesDir(android.content.Context)
+com.tencent.stat.StatNativeCrashReport: java.lang.String a(java.io.File)
+com.tencent.stat.StatNativeCrashReport: java.util.LinkedHashSet a(android.content.Context)
+com.tencent.stat.StatNativeCrashReport: long b(java.io.File)
+com.tencent.stat.StatNativeCrashReport: void <clinit>()
+com.tencent.stat.StatReportStrategy
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy INSTANT
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy ONLY_WIFI
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy BATCH
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy APP_LAUNCH
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy DEVELOPER
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy PERIOD
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy ONLY_WIFI_NO_CACHE
+com.tencent.stat.StatReportStrategy: int a
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy[] b
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy[] values()
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy valueOf(java.lang.String)
+com.tencent.stat.StatReportStrategy: StatReportStrategy(java.lang.String,int,int)
+com.tencent.stat.StatReportStrategy: int a()
+com.tencent.stat.StatReportStrategy: com.tencent.stat.StatReportStrategy getStatReportStrategy(int)
+com.tencent.stat.StatReportStrategy: void <clinit>()
+com.tencent.stat.StatService
+com.tencent.stat.StatService: android.os.Handler a
+com.tencent.stat.StatService: java.util.Map b
+com.tencent.stat.StatService: long c
+com.tencent.stat.StatService: long d
+com.tencent.stat.StatService: int e
+com.tencent.stat.StatService: java.lang.String f
+com.tencent.stat.StatService: java.lang.String g
+com.tencent.stat.StatService: java.util.Map h
+com.tencent.stat.StatService: com.tencent.stat.common.StatLogger i
+com.tencent.stat.StatService: java.lang.Thread$UncaughtExceptionHandler j
+com.tencent.stat.StatService: boolean k
+com.tencent.stat.StatService: StatService()
+com.tencent.stat.StatService: void a(android.content.Context)
+com.tencent.stat.StatService: boolean b(android.content.Context)
+com.tencent.stat.StatService: boolean a(java.lang.String)
+com.tencent.stat.StatService: android.os.Handler c(android.content.Context)
+com.tencent.stat.StatService: org.json.JSONObject a()
+com.tencent.stat.StatService: void d(android.content.Context)
+com.tencent.stat.StatService: int a(android.content.Context,boolean)
+com.tencent.stat.StatService: void trackBeginPage(android.content.Context,java.lang.String)
+com.tencent.stat.StatService: void trackEndPage(android.content.Context,java.lang.String)
+com.tencent.stat.StatService: void startNewSession(android.content.Context)
+com.tencent.stat.StatService: void stopSession()
+com.tencent.stat.StatService: void onResume(android.content.Context)
+com.tencent.stat.StatService: void setEnvAttributes(android.content.Context,java.util.Map)
+com.tencent.stat.StatService: void reportQQ(android.content.Context,java.lang.String)
+com.tencent.stat.StatService: void reportGameUser(android.content.Context,com.tencent.stat.StatGameUser)
+com.tencent.stat.StatService: boolean startStatService(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.stat.StatService: void onPause(android.content.Context)
+com.tencent.stat.StatService: void reportError(android.content.Context,java.lang.String)
+com.tencent.stat.StatService: void a(android.content.Context,java.lang.Throwable)
+com.tencent.stat.StatService: void a(android.content.Context,java.util.Map)
+com.tencent.stat.StatService: void reportException(android.content.Context,java.lang.Throwable)
+com.tencent.stat.StatService: void e(android.content.Context)
+com.tencent.stat.StatService: void trackCustomEvent(android.content.Context,java.lang.String,java.lang.String[])
+com.tencent.stat.StatService: void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+com.tencent.stat.StatService: void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+com.tencent.stat.StatService: void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+com.tencent.stat.StatService: void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+com.tencent.stat.StatService: void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+com.tencent.stat.StatService: void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor)
+com.tencent.stat.StatService: void commitEvents(android.content.Context,int)
+com.tencent.stat.StatService: void testSpeed(android.content.Context)
+com.tencent.stat.StatService: void testSpeed(android.content.Context,java.util.Map)
+com.tencent.stat.StatService: com.tencent.stat.common.StatLogger b()
+com.tencent.stat.StatService: java.lang.Thread$UncaughtExceptionHandler c()
+com.tencent.stat.StatService: void <clinit>()
+com.tencent.stat.a
+com.tencent.stat.a: com.tencent.stat.common.StatLogger a
+com.tencent.stat.a: com.tencent.stat.a b
+com.tencent.stat.a: boolean c
+com.tencent.stat.a: boolean d
+com.tencent.stat.a: boolean e
+com.tencent.stat.a: android.content.Context f
+com.tencent.stat.a: a(android.content.Context)
+com.tencent.stat.a: com.tencent.stat.a a(android.content.Context)
+com.tencent.stat.a: boolean b(android.content.Context)
+com.tencent.stat.a: boolean c(android.content.Context)
+com.tencent.stat.a: boolean d(android.content.Context)
+com.tencent.stat.a: boolean a(java.lang.String,java.lang.String)
+com.tencent.stat.a: java.lang.String b(java.lang.String,java.lang.String)
+com.tencent.stat.a: boolean c(java.lang.String,java.lang.String)
+com.tencent.stat.a: java.lang.String d(java.lang.String,java.lang.String)
+com.tencent.stat.a: boolean e(java.lang.String,java.lang.String)
+com.tencent.stat.a: java.lang.String f(java.lang.String,java.lang.String)
+com.tencent.stat.a: void <clinit>()
+com.tencent.stat.a.a
+com.tencent.stat.a.a: java.util.Map a
+com.tencent.stat.a.a: a(android.content.Context,int,java.util.Map)
+com.tencent.stat.a.a: com.tencent.stat.a.f a()
+com.tencent.stat.a.a: boolean a(org.json.JSONObject)
+com.tencent.stat.a.b
+com.tencent.stat.a.b: com.tencent.stat.a.c a
+com.tencent.stat.a.b: long l
+com.tencent.stat.a.b: void a(long)
+com.tencent.stat.a.b: void a(java.lang.String[])
+com.tencent.stat.a.b: void a(java.util.Properties)
+com.tencent.stat.a.b: b(android.content.Context,int,java.lang.String)
+com.tencent.stat.a.b: com.tencent.stat.a.f a()
+com.tencent.stat.a.b: boolean a(org.json.JSONObject)
+com.tencent.stat.a.c
+com.tencent.stat.a.c: java.lang.String a
+com.tencent.stat.a.c: java.lang.String[] b
+com.tencent.stat.a.c: java.util.Properties c
+com.tencent.stat.a.c: c(java.lang.String,java.lang.String[],java.util.Properties)
+com.tencent.stat.a.c: c()
+com.tencent.stat.a.c: java.lang.String toString()
+com.tencent.stat.a.c: int hashCode()
+com.tencent.stat.a.c: boolean equals(java.lang.Object)
+com.tencent.stat.a.d
+com.tencent.stat.a.d: java.lang.String a
+com.tencent.stat.a.d: int l
+com.tencent.stat.a.d: int m
+com.tencent.stat.a.d: d(android.content.Context,int,int,java.lang.Throwable)
+com.tencent.stat.a.d: d(android.content.Context,int,java.lang.String,int,int)
+com.tencent.stat.a.d: void a(long)
+com.tencent.stat.a.d: com.tencent.stat.a.f a()
+com.tencent.stat.a.d: boolean a(org.json.JSONObject)
+com.tencent.stat.a.e
+com.tencent.stat.a.e: java.lang.String b
+com.tencent.stat.a.e: long c
+com.tencent.stat.a.e: int d
+com.tencent.stat.a.e: com.tencent.stat.DeviceInfo e
+com.tencent.stat.a.e: int f
+com.tencent.stat.a.e: java.lang.String g
+com.tencent.stat.a.e: java.lang.String h
+com.tencent.stat.a.e: java.lang.String i
+com.tencent.stat.a.e: java.lang.String j
+com.tencent.stat.a.e: boolean a
+com.tencent.stat.a.e: android.content.Context k
+com.tencent.stat.a.e: long b()
+com.tencent.stat.a.e: e(android.content.Context,int)
+com.tencent.stat.a.e: android.content.Context c()
+com.tencent.stat.a.e: com.tencent.stat.a.f a()
+com.tencent.stat.a.e: boolean a(org.json.JSONObject)
+com.tencent.stat.a.e: boolean b(org.json.JSONObject)
+com.tencent.stat.a.e: java.lang.String d()
+com.tencent.stat.a.e: void <clinit>()
+com.tencent.stat.a.f
+com.tencent.stat.a.f: com.tencent.stat.a.f a
+com.tencent.stat.a.f: com.tencent.stat.a.f b
+com.tencent.stat.a.f: com.tencent.stat.a.f c
+com.tencent.stat.a.f: com.tencent.stat.a.f d
+com.tencent.stat.a.f: com.tencent.stat.a.f e
+com.tencent.stat.a.f: com.tencent.stat.a.f f
+com.tencent.stat.a.f: com.tencent.stat.a.f g
+com.tencent.stat.a.f: com.tencent.stat.a.f h
+com.tencent.stat.a.f: int i
+com.tencent.stat.a.f: com.tencent.stat.a.f[] j
+com.tencent.stat.a.f: f(java.lang.String,int,int)
+com.tencent.stat.a.f: int a()
+com.tencent.stat.a.f: void <clinit>()
+com.tencent.stat.a.g
+com.tencent.stat.a.g: com.tencent.stat.StatGameUser a
+com.tencent.stat.a.g: g(android.content.Context,int,com.tencent.stat.StatGameUser)
+com.tencent.stat.a.g: com.tencent.stat.a.f a()
+com.tencent.stat.a.g: boolean a(org.json.JSONObject)
+com.tencent.stat.a.h
+com.tencent.stat.a.h: com.tencent.stat.StatAppMonitor a
+com.tencent.stat.a.h: java.lang.String l
+com.tencent.stat.a.h: java.lang.String m
+com.tencent.stat.a.h: h(android.content.Context,int,com.tencent.stat.StatAppMonitor)
+com.tencent.stat.a.h: com.tencent.stat.a.f a()
+com.tencent.stat.a.h: boolean a(org.json.JSONObject)
+com.tencent.stat.a.h: void <clinit>()
+com.tencent.stat.a.i
+com.tencent.stat.a.i: java.lang.String a
+com.tencent.stat.a.i: java.lang.String l
+com.tencent.stat.a.i: java.lang.String m
+com.tencent.stat.a.i: void a(java.lang.String)
+com.tencent.stat.a.i: i(android.content.Context,int)
+com.tencent.stat.a.i: com.tencent.stat.a.f a()
+com.tencent.stat.a.i: boolean a(org.json.JSONObject)
+com.tencent.stat.a.i: void <clinit>()
+com.tencent.stat.a.j
+com.tencent.stat.a.j: java.lang.Long a
+com.tencent.stat.a.j: java.lang.String l
+com.tencent.stat.a.j: java.lang.String m
+com.tencent.stat.a.j: j(android.content.Context,java.lang.String,java.lang.String,int,java.lang.Long)
+com.tencent.stat.a.j: com.tencent.stat.a.f a()
+com.tencent.stat.a.j: boolean a(org.json.JSONObject)
+com.tencent.stat.a.k
+com.tencent.stat.a.k: com.tencent.stat.common.a a
+com.tencent.stat.a.k: org.json.JSONObject l
+com.tencent.stat.a.k: k(android.content.Context,int,org.json.JSONObject)
+com.tencent.stat.a.k: com.tencent.stat.a.f a()
+com.tencent.stat.a.k: boolean a(org.json.JSONObject)
+com.tencent.stat.common.StatConstants
+com.tencent.stat.common.StatConstants: java.lang.String VERSION
+com.tencent.stat.common.StatConstants: java.lang.String MTA_SERVER
+com.tencent.stat.common.StatConstants: java.lang.String MTA_STAT_URL
+com.tencent.stat.common.StatConstants: java.lang.String MTA_COOPERATION_TAG
+com.tencent.stat.common.StatConstants: int STAT_DB_VERSION
+com.tencent.stat.common.StatConstants: int SDK_ONLINE_CONFIG_TYPE
+com.tencent.stat.common.StatConstants: int USER_ONLINE_CONFIG_TYPE
+com.tencent.stat.common.StatConstants: java.lang.String a
+com.tencent.stat.common.StatConstants: StatConstants()
+com.tencent.stat.common.StatConstants: void <clinit>()
+com.tencent.stat.common.StatLogger
+com.tencent.stat.common.StatLogger: java.lang.String a
+com.tencent.stat.common.StatLogger: boolean b
+com.tencent.stat.common.StatLogger: int c
+com.tencent.stat.common.StatLogger: boolean isDebugEnable()
+com.tencent.stat.common.StatLogger: void setDebugEnable(boolean)
+com.tencent.stat.common.StatLogger: int getLogLevel()
+com.tencent.stat.common.StatLogger: void setLogLevel(int)
+com.tencent.stat.common.StatLogger: StatLogger()
+com.tencent.stat.common.StatLogger: StatLogger(java.lang.String)
+com.tencent.stat.common.StatLogger: void setTag(java.lang.String)
+com.tencent.stat.common.StatLogger: java.lang.String a()
+com.tencent.stat.common.StatLogger: void info(java.lang.Object)
+com.tencent.stat.common.StatLogger: void i(java.lang.Object)
+com.tencent.stat.common.StatLogger: void verbose(java.lang.Object)
+com.tencent.stat.common.StatLogger: void v(java.lang.Object)
+com.tencent.stat.common.StatLogger: void warn(java.lang.Object)
+com.tencent.stat.common.StatLogger: void w(java.lang.Object)
+com.tencent.stat.common.StatLogger: void error(java.lang.Object)
+com.tencent.stat.common.StatLogger: void error(java.lang.Exception)
+com.tencent.stat.common.StatLogger: void e(java.lang.Object)
+com.tencent.stat.common.StatLogger: void e(java.lang.Exception)
+com.tencent.stat.common.StatLogger: void debug(java.lang.Object)
+com.tencent.stat.common.StatLogger: void d(java.lang.Object)
+com.tencent.stat.common.a
+com.tencent.stat.common.a: com.tencent.stat.common.c a
+com.tencent.stat.common.a: com.tencent.stat.common.StatLogger d
+com.tencent.stat.common.a: java.lang.Integer b
+com.tencent.stat.common.a: java.lang.String c
+com.tencent.stat.common.a: org.json.JSONObject e
+com.tencent.stat.common.a: void a(android.content.Context,java.util.Map)
+com.tencent.stat.common.a: com.tencent.stat.common.c a(android.content.Context)
+com.tencent.stat.common.a: a(android.content.Context)
+com.tencent.stat.common.a: void a(org.json.JSONObject)
+com.tencent.stat.common.a: void <clinit>()
+com.tencent.stat.common.d
+com.tencent.stat.common.d: java.util.List a(java.io.File)
+com.tencent.stat.common.d: java.io.File a(java.lang.String)
+com.tencent.stat.common.e
+com.tencent.stat.common.e: byte[] a
+com.tencent.stat.common.e: byte[] a(byte[])
+com.tencent.stat.common.e: byte[] b(byte[])
+com.tencent.stat.common.e: byte[] a(byte[],byte[])
+com.tencent.stat.common.e: byte[] b(byte[],byte[])
+com.tencent.stat.common.e: void <clinit>()
+com.tencent.stat.common.f
+com.tencent.stat.common.f: long a
+com.tencent.stat.common.f: long a(android.content.Context,java.lang.String)
+com.tencent.stat.common.f: void a(android.content.Context,java.lang.String,long)
+com.tencent.stat.common.f: boolean a(android.content.Context)
+com.tencent.stat.common.f: void b(android.content.Context)
+com.tencent.stat.common.f: void <clinit>()
+com.tencent.stat.common.g
+com.tencent.stat.common.g: boolean a
+com.tencent.stat.common.g: byte[] a(byte[],int)
+com.tencent.stat.common.g: byte[] a(byte[],int,int,int)
+com.tencent.stat.common.g: byte[] b(byte[],int)
+com.tencent.stat.common.g: byte[] b(byte[],int,int,int)
+com.tencent.stat.common.g: g()
+com.tencent.stat.common.g: void <clinit>()
+com.tencent.stat.common.k
+com.tencent.stat.common.k: java.lang.String a
+com.tencent.stat.common.k: java.lang.String b
+com.tencent.stat.common.k: java.lang.String c
+com.tencent.stat.common.k: java.lang.String d
+com.tencent.stat.common.k: java.util.Random e
+com.tencent.stat.common.k: com.tencent.stat.common.StatLogger f
+com.tencent.stat.common.k: java.lang.String g
+com.tencent.stat.common.k: com.tencent.stat.common.l h
+com.tencent.stat.common.k: com.tencent.stat.common.n i
+com.tencent.stat.common.k: java.lang.String j
+com.tencent.stat.common.k: int k
+com.tencent.stat.common.k: java.util.Random h()
+com.tencent.stat.common.k: int a()
+com.tencent.stat.common.k: byte[] a(byte[])
+com.tencent.stat.common.k: java.lang.String a(java.lang.String)
+com.tencent.stat.common.k: org.apache.http.HttpHost a(android.content.Context)
+com.tencent.stat.common.k: java.lang.String b(android.content.Context)
+com.tencent.stat.common.k: java.lang.String c(android.content.Context)
+com.tencent.stat.common.k: android.util.DisplayMetrics d(android.content.Context)
+com.tencent.stat.common.k: boolean a(android.content.Context,java.lang.String)
+com.tencent.stat.common.k: boolean e(android.content.Context)
+com.tencent.stat.common.k: java.lang.String f(android.content.Context)
+com.tencent.stat.common.k: boolean g(android.content.Context)
+com.tencent.stat.common.k: boolean h(android.content.Context)
+com.tencent.stat.common.k: java.lang.String i(android.content.Context)
+com.tencent.stat.common.k: java.lang.String j(android.content.Context)
+com.tencent.stat.common.k: java.lang.String k(android.content.Context)
+com.tencent.stat.common.k: java.lang.String l(android.content.Context)
+com.tencent.stat.common.k: java.lang.String m(android.content.Context)
+com.tencent.stat.common.k: java.lang.String n(android.content.Context)
+com.tencent.stat.common.k: boolean o(android.content.Context)
+com.tencent.stat.common.k: java.lang.String p(android.content.Context)
+com.tencent.stat.common.k: java.lang.Integer q(android.content.Context)
+com.tencent.stat.common.k: java.lang.String r(android.content.Context)
+com.tencent.stat.common.k: void a(org.json.JSONObject,java.lang.String,java.lang.String)
+com.tencent.stat.common.k: int s(android.content.Context)
+com.tencent.stat.common.k: com.tencent.stat.common.StatLogger b()
+com.tencent.stat.common.k: long c()
+com.tencent.stat.common.k: java.lang.Long a(java.lang.String,java.lang.String,int,int,java.lang.Long)
+com.tencent.stat.common.k: long b(java.lang.String)
+com.tencent.stat.common.k: java.lang.String t(android.content.Context)
+com.tencent.stat.common.k: java.lang.String a(long)
+com.tencent.stat.common.k: java.lang.String c(java.lang.String)
+com.tencent.stat.common.k: int d()
+com.tencent.stat.common.k: java.lang.String d(java.lang.String)
+com.tencent.stat.common.k: java.lang.String u(android.content.Context)
+com.tencent.stat.common.k: java.lang.String b(android.content.Context,java.lang.String)
+com.tencent.stat.common.k: java.lang.String v(android.content.Context)
+com.tencent.stat.common.k: java.lang.Integer w(android.content.Context)
+com.tencent.stat.common.k: java.lang.String e()
+com.tencent.stat.common.k: long f()
+com.tencent.stat.common.k: java.lang.String x(android.content.Context)
+com.tencent.stat.common.k: long G(android.content.Context)
+com.tencent.stat.common.k: long i()
+com.tencent.stat.common.k: com.tencent.stat.common.l y(android.content.Context)
+com.tencent.stat.common.k: org.json.JSONObject z(android.content.Context)
+com.tencent.stat.common.k: java.lang.String A(android.content.Context)
+com.tencent.stat.common.k: android.net.wifi.WifiInfo B(android.content.Context)
+com.tencent.stat.common.k: java.lang.String C(android.content.Context)
+com.tencent.stat.common.k: java.lang.String D(android.content.Context)
+com.tencent.stat.common.k: int E(android.content.Context)
+com.tencent.stat.common.k: void F(android.content.Context)
+com.tencent.stat.common.k: com.tencent.stat.common.StatLogger g()
+com.tencent.stat.common.k: void <clinit>()
+com.tencent.stat.common.p
+com.tencent.stat.common.p: android.content.SharedPreferences a
+com.tencent.stat.common.p: android.content.SharedPreferences a(android.content.Context)
+com.tencent.stat.common.p: long a(android.content.Context,java.lang.String,long)
+com.tencent.stat.common.p: void b(android.content.Context,java.lang.String,long)
+com.tencent.stat.common.p: int a(android.content.Context,java.lang.String,int)
+com.tencent.stat.common.p: void b(android.content.Context,java.lang.String,int)
+com.tencent.stat.common.p: java.lang.String a(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.stat.common.p: void b(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.stat.common.p: void <clinit>()
+com.tencent.stat.n
+com.tencent.stat.n: com.tencent.stat.w d
+com.tencent.stat.n: android.os.Handler a
+com.tencent.stat.n: int b
+com.tencent.stat.n: com.tencent.stat.DeviceInfo c
+com.tencent.stat.n: com.tencent.stat.common.StatLogger e
+com.tencent.stat.n: com.tencent.stat.n f
+com.tencent.stat.n: java.util.HashMap g
+com.tencent.stat.n: int a()
+com.tencent.stat.n: n(android.content.Context)
+com.tencent.stat.n: void e()
+com.tencent.stat.n: com.tencent.stat.n a(android.content.Context)
+com.tencent.stat.n: com.tencent.stat.n b()
+com.tencent.stat.n: com.tencent.stat.DeviceInfo b(android.content.Context)
+com.tencent.stat.n: void b(java.util.List)
+com.tencent.stat.n: void b(java.util.List,int)
+com.tencent.stat.n: void a(java.util.List,int)
+com.tencent.stat.n: void a(java.util.List)
+com.tencent.stat.n: void c(java.util.List,int)
+com.tencent.stat.n: void b(com.tencent.stat.a.e,com.tencent.stat.c)
+com.tencent.stat.n: void a(com.tencent.stat.a.e,com.tencent.stat.c)
+com.tencent.stat.n: void b(com.tencent.stat.b)
+com.tencent.stat.n: void a(com.tencent.stat.b)
+com.tencent.stat.n: void c()
+com.tencent.stat.n: void b(int)
+com.tencent.stat.n: void a(int)
+com.tencent.stat.n: void f()
+com.tencent.stat.n: void a(com.tencent.stat.n)
+com.tencent.stat.n: void a(com.tencent.stat.n,java.util.List,int)
+com.tencent.stat.n: void a(com.tencent.stat.n,java.util.List)
+com.tencent.stat.n: void a(com.tencent.stat.n,com.tencent.stat.a.e,com.tencent.stat.c)
+com.tencent.stat.n: void a(com.tencent.stat.n,com.tencent.stat.b)
+com.tencent.stat.n: com.tencent.stat.w b(com.tencent.stat.n)
+com.tencent.stat.n: com.tencent.stat.common.StatLogger d()
+com.tencent.stat.n: void a(com.tencent.stat.n,int)
+com.tencent.stat.n: void <clinit>()
+com.tencent.tauth.AuthActivity
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_KEY
+com.tencent.tauth.AuthActivity: java.lang.String TAG
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_SHARE_TO_QQ
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_SHARE_TO_QZONE
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_ADD_TO_QQFAVORITES
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_SEND_TO_MY_COMPUTER
+com.tencent.tauth.AuthActivity: int mShareQzoneBackTime
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_SHARE_TO_TROOP_BAR
+com.tencent.tauth.AuthActivity: java.lang.String ACTION_SHARE_PRIZE
+com.tencent.tauth.AuthActivity: java.lang.String SHARE_PRIZE_ACTIVITY_ID
+com.tencent.tauth.AuthActivity: AuthActivity()
+com.tencent.tauth.AuthActivity: void onCreate(android.os.Bundle)
+com.tencent.tauth.AuthActivity: void handleActionUri(android.net.Uri)
+com.tencent.tauth.AuthActivity: void execAuthCallback(android.os.Bundle,java.lang.String)
+com.tencent.tauth.AuthActivity: void <clinit>()
+com.tencent.tauth.IRequestListener
+com.tencent.tauth.IRequestListener: void onComplete(org.json.JSONObject)
+com.tencent.tauth.IRequestListener: void onIOException(java.io.IOException)
+com.tencent.tauth.IRequestListener: void onMalformedURLException(java.net.MalformedURLException)
+com.tencent.tauth.IRequestListener: void onJSONException(org.json.JSONException)
+com.tencent.tauth.IRequestListener: void onConnectTimeoutException(org.apache.http.conn.ConnectTimeoutException)
+com.tencent.tauth.IRequestListener: void onSocketTimeoutException(java.net.SocketTimeoutException)
+com.tencent.tauth.IRequestListener: void onNetworkUnavailableException(com.tencent.open.utils.HttpUtils$NetworkUnavailableException)
+com.tencent.tauth.IRequestListener: void onHttpStatusException(com.tencent.open.utils.HttpUtils$HttpStatusException)
+com.tencent.tauth.IRequestListener: void onUnknowException(java.lang.Exception)
+com.tencent.tauth.IUiListener
+com.tencent.tauth.IUiListener: void onComplete(java.lang.Object)
+com.tencent.tauth.IUiListener: void onError(com.tencent.tauth.UiError)
+com.tencent.tauth.IUiListener: void onCancel()
+com.tencent.tauth.Tencent
+com.tencent.tauth.Tencent: com.tencent.connect.auth.QQAuth mQQAuth
+com.tencent.tauth.Tencent: com.tencent.tauth.Tencent sInstance
+com.tencent.tauth.Tencent: Tencent(java.lang.String,android.content.Context)
+com.tencent.tauth.Tencent: com.tencent.tauth.Tencent createInstance(java.lang.String,android.content.Context)
+com.tencent.tauth.Tencent: boolean checkManifestConfig(android.content.Context,java.lang.String)
+com.tencent.tauth.Tencent: int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.tauth.Tencent: void logout(android.content.Context)
+com.tencent.tauth.Tencent: int reAuth(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void reportDAU()
+com.tencent.tauth.Tencent: void checkLogin(com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: int ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void requestAsync(java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IRequestListener,java.lang.Object)
+com.tencent.tauth.Tencent: org.json.JSONObject request(java.lang.String,android.os.Bundle,java.lang.String)
+com.tencent.tauth.Tencent: void shareToQQ(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void shareToQzone(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void releaseResource()
+com.tencent.tauth.Tencent: boolean onActivityResult(int,int,android.content.Intent)
+com.tencent.tauth.Tencent: boolean isSessionValid()
+com.tencent.tauth.Tencent: java.lang.String getAppId()
+com.tencent.tauth.Tencent: java.lang.String getAccessToken()
+com.tencent.tauth.Tencent: long getExpiresIn()
+com.tencent.tauth.Tencent: java.lang.String getOpenId()
+com.tencent.tauth.Tencent: void handleLoginData(android.content.Intent,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void handleResultData(android.content.Intent,com.tencent.tauth.IUiListener)
+com.tencent.tauth.Tencent: void setAccessToken(java.lang.String,java.lang.String)
+com.tencent.tauth.Tencent: void setOpenId(java.lang.String)
+com.tencent.tauth.Tencent: boolean isReady()
+com.tencent.tauth.Tencent: com.tencent.connect.auth.QQToken getQQToken()
+com.tencent.tauth.Tencent: boolean isSupportSSOLogin(android.app.Activity)
+com.tencent.tauth.UiError
+com.tencent.tauth.UiError: int errorCode
+com.tencent.tauth.UiError: java.lang.String errorMessage
+com.tencent.tauth.UiError: java.lang.String errorDetail
+com.tencent.tauth.UiError: UiError(int,java.lang.String,java.lang.String)
+com.umeng.socialize.bean.BaseMsg
+com.umeng.socialize.bean.BaseMsg: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.bean.CallbackConfig$ICallbackListener
+com.umeng.socialize.bean.Gender: com.umeng.socialize.bean.Gender[] values()
+com.umeng.socialize.bean.Gender: com.umeng.socialize.bean.Gender valueOf(java.lang.String)
+com.umeng.socialize.bean.LIKESTATUS: com.umeng.socialize.bean.LIKESTATUS[] values()
+com.umeng.socialize.bean.LIKESTATUS: com.umeng.socialize.bean.LIKESTATUS valueOf(java.lang.String)
+com.umeng.socialize.bean.RequestType: com.umeng.socialize.bean.RequestType[] values()
+com.umeng.socialize.bean.RequestType: com.umeng.socialize.bean.RequestType valueOf(java.lang.String)
+com.umeng.socialize.bean.SHARE_MEDIA: com.umeng.socialize.bean.SHARE_MEDIA[] values()
+com.umeng.socialize.bean.SHARE_MEDIA: com.umeng.socialize.bean.SHARE_MEDIA valueOf(java.lang.String)
+com.umeng.socialize.bean.ShareType: com.umeng.socialize.bean.ShareType[] values()
+com.umeng.socialize.bean.ShareType: com.umeng.socialize.bean.ShareType valueOf(java.lang.String)
+com.umeng.socialize.bean.UMComment
+com.umeng.socialize.bean.UMComment: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.bean.UMLocation
+com.umeng.socialize.bean.UMLocation: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.bean.UMShareMsg
+com.umeng.socialize.bean.UMShareMsg: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.common.ResContainer$ResType: com.umeng.socialize.common.ResContainer$ResType[] values()
+com.umeng.socialize.common.ResContainer$ResType: com.umeng.socialize.common.ResContainer$ResType valueOf(java.lang.String)
+com.umeng.socialize.common.SocialResHelper$BindDrawableListener
+com.umeng.socialize.common.SocialResHelper$FetchLocale: com.umeng.socialize.common.SocialResHelper$FetchLocale[] values()
+com.umeng.socialize.common.SocialResHelper$FetchLocale: com.umeng.socialize.common.SocialResHelper$FetchLocale valueOf(java.lang.String)
+com.umeng.socialize.common.SocialResHelper$LoadMode: com.umeng.socialize.common.SocialResHelper$LoadMode[] values()
+com.umeng.socialize.common.SocialResHelper$LoadMode: com.umeng.socialize.common.SocialResHelper$LoadMode valueOf(java.lang.String)
+com.umeng.socialize.controller.AuthService
+com.umeng.socialize.controller.CommentService
+com.umeng.socialize.controller.LikeService
+com.umeng.socialize.controller.ShareService
+com.umeng.socialize.controller.UMSocialService
+com.umeng.socialize.controller.UserCenterService
+com.umeng.socialize.controller.c$a: com.umeng.socialize.controller.c$a[] values()
+com.umeng.socialize.controller.c$a: com.umeng.socialize.controller.c$a valueOf(java.lang.String)
+com.umeng.socialize.controller.listener.SocializeListeners$FetchCommetsListener
+com.umeng.socialize.controller.listener.SocializeListeners$FetchFriendsListener
+com.umeng.socialize.controller.listener.SocializeListeners$FetchUserListener
+com.umeng.socialize.controller.listener.SocializeListeners$MulStatusListener
+com.umeng.socialize.controller.listener.SocializeListeners$OnSnsPlatformClickListener
+com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener
+com.umeng.socialize.controller.listener.SocializeListeners$SocializeClientListener
+com.umeng.socialize.controller.listener.SocializeListeners$UMAuthListener
+com.umeng.socialize.controller.listener.SocializeListeners$UMDataListener
+com.umeng.socialize.controller.listener.SocializeListeners$UMShareBoardListener
+com.umeng.socialize.location.SocializeLocationProvider
+com.umeng.socialize.media.BaseMediaObject
+com.umeng.socialize.media.BaseShareContent
+com.umeng.socialize.media.DoubanShareContent
+com.umeng.socialize.media.DoubanShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.GooglePlusShareContent
+com.umeng.socialize.media.GooglePlusShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.QQShareContent
+com.umeng.socialize.media.QQShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.QZoneShareContent
+com.umeng.socialize.media.QZoneShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.RenrenShareContent
+com.umeng.socialize.media.RenrenShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.SimpleShareContent
+com.umeng.socialize.media.SinaShareContent
+com.umeng.socialize.media.SinaShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.SmsShareContent
+com.umeng.socialize.media.SmsShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.TencentWbShareContent
+com.umeng.socialize.media.TencentWbShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.TwitterShareContent
+com.umeng.socialize.media.TwitterShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.UMEmoji
+com.umeng.socialize.media.UMEmoji: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.UMImage
+com.umeng.socialize.media.UMImage: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.UMVideo
+com.umeng.socialize.media.UMVideo: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.media.UMWebPage
+com.umeng.socialize.media.UMediaObject
+com.umeng.socialize.media.UMediaObject$FetchMediaDataListener
+com.umeng.socialize.media.UMediaObject$MediaType: com.umeng.socialize.media.UMediaObject$MediaType[] values()
+com.umeng.socialize.media.UMediaObject$MediaType: com.umeng.socialize.media.UMediaObject$MediaType valueOf(java.lang.String)
+com.umeng.socialize.media.UMusic
+com.umeng.socialize.media.UMusic: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.net.base.SocializeRequest$FILE_TYPE: com.umeng.socialize.net.base.SocializeRequest$FILE_TYPE[] values()
+com.umeng.socialize.net.base.SocializeRequest$FILE_TYPE: com.umeng.socialize.net.base.SocializeRequest$FILE_TYPE valueOf(java.lang.String)
+com.umeng.socialize.net.base.SocializeRequest$RequestMethod: com.umeng.socialize.net.base.SocializeRequest$RequestMethod[] values()
+com.umeng.socialize.net.base.SocializeRequest$RequestMethod: com.umeng.socialize.net.base.SocializeRequest$RequestMethod valueOf(java.lang.String)
+com.umeng.socialize.net.utils.UResponse$STATUS: com.umeng.socialize.net.utils.UResponse$STATUS[] values()
+com.umeng.socialize.net.utils.UResponse$STATUS: com.umeng.socialize.net.utils.UResponse$STATUS valueOf(java.lang.String)
+com.umeng.socialize.sso.UMTencentSsoHandler$ObtainAppIdListener
+com.umeng.socialize.sso.UMTencentSsoHandler$ObtainImageUrlListener
+com.umeng.socialize.utils.ResUtil$BindDrawableListener
+com.umeng.socialize.utils.ResUtil$BindMode: com.umeng.socialize.utils.ResUtil$BindMode[] values()
+com.umeng.socialize.utils.ResUtil$BindMode: com.umeng.socialize.utils.ResUtil$BindMode valueOf(java.lang.String)
+com.umeng.socialize.view.ShareActivity
+com.umeng.socialize.view.ShareActivity: ShareActivity()
+com.umeng.socialize.view.abs.SocialPopupDialog$SwitchListener
+com.umeng.socialize.view.abs.b
+com.umeng.socialize.view.abs.b: b(android.content.Context,android.util.AttributeSet,int)
+com.umeng.socialize.view.abs.b: b(android.content.Context,android.util.AttributeSet)
+com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout
+com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout: KeyboardListenRelativeLayout(android.content.Context)
+com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout: KeyboardListenRelativeLayout(android.content.Context,android.util.AttributeSet)
+com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout: KeyboardListenRelativeLayout(android.content.Context,android.util.AttributeSet,int)
+com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout$IOnKeyboardStateChangedListener
+com.umeng.socialize.view.wigets.b
+com.umeng.socialize.view.wigets.b: b(android.content.Context,android.util.AttributeSet,int)
+com.umeng.socialize.view.wigets.b: b(android.content.Context,android.util.AttributeSet)
+com.umeng.socialize.weixin.media.CircleShareContent
+com.umeng.socialize.weixin.media.CircleShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.weixin.media.WeiXinShareContent
+com.umeng.socialize.weixin.media.WeiXinShareContent: android.os.Parcelable$Creator CREATOR
+com.umeng.socialize.weixin.view.WXCallbackActivity
+com.umeng.socialize.weixin.view.WXCallbackActivity: WXCallbackActivity()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] values()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String)

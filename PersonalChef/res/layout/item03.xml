@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/guide3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item3_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/big_size" />
+    
+    <Button
+        android:layout_width="@dimen/layx200"
+        android:layout_height="wrap_content"
+	android:text="立即体验"
+	android:textSize="@dimen/layx24"
+	android:onClick="toHome"
+	android:layout_gravity="bottom|center_horizontal"
+	android:layout_marginBottom="@dimen/layx100"
+        />
+
+</FrameLayout>

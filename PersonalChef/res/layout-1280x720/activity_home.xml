@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height" >
+        
+        <TextView
+            android:id="@+id/tv_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="深圳"
+            android:clickable="true"
+            android:textColor="@color/orange"
+            android:textSize="18sp" />
+        
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/index_icon_targetdown_grey" 
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@id/tv_addr"
+	    android:layout_marginLeft="@dimen/layx5"
+	    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/big_size" />
+	<!-- 
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="客服"
+            android:textColor="@color/orange"
+            android:textSize="18sp" />
+    	 -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/layx7"
+        android:layout_marginLeft="@dimen/layx7"
+        android:layout_marginRight="@dimen/layx7"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+	    <!-- 
+            <FrameLayout
+                android:id="@+id/ll_adv"
+                android:layout_width="match_parent"
+                android:layout_height="140dp" >
+
+                <ViewFlipper
+                    android:id="@+id/news_body_veiw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+ 
+		<com.goodfriends.personalchef.view.SlideShowView
+                android:id="@+id/slideshowView"
+                android:layout_width="335dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                />
+
+                <LinearLayout
+                    android:id="@+id/ll_texts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/advs_gallery_mark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6dp"
+                        android:background="@null"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+            </FrameLayout>
+	 -->
+ 
+                <FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/layy160"
+		    android:layout_marginBottom="0.0dip">
+		    <com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager
+				android:id="@+id/viewpager"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				 />
+		    <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|center_vertical"
+			android:gravity="center"
+			android:orientation="horizontal" >
+			<RadioGroup
+				android:id="@+id/advs_gallery_mark1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:background="@null"
+				android:orientation="horizontal" />
+		    </LinearLayout>    
+		</FrameLayout>
+            
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/home_layout_caixin" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layx60"
+                android:layout_marginLeft="@dimen/layx7"
+                android:layout_marginRight="@dimen/layx7" >
+		    <!-- 
+                    android:textColor="#494C51"
+                 -->
+                <TextView
+                    android:id="@+id/tuijianchushi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/home_frontred"
+                    android:gravity="center"
+                    android:text="@string/tuijian_chushi"
+                    android:textColor="@drawable/textview_select"
+                    android:onClick="toChef"
+                    android:textSize="@dimen/layx24"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@id/home_chushi_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:gravity="center"
+                    android:text="@string/more"
+                    android:textSize="@dimen/layx21" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layx170"
+                android:orientation="horizontal" >
+	    <HorizontalScrollView
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/layx170"
+	        android:layout_gravity="center_vertical"
+	        android:background="#fff"
+	        android:scrollbarThumbHorizontal="@color/orange"
+	        android:scrollbarSize="@dimen/layx5"
+	        android:layout_margin="0.0dip">
+	        <LinearLayout
+	            android:id="@+id/id_gallery"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:orientation="horizontal" >			
+                <ImageView
+                    android:id="@id/home_chushi_iv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+                
+                
+		<ImageView
+                    android:id="@+id/home_chushi_iv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+                
+		<ImageView
+                    android:id="@+id/home_chushi_iv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <ImageView
+                    android:id="@+id/home_chushi_iv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+                </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+ 	
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/layx10"
+		android:layout_margin="0.0dip"                 
+                 >
+
+                <ImageView
+                    android:id="@+id/home_huodong1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:src="@drawable/hometest5" />
+
+                <ImageView
+                    android:id="@+id/home_huodong2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/hometest6" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tuijiancaipin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/home_frontred"
+                    android:gravity="center"
+                    android:text="@string/tuijian_caipin"
+                    android:textColor="#494C51"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@id/home_caipin_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:gravity="center"
+                    android:text="@string/more"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@id/home_caipin_iv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="2"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nopic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@id/home_caipin_iv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:contentDescription="@null"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/nopic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@id/home_caipin_iv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:contentDescription="@null"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/nopic" />
+
+                        <ImageView
+                            android:id="@id/home_caipin_iv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@null"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/nopic" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
