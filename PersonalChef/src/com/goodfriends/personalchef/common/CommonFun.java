@@ -28,27 +28,27 @@ public class CommonFun {
 	/**
 	 * 首页广告接口url
 	 */
-	private static final String advurl =  CommonUrl.SERVER + "common/queryAds";
+	public static final String advurl =  CommonUrl.SERVER + "common/queryAds";
 
 	/**
 	 * 首页菜品接口url
 	 */
-	private static final String dishurl = CommonUrl.SERVER + "dish/queryRecommendDishes";
+	public static final String dishurl = CommonUrl.SERVER + "dish/queryRecommendDishes";
 
 	/**
 	 * 分类菜系列表url
 	 */
-	private static final String caixiurl = CommonUrl.SERVER + "common/queryAllCookStyle";
+	public static final String caixiurl = CommonUrl.SERVER + "common/queryAllCookStyle";
 
 	/**
 	 * 分类厨师籍贯列表url
 	 */
-	private static final String jiguanurl = CommonUrl.SERVER + "common/queryNativePlace";
+	public static final String jiguanurl = CommonUrl.SERVER + "common/queryNativePlace";
 	
 	/**
 	 * 获取食材列表
 	 */
-	private static final String foodsurl = CommonUrl.SERVER + "common/queryCommonFood";
+	public static final String foodsurl = CommonUrl.SERVER + "common/queryCommonFood";
 	/**
 	 * 分类菜品列表url
 	 */

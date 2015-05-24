@@ -12,6 +12,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Window;
 import android.widget.TextView;
@@ -25,6 +26,8 @@ import com.baidu.location.LocationClientOption.LocationMode;
 import com.goodfriends.personalchef.application.SysApplication;
 import com.goodfriends.personalchef.bean.Caixi;
 import com.goodfriends.personalchef.bean.Loca;
+import com.goodfriends.personalchef.biz.VolleyImage;
+import com.goodfriends.personalchef.common.App;
 import com.goodfriends.personalchef.common.Common;
 import com.goodfriends.personalchef.common.CommonFun;
 import com.goodfriends.personalchef.common.UIHelper;
@@ -45,6 +48,7 @@ public class LoadingActivity extends Activity {
 
 	public LocationClient mLocationClient = null;
 
+	public VolleyImage volleyImage;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -54,6 +58,14 @@ public class LoadingActivity extends Activity {
 		new Thread(getDistrict).start();
 		SysApplication.getInstance().addActivity(this);
 		setContentView(R.layout.activity_loading);
+
+        DisplayMetrics dm = new DisplayMetrics();
+      getWindowManager().getDefaultDisplay().getMetrics(dm);
+        App.screenHeight = dm.widthPixels;
+ 
+        App.screenWidth = dm.heightPixels;
+		
+		
 		tv_version = (TextView) findViewById(R.id.tv_version);
 		try {
 			tv_version.setText("版本: V" + UIHelper.getVersionName(this));
@@ -98,6 +110,10 @@ public class LoadingActivity extends Activity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
+		
+		volleyImage =  new VolleyImage(this,myHandler);
 	}
 
 	protected void onDestroy() {
@@ -111,7 +127,7 @@ public class LoadingActivity extends Activity {
 			// TODO Auto-generated method stub
 			caixis = CommonFun.getCaixi(LoadingActivity.this);
 			if (caixis != null) {
-				myHandler.sendEmptyMessage(123);
+				myHandler.sendEmptyMessage(456);
 			} else {
 				myHandler.sendEmptyMessage(444);
 			}
@@ -208,6 +224,10 @@ public class LoadingActivity extends Activity {
 				break;
 			case 1:
 				new Thread(caixiRunnable).start();
+				break;
+			case 456:
+				//下载广告图片
+				volleyImage.requestAdvs();
 				break;
 			case 444:
 				errotServer();
