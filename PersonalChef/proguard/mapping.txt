@@ -5277,6 +5277,517 @@ android.support.v4.widget.ViewDragHelper$Callback -> android.support.v4.widget.a
     boolean tryCaptureView(android.view.View,int) -> a
     304:304:int clampViewPositionHorizontal(android.view.View,int,int) -> a
     319:319:int clampViewPositionVertical(android.view.View,int,int) -> b
+com.android.volley.AuthFailureError -> com.android.volley.a:
+    android.content.Intent mResolutionIntent -> b
+    51:51:android.content.Intent getResolutionIntent() -> a
+    56:59:java.lang.String getMessage() -> getMessage
+com.android.volley.Cache -> com.android.volley.b:
+    com.android.volley.Cache$Entry get(java.lang.String) -> a
+    void put(java.lang.String,com.android.volley.Cache$Entry) -> a
+    void initialize() -> a
+    void invalidate(java.lang.String,boolean) -> a
+    void remove(java.lang.String) -> b
+    void clear() -> b
+com.android.volley.Cache$Entry -> com.android.volley.b$a:
+    byte[] data -> a
+    java.lang.String etag -> b
+    long serverDate -> c
+    long ttl -> d
+    long softTtl -> e
+    java.util.Map responseHeaders -> f
+    88:88:boolean isExpired() -> a
+    93:93:boolean refreshNeeded() -> b
+com.android.volley.CacheDispatcher -> com.android.volley.c:
+    boolean DEBUG -> a
+    java.util.concurrent.BlockingQueue mCacheQueue -> b
+    java.util.concurrent.BlockingQueue mNetworkQueue -> c
+    com.android.volley.Cache mCache -> d
+    com.android.volley.ResponseDelivery mDelivery -> e
+    boolean mQuit -> f
+    75:77:void quit() -> a
+    81:153:void run() -> run
+    41:41:java.util.concurrent.BlockingQueue access$0(com.android.volley.CacheDispatcher) -> a
+com.android.volley.CacheDispatcher$1 -> com.android.volley.d:
+    com.android.volley.CacheDispatcher this$0 -> a
+    com.android.volley.Request val$request -> b
+    142:146:void run() -> run
+com.android.volley.DefaultRetryPolicy -> com.android.volley.e:
+    int mCurrentTimeoutMs -> d
+    int mCurrentRetryCount -> e
+    int mMaxNumRetries -> f
+    float mBackoffMultiplier -> g
+    int DEFAULT_TIMEOUT_MS -> a
+    int DEFAULT_MAX_RETRIES -> b
+    float DEFAULT_BACKOFF_MULT -> c
+    68:68:int getCurrentTimeout() -> a
+    76:76:int getCurrentRetryCount() -> b
+    85:90:void retry(com.android.volley.VolleyError) -> a
+    96:96:boolean hasAttemptRemaining() -> c
+com.android.volley.ExecutorDelivery -> com.android.volley.f:
+    java.util.concurrent.Executor mResponsePoster -> a
+    55:56:void postResponse(com.android.volley.Request,com.android.volley.Response) -> a
+    60:63:void postResponse(com.android.volley.Request,com.android.volley.Response,java.lang.Runnable) -> a
+    67:70:void postError(com.android.volley.Request,com.android.volley.VolleyError) -> a
+com.android.volley.ExecutorDelivery$1 -> com.android.volley.g:
+    com.android.volley.ExecutorDelivery this$0 -> a
+    android.os.Handler val$handler -> b
+    39:40:void execute(java.lang.Runnable) -> execute
+com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable -> com.android.volley.f$a:
+    com.android.volley.Request mRequest -> b
+    com.android.volley.Response mResponse -> c
+    java.lang.Runnable mRunnable -> d
+    com.android.volley.ExecutorDelivery this$0 -> a
+    92:116:void run() -> run
+com.android.volley.Network -> com.android.volley.h:
+    com.android.volley.NetworkResponse performRequest(com.android.volley.Request) -> a
+com.android.volley.NetworkDispatcher -> com.android.volley.i:
+    java.util.concurrent.BlockingQueue mQueue -> a
+    com.android.volley.Network mNetwork -> b
+    com.android.volley.Cache mCache -> c
+    com.android.volley.ResponseDelivery mDelivery -> d
+    boolean mQuit -> e
+    69:71:void quit() -> a
+    75:77:void run() -> run
+    139:141:void parseAndDeliverNetworkError(com.android.volley.Request,com.android.volley.VolleyError) -> a
+com.android.volley.NetworkError -> com.android.volley.j:
+com.android.volley.NetworkResponse -> com.android.volley.k:
+    int statusCode -> a
+    byte[] data -> b
+    java.util.Map headers -> c
+    boolean notModified -> d
+com.android.volley.NoConnectionError -> com.android.volley.l:
+com.android.volley.ParseError -> com.android.volley.m:
+com.android.volley.Request -> com.android.volley.n:
+    java.lang.String DEFAULT_PARAMS_ENCODING -> a
+    com.android.volley.VolleyLog$MarkerLog mEventLog -> b
+    int mMethod -> c
+    java.lang.String mUrl -> d
+    int mDefaultTrafficStatsTag -> e
+    com.android.volley.Response$ErrorListener mErrorListener -> f
+    java.lang.Integer mSequence -> g
+    com.android.volley.RequestQueue mRequestQueue -> h
+    boolean mShouldCache -> i
+    boolean mCanceled -> j
+    boolean mResponseDelivered -> k
+    long mRequestBirthTime -> l
+    long SLOW_REQUEST_THRESHOLD_MS -> m
+    com.android.volley.RetryPolicy mRetryPolicy -> n
+    com.android.volley.Cache$Entry mCacheEntry -> o
+    java.lang.Object mTag -> p
+    136:136:int getMethod() -> a
+    144:145:void setTag(java.lang.Object) -> a
+    152:152:java.lang.Object getTag() -> b
+    159:159:int getTrafficStatsTag() -> c
+    166:167:void setRetryPolicy(com.android.volley.RetryPolicy) -> a
+    173:178:void addMarker(java.lang.String) -> a
+    186:213:void finish(java.lang.String) -> b
+    220:221:void setRequestQueue(com.android.volley.RequestQueue) -> a
+    227:228:void setSequence(int) -> a
+    234:237:int getSequence() -> d
+    244:244:java.lang.String getUrl() -> e
+    251:251:java.lang.String getCacheKey() -> f
+    259:260:void setCacheEntry(com.android.volley.Cache$Entry) -> a
+    266:266:com.android.volley.Cache$Entry getCacheEntry() -> g
+    273:274:void cancel() -> h
+    280:280:boolean isCanceled() -> i
+    290:290:java.util.Map getHeaders() -> j
+    305:305:java.util.Map getPostParams() -> k
+    323:323:java.lang.String getPostParamsEncoding() -> l
+    330:330:java.lang.String getPostBodyContentType() -> m
+    345:349:byte[] getPostBody() -> n
+    361:361:java.util.Map getParams() -> o
+    377:377:java.lang.String getParamsEncoding() -> p
+    381:381:java.lang.String getBodyContentType() -> q
+    390:394:byte[] getBody() -> r
+    401:411:byte[] encodeParameters(java.util.Map,java.lang.String) -> a
+    419:420:void setShouldCache(boolean) -> a
+    426:426:boolean shouldCache() -> s
+    444:444:com.android.volley.Request$Priority getPriority() -> t
+    453:453:int getTimeoutMs() -> u
+    460:460:com.android.volley.RetryPolicy getRetryPolicy() -> v
+    468:469:void markDelivered() -> w
+    475:475:boolean hasHadResponseDelivered() -> x
+    com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+    497:497:com.android.volley.VolleyError parseNetworkError(com.android.volley.VolleyError) -> a
+    void deliverResponse(java.lang.Object) -> b
+    516:519:void deliverError(com.android.volley.VolleyError) -> b
+    527:532:int compareTo(com.android.volley.Request) -> a
+    539:540:java.lang.String toString() -> toString
+    1:1:int compareTo(java.lang.Object) -> compareTo
+    57:57:com.android.volley.VolleyLog$MarkerLog access$1(com.android.volley.Request) -> b
+com.android.volley.Request$1 -> com.android.volley.o:
+    com.android.volley.Request this$0 -> a
+    java.lang.String val$tag -> b
+    long val$threadId -> c
+    198:200:void run() -> run
+com.android.volley.Request$Method -> com.android.volley.n$a:
+    int DEPRECATED_GET_OR_POST -> a
+    int GET -> b
+    int POST -> c
+    int PUT -> d
+    int DELETE -> e
+com.android.volley.Request$Priority -> com.android.volley.n$b:
+    com.android.volley.Request$Priority LOW -> a
+    com.android.volley.Request$Priority NORMAL -> b
+    com.android.volley.Request$Priority HIGH -> c
+    com.android.volley.Request$Priority IMMEDIATE -> d
+    com.android.volley.Request$Priority[] ENUM$VALUES -> e
+    1:1:com.android.volley.Request$Priority[] values() -> values
+    1:1:com.android.volley.Request$Priority valueOf(java.lang.String) -> valueOf
+com.android.volley.RequestQueue -> com.android.volley.p:
+    java.util.concurrent.atomic.AtomicInteger mSequenceGenerator -> a
+    java.util.Map mWaitingRequests -> b
+    java.util.Set mCurrentRequests -> c
+    java.util.concurrent.PriorityBlockingQueue mCacheQueue -> d
+    java.util.concurrent.PriorityBlockingQueue mNetworkQueue -> e
+    int DEFAULT_NETWORK_THREAD_POOL_SIZE -> f
+    com.android.volley.Cache mCache -> g
+    com.android.volley.Network mNetwork -> h
+    com.android.volley.ResponseDelivery mDelivery -> i
+    com.android.volley.NetworkDispatcher[] mDispatchers -> j
+    com.android.volley.CacheDispatcher mCacheDispatcher -> k
+    132:144:void start() -> a
+    150:158:void stop() -> b
+    164:164:int getSequenceNumber() -> c
+    171:171:com.android.volley.Cache getCache() -> d
+    187:194:void cancelAll(com.android.volley.RequestQueue$RequestFilter) -> a
+    201:210:void cancelAll(java.lang.Object) -> a
+    219:235:com.android.volley.Request add(com.android.volley.Request) -> a
+    267:286:void finish(com.android.volley.Request) -> b
+com.android.volley.RequestQueue$1 -> com.android.volley.q:
+    com.android.volley.RequestQueue this$0 -> a
+    java.lang.Object val$tag -> b
+    207:207:boolean apply(com.android.volley.Request) -> a
+com.android.volley.RequestQueue$RequestFilter -> com.android.volley.p$a:
+    boolean apply(com.android.volley.Request) -> a
+com.android.volley.Response -> com.android.volley.r:
+    java.lang.Object result -> a
+    com.android.volley.Cache$Entry cacheEntry -> b
+    com.android.volley.VolleyError error -> c
+    boolean intermediate -> d
+    43:43:com.android.volley.Response success(java.lang.Object,com.android.volley.Cache$Entry) -> a
+    51:51:com.android.volley.Response error(com.android.volley.VolleyError) -> a
+    70:70:boolean isSuccess() -> a
+com.android.volley.Response$ErrorListener -> com.android.volley.r$a:
+    void onErrorResponse(com.android.volley.VolleyError) -> a
+com.android.volley.Response$Listener -> com.android.volley.r$b:
+    void onResponse(java.lang.Object) -> a
+com.android.volley.ResponseDelivery -> com.android.volley.s:
+    void postResponse(com.android.volley.Request,com.android.volley.Response) -> a
+    void postResponse(com.android.volley.Request,com.android.volley.Response,java.lang.Runnable) -> a
+    void postError(com.android.volley.Request,com.android.volley.VolleyError) -> a
+com.android.volley.RetryPolicy -> com.android.volley.t:
+    int getCurrentTimeout() -> a
+    int getCurrentRetryCount() -> b
+    void retry(com.android.volley.VolleyError) -> a
+com.android.volley.ServerError -> com.android.volley.u:
+com.android.volley.TimeoutError -> com.android.volley.v:
+com.android.volley.VolleyError -> com.android.volley.w:
+    com.android.volley.NetworkResponse networkResponse -> a
+com.android.volley.VolleyLog -> com.android.volley.x:
+    java.lang.String TAG -> a
+    boolean DEBUG -> b
+    41:46:void setTag(java.lang.String) -> a
+    49:52:void v(java.lang.String,java.lang.Object[]) -> a
+    55:56:void d(java.lang.String,java.lang.Object[]) -> b
+    59:60:void e(java.lang.String,java.lang.Object[]) -> c
+    63:64:void e(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> a
+    67:68:void wtf(java.lang.String,java.lang.Object[]) -> d
+    71:72:void wtf(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> b
+    79:96:java.lang.String buildMessage(java.lang.String,java.lang.Object[]) -> e
+com.android.volley.VolleyLog$MarkerLog -> com.android.volley.x$a:
+    boolean ENABLED -> a
+    long MIN_DURATION_FOR_LOGGING_MS -> b
+    java.util.List mMarkers -> c
+    boolean mFinished -> d
+    126:131:void add(java.lang.String,long) -> a
+    139:153:void finish(java.lang.String) -> a
+    159:163:void finalize() -> finalize
+    167:173:long getTotalDuration() -> a
+com.android.volley.VolleyLog$MarkerLog$Marker -> com.android.volley.x$a$a:
+    java.lang.String name -> a
+    long thread -> b
+    long time -> c
+com.android.volley.toolbox.AndroidAuthenticator -> com.android.volley.toolbox.a:
+    android.content.Context mContext -> a
+    android.accounts.Account mAccount -> b
+    java.lang.String mAuthTokenType -> c
+    boolean mNotifyAuthFailure -> d
+    67:67:android.accounts.Account getAccount() -> a
+    72:93:java.lang.String getAuthToken() -> b
+    98:99:void invalidateAuthToken(java.lang.String) -> a
+com.android.volley.toolbox.Authenticator -> com.android.volley.toolbox.b:
+    java.lang.String getAuthToken() -> b
+    void invalidateAuthToken(java.lang.String) -> a
+com.android.volley.toolbox.BasicNetwork -> com.android.volley.toolbox.c:
+    boolean DEBUG -> a
+    int SLOW_REQUEST_THRESHOLD_MS -> d
+    int DEFAULT_POOL_SIZE -> e
+    com.android.volley.toolbox.HttpStack mHttpStack -> b
+    com.android.volley.toolbox.ByteArrayPool mPool -> c
+    84:148:com.android.volley.NetworkResponse performRequest(com.android.volley.Request) -> a
+    159:165:void logSlowRequests(long,com.android.volley.Request,byte[],org.apache.http.StatusLine) -> a
+    174:185:void attemptRetryOnException(java.lang.String,com.android.volley.Request,com.android.volley.VolleyError) -> a
+    189:201:void addCacheHeaders(java.util.Map,com.android.volley.Cache$Entry) -> a
+    204:206:void logError(java.lang.String,java.lang.String,long) -> a
+    211:235:byte[] entityToBytes(org.apache.http.HttpEntity) -> a
+    242:246:java.util.Map convertHeaders(org.apache.http.Header[]) -> a
+com.android.volley.toolbox.ByteArrayPool -> com.android.volley.toolbox.d:
+    java.util.List mBuffersByLastUse -> b
+    java.util.List mBuffersBySize -> c
+    int mCurrentSize -> d
+    int mSizeLimit -> e
+    java.util.Comparator BUF_COMPARATOR -> a
+    92:101:byte[] getBuf(int) -> a
+    111:122:void returnBuf(byte[]) -> a
+    128:133:void trim() -> a
+com.android.volley.toolbox.ByteArrayPool$1 -> com.android.volley.toolbox.e:
+    72:72:int compare(byte[],byte[]) -> a
+    1:1:int compare(java.lang.Object,java.lang.Object) -> compare
+com.android.volley.toolbox.ClearCacheRequest -> com.android.volley.toolbox.f:
+    com.android.volley.Cache mCache -> a
+    java.lang.Runnable mCallback -> b
+    49:54:boolean isCanceled() -> i
+    59:59:com.android.volley.Request$Priority getPriority() -> t
+    64:64:com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+    69:69:void deliverResponse(java.lang.Object) -> b
+com.android.volley.toolbox.DiskBasedCache -> com.android.volley.toolbox.g:
+    java.util.Map mEntries -> a
+    long mTotalSize -> b
+    java.io.File mRootDirectory -> c
+    int mMaxCacheSizeInBytes -> d
+    int DEFAULT_DISK_USAGE_BYTES -> e
+    float HYSTERESIS_FACTOR -> f
+    int CACHE_MAGIC -> g
+    90:99:void clear() -> b
+    106:131:com.android.volley.Cache$Entry get(java.lang.String) -> a
+    140:170:void initialize() -> a
+    179:188:void invalidate(java.lang.String,boolean) -> a
+    195:211:void put(java.lang.String,com.android.volley.Cache$Entry) -> a
+    218:224:void remove(java.lang.String) -> b
+    232:235:java.lang.String getFilenameForKey(java.lang.String) -> d
+    242:242:java.io.File getFileForKey(java.lang.String) -> c
+    250:284:void pruneIfNeeded(int) -> a
+    292:299:void putEntry(java.lang.String,com.android.volley.toolbox.DiskBasedCache$CacheHeader) -> a
+    305:310:void removeEntry(java.lang.String) -> e
+    316:325:byte[] streamToBytes(java.io.InputStream,int) -> a
+    471:475:int read(java.io.InputStream) -> e
+    479:483:void writeInt(java.io.OutputStream,int) -> a
+    486:491:int readInt(java.io.InputStream) -> a
+    495:503:void writeLong(java.io.OutputStream,long) -> a
+    506:515:long readLong(java.io.InputStream) -> b
+    519:522:void writeString(java.io.OutputStream,java.lang.String) -> a
+    525:527:java.lang.String readString(java.io.InputStream) -> c
+    531:540:void writeStringStringMap(java.util.Map,java.io.OutputStream) -> a
+    543:552:java.util.Map readStringStringMap(java.io.InputStream) -> d
+com.android.volley.toolbox.DiskBasedCache$CacheHeader -> com.android.volley.toolbox.g$a:
+    long size -> a
+    java.lang.String key -> b
+    java.lang.String etag -> c
+    long serverDate -> d
+    long ttl -> e
+    long softTtl -> f
+    java.util.Map responseHeaders -> g
+    378:393:com.android.volley.toolbox.DiskBasedCache$CacheHeader readHeader(java.io.InputStream) -> a
+    400:407:com.android.volley.Cache$Entry toCacheEntry(byte[]) -> a
+    416:427:boolean writeHeader(java.io.OutputStream) -> a
+com.android.volley.toolbox.DiskBasedCache$CountingInputStream -> com.android.volley.toolbox.g$b:
+    int bytesRead -> a
+    442:446:int read() -> read
+    451:455:int read(byte[],int,int) -> read
+    434:434:int access$1(com.android.volley.toolbox.DiskBasedCache$CountingInputStream) -> a
+com.android.volley.toolbox.HttpClientStack -> com.android.volley.toolbox.h:
+    org.apache.http.client.HttpClient mClient -> a
+    java.lang.String HEADER_CONTENT_TYPE -> b
+    56:59:void addHeaders(org.apache.http.client.methods.HttpUriRequest,java.util.Map) -> a
+    63:67:java.util.List getPostParameterPairs(java.util.Map) -> a
+    73:83:org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map) -> a
+    92:126:org.apache.http.client.methods.HttpUriRequest createHttpRequest(com.android.volley.Request,java.util.Map) -> b
+    132:137:void setEntityIfNonEmptyBody(org.apache.http.client.methods.HttpEntityEnclosingRequestBase,com.android.volley.Request) -> a
+    146:146:void onPrepareRequest(org.apache.http.client.methods.HttpUriRequest) -> a
+com.android.volley.toolbox.HttpHeaderParser -> com.android.volley.toolbox.i:
+    40:101:com.android.volley.Cache$Entry parseCacheHeaders(com.android.volley.NetworkResponse) -> a
+    110:113:long parseDateAsEpoch(java.lang.String) -> a
+    122:135:java.lang.String parseCharset(java.util.Map) -> a
+com.android.volley.toolbox.HttpStack -> com.android.volley.toolbox.j:
+    org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map) -> a
+com.android.volley.toolbox.HurlStack -> com.android.volley.toolbox.k:
+    java.lang.String HEADER_CONTENT_TYPE -> a
+    com.android.volley.toolbox.HurlStack$UrlRewriter mUrlRewriter -> b
+    javax.net.ssl.SSLSocketFactory mSslSocketFactory -> c
+    90:125:org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map) -> a
+    134:145:org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection) -> a
+    152:152:java.net.HttpURLConnection createConnection(java.net.URL) -> a
+    162:175:java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request) -> a
+    181:219:void setConnectionParametersForRequest(java.net.HttpURLConnection,com.android.volley.Request) -> a
+    223:231:void addBodyIfExists(java.net.HttpURLConnection,com.android.volley.Request) -> b
+com.android.volley.toolbox.HurlStack$UrlRewriter -> com.android.volley.toolbox.k$a:
+    java.lang.String rewriteUrl(java.lang.String) -> a
+com.android.volley.toolbox.ImageLoader -> com.android.volley.toolbox.l:
+    com.android.volley.RequestQueue mRequestQueue -> a
+    int mBatchResponseDelayMs -> b
+    com.android.volley.toolbox.ImageLoader$ImageCache mCache -> c
+    java.util.HashMap mInFlightRequests -> d
+    java.util.HashMap mBatchedResponses -> e
+    android.os.Handler mHandler -> f
+    java.lang.Runnable mRunnable -> g
+    100:100:com.android.volley.toolbox.ImageLoader$ImageListener getImageListener(android.widget.ImageView,int,int) -> a
+    154:157:boolean isCached(java.lang.String,int,int) -> a
+    171:171:com.android.volley.toolbox.ImageLoader$ImageContainer get(java.lang.String,com.android.volley.toolbox.ImageLoader$ImageListener) -> a
+    189:236:com.android.volley.toolbox.ImageLoader$ImageContainer get(java.lang.String,com.android.volley.toolbox.ImageLoader$ImageListener,int,int) -> a
+    245:246:void setBatchedResponseDelay(int) -> a
+    255:267:void onGetImageSuccess(java.lang.String,android.graphics.Bitmap) -> a
+    276:285:void onGetImageError(java.lang.String,com.android.volley.VolleyError) -> a
+    432:463:void batchResponse(java.lang.String,com.android.volley.toolbox.ImageLoader$BatchedImageRequest) -> a
+    466:469:void throwIfNotOnMainThread() -> a
+    477:477:java.lang.String getCacheKey(java.lang.String,int,int) -> b
+    57:57:java.util.HashMap access$0(com.android.volley.toolbox.ImageLoader) -> a
+    61:61:java.util.HashMap access$1(com.android.volley.toolbox.ImageLoader) -> b
+    253:253:void access$2(com.android.volley.toolbox.ImageLoader,java.lang.String,android.graphics.Bitmap) -> a
+    273:273:void access$3(com.android.volley.toolbox.ImageLoader,java.lang.String,com.android.volley.VolleyError) -> a
+    68:68:void access$4(com.android.volley.toolbox.ImageLoader,java.lang.Runnable) -> a
+com.android.volley.toolbox.ImageLoader$1 -> com.android.volley.toolbox.m:
+    int val$errorImageResId -> a
+    android.widget.ImageView val$view -> b
+    int val$defaultImageResId -> c
+    103:106:void onErrorResponse(com.android.volley.VolleyError) -> a
+    110:115:void onResponse(com.android.volley.toolbox.ImageLoader$ImageContainer,boolean) -> a
+com.android.volley.toolbox.ImageLoader$2 -> com.android.volley.toolbox.n:
+    com.android.volley.toolbox.ImageLoader this$0 -> a
+    java.lang.String val$cacheKey -> b
+    223:224:void onResponse(android.graphics.Bitmap) -> a
+    1:1:void onResponse(java.lang.Object) -> a
+com.android.volley.toolbox.ImageLoader$3 -> com.android.volley.toolbox.o:
+    com.android.volley.toolbox.ImageLoader this$0 -> a
+    java.lang.String val$cacheKey -> b
+    229:230:void onErrorResponse(com.android.volley.VolleyError) -> a
+com.android.volley.toolbox.ImageLoader$4 -> com.android.volley.toolbox.p:
+    com.android.volley.toolbox.ImageLoader this$0 -> a
+    439:457:void run() -> run
+com.android.volley.toolbox.ImageLoader$BatchedImageRequest -> com.android.volley.toolbox.l$a:
+    com.android.volley.Request mRequest -> b
+    android.graphics.Bitmap mResponseBitmap -> c
+    com.android.volley.VolleyError mError -> d
+    java.util.LinkedList mContainers -> e
+    com.android.volley.toolbox.ImageLoader this$0 -> a
+    391:392:void setError(com.android.volley.VolleyError) -> a
+    398:398:com.android.volley.VolleyError getError() -> a
+    406:407:void addContainer(com.android.volley.toolbox.ImageLoader$ImageContainer) -> a
+    416:421:boolean removeContainerAndCancelIfNecessary(com.android.volley.toolbox.ImageLoader$ImageContainer) -> b
+    375:375:java.util.LinkedList access$0(com.android.volley.toolbox.ImageLoader$BatchedImageRequest) -> a
+    369:369:void access$1(com.android.volley.toolbox.ImageLoader$BatchedImageRequest,android.graphics.Bitmap) -> a
+    369:369:android.graphics.Bitmap access$2(com.android.volley.toolbox.ImageLoader$BatchedImageRequest) -> b
+com.android.volley.toolbox.ImageLoader$ImageCache -> com.android.volley.toolbox.l$b:
+    android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    void putBitmap(java.lang.String,android.graphics.Bitmap) -> a
+com.android.volley.toolbox.ImageLoader$ImageContainer -> com.android.volley.toolbox.l$c:
+    android.graphics.Bitmap mBitmap -> b
+    com.android.volley.toolbox.ImageLoader$ImageListener mListener -> c
+    java.lang.String mCacheKey -> d
+    java.lang.String mRequestUrl -> e
+    com.android.volley.toolbox.ImageLoader this$0 -> a
+    323:343:void cancelRequest() -> a
+    349:349:android.graphics.Bitmap getBitmap() -> b
+    356:356:java.lang.String getRequestUrl() -> c
+    297:297:com.android.volley.toolbox.ImageLoader$ImageListener access$0(com.android.volley.toolbox.ImageLoader$ImageContainer) -> a
+    295:295:void access$1(com.android.volley.toolbox.ImageLoader$ImageContainer,android.graphics.Bitmap) -> a
+com.android.volley.toolbox.ImageLoader$ImageListener -> com.android.volley.toolbox.l$d:
+    void onResponse(com.android.volley.toolbox.ImageLoader$ImageContainer,boolean) -> a
+com.android.volley.toolbox.ImageRequest -> com.android.volley.toolbox.q:
+    int IMAGE_TIMEOUT_MS -> a
+    int IMAGE_MAX_RETRIES -> b
+    float IMAGE_BACKOFF_MULT -> c
+    com.android.volley.Response$Listener mListener -> d
+    android.graphics.Bitmap$Config mDecodeConfig -> e
+    int mMaxWidth -> f
+    int mMaxHeight -> g
+    java.lang.Object sDecodeLock -> h
+    82:82:com.android.volley.Request$Priority getPriority() -> t
+    99:118:int getResizedDimension(int,int,int,int) -> b
+    124:124:com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+    138:180:com.android.volley.Response doParse(com.android.volley.NetworkResponse) -> b
+    186:187:void deliverResponse(android.graphics.Bitmap) -> a
+    201:209:int findBestSampleSize(int,int,int,int) -> a
+    1:1:void deliverResponse(java.lang.Object) -> b
+com.android.volley.toolbox.JsonArrayRequest -> com.android.volley.toolbox.r:
+    49:55:com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+com.android.volley.toolbox.JsonObjectRequest -> com.android.volley.toolbox.s:
+    67:73:com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+com.android.volley.toolbox.JsonRequest -> com.android.volley.toolbox.t:
+    java.lang.String PROTOCOL_CHARSET -> a
+    java.lang.String PROTOCOL_CONTENT_TYPE -> b
+    com.android.volley.Response$Listener mListener -> c
+    java.lang.String mRequestBody -> d
+    65:66:void deliverResponse(java.lang.Object) -> b
+    com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+    76:76:java.lang.String getPostBodyContentType() -> m
+    84:84:byte[] getPostBody() -> n
+    89:89:java.lang.String getBodyContentType() -> q
+    95:99:byte[] getBody() -> r
+com.android.volley.toolbox.NetworkImageView -> com.android.volley.toolbox.NetworkImageView:
+    java.lang.String mUrl -> a
+    int mDefaultImageId -> b
+    int mErrorImageId -> c
+    com.android.volley.toolbox.ImageLoader mImageLoader -> d
+    com.android.volley.toolbox.ImageLoader$ImageContainer mImageContainer -> e
+    77:81:void setImageUrl(java.lang.String,com.android.volley.toolbox.ImageLoader) -> a
+    88:89:void setDefaultImageResId(int) -> a
+    96:97:void setErrorImageResId(int) -> b
+    104:176:void loadImageIfNecessary(boolean) -> a
+    179:185:void setDefaultImageOrNull() -> a
+    189:191:void onLayout(boolean,int,int,int,int) -> onLayout
+    195:204:void onDetachedFromWindow() -> onDetachedFromWindow
+    208:210:void drawableStateChanged() -> drawableStateChanged
+    44:44:int access$0(com.android.volley.toolbox.NetworkImageView) -> a
+    39:39:int access$1(com.android.volley.toolbox.NetworkImageView) -> b
+com.android.volley.toolbox.NetworkImageView$1 -> com.android.volley.toolbox.u:
+    com.android.volley.toolbox.NetworkImageView this$0 -> a
+    boolean val$isInLayoutPass -> b
+    145:148:void onErrorResponse(com.android.volley.VolleyError) -> a
+    156:171:void onResponse(com.android.volley.toolbox.ImageLoader$ImageContainer,boolean) -> a
+com.android.volley.toolbox.NetworkImageView$1$1 -> com.android.volley.toolbox.v:
+    com.android.volley.toolbox.NetworkImageView$1 this$1 -> a
+    com.android.volley.toolbox.ImageLoader$ImageContainer val$response -> b
+    160:161:void run() -> run
+com.android.volley.toolbox.NoCache -> com.android.volley.toolbox.w:
+    27:27:void clear() -> b
+    31:31:com.android.volley.Cache$Entry get(java.lang.String) -> a
+    36:36:void put(java.lang.String,com.android.volley.Cache$Entry) -> a
+    40:40:void invalidate(java.lang.String,boolean) -> a
+    44:44:void remove(java.lang.String) -> b
+    48:48:void initialize() -> a
+com.android.volley.toolbox.PoolingByteArrayOutputStream -> com.android.volley.toolbox.x:
+    int DEFAULT_SIZE -> a
+    com.android.volley.toolbox.ByteArrayPool mPool -> b
+    58:61:void close() -> close
+    65:66:void finalize() -> finalize
+    73:80:void expand(int) -> a
+    84:86:void write(byte[],int,int) -> write
+    90:92:void write(int) -> write
+com.android.volley.toolbox.RequestFuture -> com.android.volley.toolbox.y:
+    com.android.volley.Request mRequest -> a
+    boolean mResultReceived -> b
+    java.lang.Object mResult -> c
+    com.android.volley.VolleyError mException -> d
+    62:62:com.android.volley.toolbox.RequestFuture newFuture() -> a
+    68:69:void setRequest(com.android.volley.Request) -> a
+    73:81:boolean cancel(boolean) -> cancel
+    88:90:java.lang.Object get() -> get
+    97:97:java.lang.Object get(long,java.util.concurrent.TimeUnit) -> get
+    102:124:java.lang.Object doGet(java.lang.Long) -> a
+    129:132:boolean isCancelled() -> isCancelled
+    137:137:boolean isDone() -> isDone
+    142:145:void onResponse(java.lang.Object) -> a
+    149:151:void onErrorResponse(com.android.volley.VolleyError) -> a
+com.android.volley.toolbox.StringRequest -> com.android.volley.toolbox.z:
+    com.android.volley.Response$Listener mListener -> a
+    60:61:void deliverResponse(java.lang.String) -> c
+    67:71:com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse) -> a
+    1:1:void deliverResponse(java.lang.Object) -> b
+com.android.volley.toolbox.Volley -> com.android.volley.toolbox.aa:
+    java.lang.String DEFAULT_CACHE_DIR -> a
+    43:68:com.android.volley.RequestQueue newRequestQueue(android.content.Context,com.android.volley.toolbox.HttpStack) -> a
+    78:78:com.android.volley.RequestQueue newRequestQueue(android.content.Context) -> a
 com.baidu.a.a.a.a.a -> com.baidu.a.a.a.a.a:
     36:47:byte[] a(java.lang.String,java.lang.String,byte[]) -> a
     65:76:byte[] b(java.lang.String,java.lang.String,byte[]) -> b
@@ -7973,87 +8484,95 @@ com.goodfriends.personalchef.GuideViewActivity -> com.goodfriends.personalchef.G
     java.util.ArrayList pageViews -> b
     android.view.ViewGroup main -> c
     android.widget.TextView text -> d
-    35:83:void onCreate(android.os.Bundle) -> onCreate
-    87:90:void toHome(android.view.View) -> toHome
-    26:26:java.util.ArrayList access$0(com.goodfriends.personalchef.GuideViewActivity) -> a
+    36:84:void onCreate(android.os.Bundle) -> onCreate
+    87:91:void toHome(android.view.View) -> toHome
+    27:27:java.util.ArrayList access$0(com.goodfriends.personalchef.GuideViewActivity) -> a
 com.goodfriends.personalchef.GuideViewActivity$1 -> com.goodfriends.personalchef.av:
     com.goodfriends.personalchef.GuideViewActivity this$0 -> a
-    81:81:void onClick(android.view.View) -> onClick
+    82:82:void onClick(android.view.View) -> onClick
 com.goodfriends.personalchef.GuideViewActivity$GuidePageAdapter -> com.goodfriends.personalchef.GuideViewActivity$a:
     com.goodfriends.personalchef.GuideViewActivity this$0 -> c
-    97:97:int getCount() -> b
-    102:102:boolean isViewFromObject(android.view.View,java.lang.Object) -> a
-    108:108:int getItemPosition(java.lang.Object) -> a
-    114:115:void destroyItem(android.view.View,int,java.lang.Object) -> a
-    120:121:java.lang.Object instantiateItem(android.view.View,int) -> a
-    128:128:void restoreState(android.os.Parcelable,java.lang.ClassLoader) -> a
-    133:133:android.os.Parcelable saveState() -> a
-    140:140:void startUpdate(android.view.View) -> a
-    146:146:void finishUpdate(android.view.View) -> b
+    98:98:int getCount() -> b
+    103:103:boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    109:109:int getItemPosition(java.lang.Object) -> a
+    115:116:void destroyItem(android.view.View,int,java.lang.Object) -> a
+    121:122:java.lang.Object instantiateItem(android.view.View,int) -> a
+    129:129:void restoreState(android.os.Parcelable,java.lang.ClassLoader) -> a
+    134:134:android.os.Parcelable saveState() -> a
+    141:141:void startUpdate(android.view.View) -> a
+    147:147:void finishUpdate(android.view.View) -> b
 com.goodfriends.personalchef.GuideViewActivity$GuidePageChangeListener -> com.goodfriends.personalchef.GuideViewActivity$b:
     com.goodfriends.personalchef.GuideViewActivity this$0 -> a
-    156:156:void onPageScrollStateChanged(int) -> b
-    162:162:void onPageScrolled(int,float,int) -> a
-    166:173:void onPageSelected(int) -> a
+    157:157:void onPageScrollStateChanged(int) -> b
+    163:163:void onPageScrolled(int,float,int) -> a
+    167:174:void onPageSelected(int) -> a
 com.goodfriends.personalchef.LoadingActivity -> com.goodfriends.personalchef.LoadingActivity:
-    android.widget.TextView tv_version -> l
+    android.widget.TextView tv_version -> o
     java.util.List caixis -> a
     java.util.List jiguans -> b
     java.util.List distinctStrings -> c
     java.util.List foodStrings -> d
-    java.lang.Boolean isNetWorkOK -> e
-    java.lang.String[] distincts -> m
-    com.goodfriends.personalchef.bean.Loca loca -> f
-    boolean b -> n
-    android.app.AlertDialog$Builder builder_call -> o
-    com.baidu.location.LocationClient mLocationClient -> g
-    java.lang.Runnable caixiRunnable -> h
-    java.lang.Runnable getDistrict -> i
-    int GETFOODSYES -> p
-    int GETFOODSNO -> q
-    java.lang.Runnable getFoodsRunnable -> j
+    java.util.List advs -> e
+    java.lang.Boolean isNetWorkOK -> f
+    java.lang.String[] distincts -> p
+    com.goodfriends.personalchef.bean.Loca loca -> g
+    boolean b -> q
+    android.app.AlertDialog$Builder builder_call -> r
+    com.baidu.location.LocationClient mLocationClient -> h
+    com.goodfriends.personalchef.biz.VolleyImage volleyImage -> i
+    boolean receiveLocation -> s
+    boolean isTurnNext -> t
+    java.lang.Runnable getDistrict -> j
     java.lang.Runnable jiguanRunnable -> k
-    android.os.Handler myHandler -> r
-    51:101:void onCreate(android.os.Bundle) -> onCreate
-    104:106:void onDestroy() -> onDestroy
-    168:188:void toHome() -> toHome
-    192:194:void errotNetwork() -> a
-    198:199:void errotServer() -> b
-    262:269:void InitLocation() -> c
-    203:203:android.os.Handler access$0(com.goodfriends.personalchef.LoadingActivity) -> a
-    166:166:void access$1(com.goodfriends.personalchef.LoadingActivity) -> b
-    196:196:void access$2(com.goodfriends.personalchef.LoadingActivity) -> c
-    44:44:void access$3(com.goodfriends.personalchef.LoadingActivity,android.app.AlertDialog$Builder) -> a
-    44:44:android.app.AlertDialog$Builder access$4(com.goodfriends.personalchef.LoadingActivity) -> d
-    43:43:boolean access$5(com.goodfriends.personalchef.LoadingActivity) -> e
+    java.lang.Runnable caixiRunnable -> l
+    java.lang.Runnable getFoodsRunnable -> m
+    java.lang.Runnable advRunnable -> n
+    android.os.Handler myHandler -> u
+    62:116:void onCreate(android.os.Bundle) -> onCreate
+    119:121:void onDestroy() -> onDestroy
+    202:233:void toHome() -> toHome
+    237:239:void errotNetwork() -> a
+    243:244:void errotServer() -> b
+    302:309:void InitLocation() -> c
+    248:248:android.os.Handler access$0(com.goodfriends.personalchef.LoadingActivity) -> a
+    198:198:void access$1(com.goodfriends.personalchef.LoadingActivity) -> b
+    241:241:void access$2(com.goodfriends.personalchef.LoadingActivity) -> c
+    51:51:void access$3(com.goodfriends.personalchef.LoadingActivity,android.app.AlertDialog$Builder) -> a
+    51:51:android.app.AlertDialog$Builder access$4(com.goodfriends.personalchef.LoadingActivity) -> d
+    57:57:boolean access$5(com.goodfriends.personalchef.LoadingActivity) -> e
+    57:57:void access$6(com.goodfriends.personalchef.LoadingActivity,boolean) -> a
+    50:50:boolean access$7(com.goodfriends.personalchef.LoadingActivity) -> f
 com.goodfriends.personalchef.LoadingActivity$1 -> com.goodfriends.personalchef.aw:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    112:118:void run() -> run
+    127:135:void run() -> run
 com.goodfriends.personalchef.LoadingActivity$2 -> com.goodfriends.personalchef.ax:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    125:133:void run() -> run
+    143:150:void run() -> run
 com.goodfriends.personalchef.LoadingActivity$3 -> com.goodfriends.personalchef.ay:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    142:149:void run() -> run
+    156:163:void run() -> run
 com.goodfriends.personalchef.LoadingActivity$4 -> com.goodfriends.personalchef.az:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    157:163:void run() -> run
+    169:176:void run() -> run
 com.goodfriends.personalchef.LoadingActivity$5 -> com.goodfriends.personalchef.ba:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    205:258:void handleMessage(android.os.Message) -> handleMessage
-    203:203:com.goodfriends.personalchef.LoadingActivity access$0(com.goodfriends.personalchef.LoadingActivity$5) -> a
-com.goodfriends.personalchef.LoadingActivity$5$1 -> com.goodfriends.personalchef.bb:
-    com.goodfriends.personalchef.LoadingActivity$5 this$1 -> a
-    223:225:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.LoadingActivity$5$2 -> com.goodfriends.personalchef.bc:
-    com.goodfriends.personalchef.LoadingActivity$5 this$1 -> a
-    245:248:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.LoadingActivity$6 -> com.goodfriends.personalchef.bd:
+    181:189:void run() -> run
+com.goodfriends.personalchef.LoadingActivity$6 -> com.goodfriends.personalchef.bb:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    69:84:void onReceiveLocation(com.baidu.location.BDLocation) -> a
+    250:298:void handleMessage(android.os.Message) -> handleMessage
+    248:248:com.goodfriends.personalchef.LoadingActivity access$0(com.goodfriends.personalchef.LoadingActivity$6) -> a
+com.goodfriends.personalchef.LoadingActivity$6$1 -> com.goodfriends.personalchef.bc:
+    com.goodfriends.personalchef.LoadingActivity$6 this$1 -> a
+    265:267:void onClick(android.content.DialogInterface,int) -> onClick
+com.goodfriends.personalchef.LoadingActivity$6$2 -> com.goodfriends.personalchef.bd:
+    com.goodfriends.personalchef.LoadingActivity$6 this$1 -> a
+    287:290:void onClick(android.content.DialogInterface,int) -> onClick
 com.goodfriends.personalchef.LoadingActivity$7 -> com.goodfriends.personalchef.be:
     com.goodfriends.personalchef.LoadingActivity this$0 -> a
-    171:186:void run() -> run
+    85:98:void onReceiveLocation(com.baidu.location.BDLocation) -> a
+com.goodfriends.personalchef.LoadingActivity$8 -> com.goodfriends.personalchef.bf:
+    com.goodfriends.personalchef.LoadingActivity this$0 -> a
+    212:231:void run() -> run
 com.goodfriends.personalchef.MainActivity -> com.goodfriends.personalchef.MainActivity:
     android.widget.RadioButton mTab1 -> q
     android.widget.RadioButton mTab2 -> r
@@ -8117,17 +8636,17 @@ com.goodfriends.personalchef.MoreChefActivity -> com.goodfriends.personalchef.Mo
     102:102:void access$16(com.goodfriends.personalchef.MoreChefActivity) -> n
     34:34:void access$17(com.goodfriends.personalchef.MoreChefActivity,int) -> a
     47:47:android.widget.Button access$18(com.goodfriends.personalchef.MoreChefActivity) -> o
-com.goodfriends.personalchef.MoreChefActivity$1 -> com.goodfriends.personalchef.bf:
+com.goodfriends.personalchef.MoreChefActivity$1 -> com.goodfriends.personalchef.bg:
     com.goodfriends.personalchef.MoreChefActivity this$0 -> a
     129:135:void run() -> run
-com.goodfriends.personalchef.MoreChefActivity$2 -> com.goodfriends.personalchef.bg:
+com.goodfriends.personalchef.MoreChefActivity$2 -> com.goodfriends.personalchef.bh:
     com.goodfriends.personalchef.MoreChefActivity this$0 -> a
     141:163:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.MoreChefActivity$3 -> com.goodfriends.personalchef.bh:
+com.goodfriends.personalchef.MoreChefActivity$3 -> com.goodfriends.personalchef.bi:
     com.goodfriends.personalchef.MoreChefActivity this$0 -> a
     75:76:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     81:82:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.MoreChefActivity$4 -> com.goodfriends.personalchef.bi:
+com.goodfriends.personalchef.MoreChefActivity$4 -> com.goodfriends.personalchef.bj:
     com.goodfriends.personalchef.MoreChefActivity this$0 -> a
     91:98:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
 com.goodfriends.personalchef.OrderActivity -> com.goodfriends.personalchef.OrderActivity:
@@ -8272,28 +8791,28 @@ com.goodfriends.personalchef.OrderActivity -> com.goodfriends.personalchef.Order
     73:73:void access$55(com.goodfriends.personalchef.OrderActivity,int) -> f
     112:112:android.widget.TextView access$56(com.goodfriends.personalchef.OrderActivity) -> O
     72:72:void access$57(com.goodfriends.personalchef.OrderActivity,int) -> g
-com.goodfriends.personalchef.OrderActivity$1 -> com.goodfriends.personalchef.bj:
+com.goodfriends.personalchef.OrderActivity$1 -> com.goodfriends.personalchef.bk:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     178:182:void run() -> run
-com.goodfriends.personalchef.OrderActivity$2 -> com.goodfriends.personalchef.bk:
+com.goodfriends.personalchef.OrderActivity$2 -> com.goodfriends.personalchef.bl:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     189:193:void run() -> run
-com.goodfriends.personalchef.OrderActivity$3 -> com.goodfriends.personalchef.bl:
+com.goodfriends.personalchef.OrderActivity$3 -> com.goodfriends.personalchef.bm:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     200:206:void run() -> run
-com.goodfriends.personalchef.OrderActivity$4 -> com.goodfriends.personalchef.bm:
+com.goodfriends.personalchef.OrderActivity$4 -> com.goodfriends.personalchef.bn:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     614:622:void run() -> run
-com.goodfriends.personalchef.OrderActivity$5 -> com.goodfriends.personalchef.bn:
+com.goodfriends.personalchef.OrderActivity$5 -> com.goodfriends.personalchef.bo:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     628:703:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.OrderActivity$6 -> com.goodfriends.personalchef.bo:
+com.goodfriends.personalchef.OrderActivity$6 -> com.goodfriends.personalchef.bp:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     741:752:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.OrderActivity$7 -> com.goodfriends.personalchef.bp:
+com.goodfriends.personalchef.OrderActivity$7 -> com.goodfriends.personalchef.bq:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     148:148:void page(int) -> a
-com.goodfriends.personalchef.OrderActivity$8 -> com.goodfriends.personalchef.bq:
+com.goodfriends.personalchef.OrderActivity$8 -> com.goodfriends.personalchef.br:
     com.goodfriends.personalchef.OrderActivity this$0 -> a
     int val$j -> b
     368:385:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
@@ -8366,26 +8885,26 @@ com.goodfriends.personalchef.OrderDetailActivity -> com.goodfriends.personalchef
     405:405:void access$11(com.goodfriends.personalchef.OrderDetailActivity,java.lang.String) -> a
     65:65:android.widget.EditText access$12(com.goodfriends.personalchef.OrderDetailActivity) -> k
     64:64:void access$13(com.goodfriends.personalchef.OrderDetailActivity,java.lang.String) -> b
-com.goodfriends.personalchef.OrderDetailActivity$1 -> com.goodfriends.personalchef.br:
+com.goodfriends.personalchef.OrderDetailActivity$1 -> com.goodfriends.personalchef.bs:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     90:94:void run() -> run
-com.goodfriends.personalchef.OrderDetailActivity$2 -> com.goodfriends.personalchef.bs:
+com.goodfriends.personalchef.OrderDetailActivity$2 -> com.goodfriends.personalchef.bt:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     102:109:void run() -> run
-com.goodfriends.personalchef.OrderDetailActivity$3 -> com.goodfriends.personalchef.bt:
+com.goodfriends.personalchef.OrderDetailActivity$3 -> com.goodfriends.personalchef.bu:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     115:140:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.OrderDetailActivity$4 -> com.goodfriends.personalchef.bu:
+com.goodfriends.personalchef.OrderDetailActivity$4 -> com.goodfriends.personalchef.bv:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     146:156:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.OrderDetailActivity$5 -> com.goodfriends.personalchef.bv:
+com.goodfriends.personalchef.OrderDetailActivity$5 -> com.goodfriends.personalchef.bw:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     391:396:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.OrderDetailActivity$6 -> com.goodfriends.personalchef.bw:
+com.goodfriends.personalchef.OrderDetailActivity$6 -> com.goodfriends.personalchef.bx:
     com.goodfriends.personalchef.OrderDetailActivity this$0 -> a
     401:401:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.R -> com.goodfriends.personalchef.bx:
-com.goodfriends.personalchef.R$anim -> com.goodfriends.personalchef.bx$a:
+com.goodfriends.personalchef.R -> com.goodfriends.personalchef.by:
+com.goodfriends.personalchef.R$anim -> com.goodfriends.personalchef.by$a:
     int pophidden_anim -> a
     int popshow_anim -> b
     int push_left_in -> c
@@ -8403,8 +8922,8 @@ com.goodfriends.personalchef.R$anim -> com.goodfriends.personalchef.bx$a:
     int umeng_socialize_slide_in_from_bottom -> o
     int umeng_socialize_slide_out_from_bottom -> p
     int update_loading_progressbar_anim -> q
-com.goodfriends.personalchef.R$attr -> com.goodfriends.personalchef.bx$b:
-com.goodfriends.personalchef.R$color -> com.goodfriends.personalchef.bx$c:
+com.goodfriends.personalchef.R$attr -> com.goodfriends.personalchef.by$b:
+com.goodfriends.personalchef.R$color -> com.goodfriends.personalchef.by$c:
     int black -> a
     int blackword -> b
     int blue -> c
@@ -8448,7 +8967,7 @@ com.goodfriends.personalchef.R$color -> com.goodfriends.personalchef.bx$c:
     int umeng_socialize_ucenter_bg -> O
     int white -> P
     int yello_back -> Q
-com.goodfriends.personalchef.R$dimen -> com.goodfriends.personalchef.bx$d:
+com.goodfriends.personalchef.R$dimen -> com.goodfriends.personalchef.by$d:
     int activity_horizontal_margin -> a
     int activity_vertical_margin -> b
     int alphabet_size -> c
@@ -9742,7 +10261,7 @@ com.goodfriends.personalchef.R$dimen -> com.goodfriends.personalchef.bx$d:
     int title_height -> xQ
     int umeng_socialize_pad_window_height -> xR
     int umeng_socialize_pad_window_width -> xS
-com.goodfriends.personalchef.R$drawable -> com.goodfriends.personalchef.bx$e:
+com.goodfriends.personalchef.R$drawable -> com.goodfriends.personalchef.by$e:
     int addr_btn_back_select -> a
     int addr_rb_city_selector -> b
     int adv_gallery_mark_selector -> c
@@ -9978,7 +10497,7 @@ com.goodfriends.personalchef.R$drawable -> com.goodfriends.personalchef.bx$e:
     int xsearch_msg_pull_arrow_down -> dy
     int xuancai_tv1_bg -> dz
     int xuancai_tv2_bg -> dA
-com.goodfriends.personalchef.R$id -> com.goodfriends.personalchef.bx$f:
+com.goodfriends.personalchef.R$id -> com.goodfriends.personalchef.by$f:
     int Button01 -> a
     int about -> b
     int action_settings -> c
@@ -10125,259 +10644,260 @@ com.goodfriends.personalchef.R$id -> com.goodfriends.personalchef.bx$f:
     int iv7 -> bN
     int iv8 -> bO
     int iv_clear_img -> bP
-    int likethis -> bQ
-    int listView -> bR
-    int listView2 -> bS
-    int list_caipin -> bT
-    int list_chushi -> bU
-    int list_orderdish -> bV
-    int listview -> bW
-    int ll1 -> bX
-    int ll2 -> bY
-    int ll3 -> bZ
-    int ll4 -> ca
-    int ll5 -> cb
-    int ll6 -> cc
-    int ll7 -> cd
-    int ll8 -> ce
-    int ll_add -> cf
-    int ll_choice -> cg
-    int ll_order -> ch
-    int ll_title -> ci
-    int login_auth -> cj
-    int login_close -> ck
-    int login_forget -> cl
-    int login_login -> cm
-    int login_password -> cn
-    int login_phone -> co
-    int login_reg -> cp
-    int login_send -> cq
-    int lv_city -> cr
-    int main_radio -> cs
-    int me_name -> ct
-    int me_phone -> cu
-    int mine_address -> cv
-    int mine_auth -> cw
-    int mine_collect -> cx
-    int mine_coupon -> cy
-    int mine_feedback -> cz
-    int mine_login -> cA
-    int mine_phone -> cB
-    int mine_setting -> cC
-    int mine_share -> cD
-    int moreChef -> cE
-    int more_caixi -> cF
-    int more_certification -> cG
-    int more_fuwu -> cH
-    int more_gold -> cI
-    int more_jiguan -> cJ
-    int more_listView -> cK
-    int more_name -> cL
-    int more_pingjia -> cM
-    int more_star -> cN
-    int more_yuyue -> cO
-    int msg -> cP
-    int name -> cQ
-    int news_detail_scrollview -> cR
-    int nodata -> cS
-    int order_cName -> cT
-    int order_dishNum -> cU
-    int order_fee -> cV
-    int order_intro -> cW
-    int order_introName -> cX
-    int order_list -> cY
-    int order_name -> cZ
-    int order_none -> da
-    int order_pack_intro -> db
-    int order_pic -> dc
-    int order_remark -> dd
-    int order_state -> de
-    int order_sure -> df
-    int order_time -> dg
-    int order_type -> dh
-    int orderdeatail_grade1 -> di
-    int orderdeatail_grade2 -> dj
-    int orderdeatail_grade3 -> dk
-    int orderdeatail_grade4 -> dl
-    int orderdeatail_grade5 -> dm
-    int orderdeatail_slipButton -> dn
-    int orderdeatail_slipButton2 -> do
-    int orderdetail_addr -> dp
-    int orderdetail_caixi -> dq
-    int orderdetail_certification -> dr
-    int orderdetail_chefphone -> ds
-    int orderdetail_gold -> dt
-    int orderdetail_head -> du
-    int orderdetail_jiguan -> dv
-    int orderdetail_name -> dw
-    int orderdetail_phone -> dx
-    int orderdetail_remark -> dy
-    int orderdetail_star -> dz
-    int orderdetail_status -> dA
-    int orderdetail_time -> dB
-    int orderdetail_times -> dC
-    int phone -> dD
-    int pic -> dE
-    int pingjia -> dF
-    int pinglun -> dG
-    int price -> dH
-    int progress_bar_parent -> dI
-    int pull_to_load_footer_content -> dJ
-    int pull_to_load_footer_hint_textview -> dK
-    int pull_to_load_footer_progressbar -> dL
-    int pull_to_refresh_header_arrow -> dM
-    int pull_to_refresh_header_content -> dN
-    int pull_to_refresh_header_hint_textview -> dO
-    int pull_to_refresh_header_progressbar -> dP
-    int pull_to_refresh_header_text -> dQ
-    int pull_to_refresh_header_time -> dR
-    int pull_to_refresh_last_update_time_text -> dS
-    int quxiao -> dT
-    int radioButton -> dU
-    int radioGroup -> dV
-    int radio_button1 -> dW
-    int radio_button2 -> dX
-    int radio_button3 -> dY
-    int radio_button4 -> dZ
-    int ratingbar1 -> ea
-    int ratingbar2 -> eb
-    int ratingbar3 -> ec
-    int rb_city -> ed
-    int rb_district -> ee
-    int rb_province -> ef
-    int realtabcontent -> eg
-    int reg_again_password -> eh
-    int reg_auth -> ei
-    int reg_close -> ej
-    int reg_login -> ek
-    int reg_password -> el
-    int reg_phone -> em
-    int reg_reg -> en
-    int reg_send -> eo
-    int rg -> ep
-    int rl_img -> eq
-    int scrlayout -> er
-    int scrollview -> es
-    int search_text -> et
-    int searchlist_chushi -> eu
-    int section -> ev
-    int shicai -> ew
-    int slideBar -> ex
-    int slipButton -> ey
-    int slipButton2 -> ez
-    int tabText -> eA
-    int tijiao -> eB
-    int time -> eC
-    int times -> eD
-    int title -> eE
-    int title_back -> eF
-    int title_collect -> eG
-    int title_collect1 -> eH
-    int title_name -> eI
-    int title_send -> eJ
-    int title_share -> eK
-    int tuijiancaipin -> eL
-    int tuijianchushi -> eM
-    int tv -> eN
-    int tv1 -> eO
-    int tv2 -> eP
-    int tv3 -> eQ
-    int tv4 -> eR
-    int tv5 -> eS
-    int tv6 -> eT
-    int tv7 -> eU
-    int tv8 -> eV
-    int tv_addr -> eW
-    int tv_city -> eX
-    int tv_city1 -> eY
-    int tv_city2 -> eZ
-    int tv_search_cancel -> fa
-    int tv_tittle -> fb
-    int tv_version -> fc
-    int txt_userName -> fd
-    int umeng_socialize_alert_body -> fe
-    int umeng_socialize_alert_button -> ff
-    int umeng_socialize_alert_footer -> fg
-    int umeng_socialize_avatar_imv -> fh
-    int umeng_socialize_bind_cancel -> fi
-    int umeng_socialize_bind_douban -> fj
-    int umeng_socialize_bind_no_tip -> fk
-    int umeng_socialize_bind_qzone -> fl
-    int umeng_socialize_bind_renren -> fm
-    int umeng_socialize_bind_sina -> fn
-    int umeng_socialize_bind_tel -> fo
-    int umeng_socialize_first_area -> fp
-    int umeng_socialize_first_area_title -> fq
-    int umeng_socialize_follow -> fr
-    int umeng_socialize_follow_check -> fs
-    int umeng_socialize_follow_layout -> ft
-    int umeng_socialize_full_alert_dialog_divider -> fu
-    int umeng_socialize_full_alert_dialog_item_icon -> fv
-    int umeng_socialize_full_alert_dialog_item_status -> fw
-    int umeng_socialize_full_alert_dialog_item_text -> fx
-    int umeng_socialize_line_serach -> fy
-    int umeng_socialize_list_fds -> fz
-    int umeng_socialize_list_fds_root -> fA
-    int umeng_socialize_list_progress -> fB
-    int umeng_socialize_list_recently_fds_root -> fC
-    int umeng_socialize_location_ic -> fD
-    int umeng_socialize_location_progressbar -> fE
-    int umeng_socialize_platforms_lv -> fF
-    int umeng_socialize_platforms_lv_second -> fG
-    int umeng_socialize_post_fetch_image -> fH
-    int umeng_socialize_progress -> fI
-    int umeng_socialize_second_area -> fJ
-    int umeng_socialize_second_area_title -> fK
-    int umeng_socialize_share_at -> fL
-    int umeng_socialize_share_bottom_area -> fM
-    int umeng_socialize_share_edittext -> fN
-    int umeng_socialize_share_info -> fO
-    int umeng_socialize_share_location -> fP
-    int umeng_socialize_share_previewImg -> fQ
-    int umeng_socialize_share_previewImg_progressbar -> fR
-    int umeng_socialize_share_previewImg_remove -> fS
-    int umeng_socialize_share_root -> fT
-    int umeng_socialize_share_titlebar -> fU
-    int umeng_socialize_share_word_num -> fV
-    int umeng_socialize_shareboard_image -> fW
-    int umeng_socialize_shareboard_pltform_name -> fX
-    int umeng_socialize_spinner_img -> fY
-    int umeng_socialize_spinner_txt -> fZ
-    int umeng_socialize_switcher -> ga
-    int umeng_socialize_text_view -> gb
-    int umeng_socialize_tipinfo -> gc
-    int umeng_socialize_title -> gd
-    int umeng_socialize_title_bar_leftBt -> ge
-    int umeng_socialize_title_bar_middleTv -> gf
-    int umeng_socialize_title_bar_middle_tab -> gg
-    int umeng_socialize_title_bar_rightBt -> gh
-    int umeng_socialize_title_bar_rightBt_progress -> gi
-    int umeng_socialize_title_middle_left -> gj
-    int umeng_socialize_title_middle_right -> gk
-    int umeng_socialize_titlebar -> gl
-    int umeng_xp_ScrollView -> gm
-    int updata -> gn
-    int updata_info -> go
-    int userinfo -> gp
-    int v_dot1 -> gq
-    int v_dot2 -> gr
-    int v_dot3 -> gs
-    int viewPager -> gt
-    int viewpager -> gu
-    int webView -> gv
-    int wv -> gw
-    int xuancai -> gx
-    int xuancai_choice -> gy
-    int xuancai_desc -> gz
-    int xuancai_gridview -> gA
-    int xuancai_intro -> gB
-    int xuancai_iv -> gC
-    int xuancai_jia -> gD
-    int xuancai_jian -> gE
-    int xuancai_name -> gF
-    int xuancai_num -> gG
-    int xuancai_times -> gH
-com.goodfriends.personalchef.R$layout -> com.goodfriends.personalchef.bx$g:
+    int iv_logo -> bQ
+    int likethis -> bR
+    int listView -> bS
+    int listView2 -> bT
+    int list_caipin -> bU
+    int list_chushi -> bV
+    int list_orderdish -> bW
+    int listview -> bX
+    int ll1 -> bY
+    int ll2 -> bZ
+    int ll3 -> ca
+    int ll4 -> cb
+    int ll5 -> cc
+    int ll6 -> cd
+    int ll7 -> ce
+    int ll8 -> cf
+    int ll_add -> cg
+    int ll_choice -> ch
+    int ll_order -> ci
+    int ll_title -> cj
+    int login_auth -> ck
+    int login_close -> cl
+    int login_forget -> cm
+    int login_login -> cn
+    int login_password -> co
+    int login_phone -> cp
+    int login_reg -> cq
+    int login_send -> cr
+    int lv_city -> cs
+    int main_radio -> ct
+    int me_name -> cu
+    int me_phone -> cv
+    int mine_address -> cw
+    int mine_auth -> cx
+    int mine_collect -> cy
+    int mine_coupon -> cz
+    int mine_feedback -> cA
+    int mine_login -> cB
+    int mine_phone -> cC
+    int mine_setting -> cD
+    int mine_share -> cE
+    int moreChef -> cF
+    int more_caixi -> cG
+    int more_certification -> cH
+    int more_fuwu -> cI
+    int more_gold -> cJ
+    int more_jiguan -> cK
+    int more_listView -> cL
+    int more_name -> cM
+    int more_pingjia -> cN
+    int more_star -> cO
+    int more_yuyue -> cP
+    int msg -> cQ
+    int name -> cR
+    int news_detail_scrollview -> cS
+    int nodata -> cT
+    int order_cName -> cU
+    int order_dishNum -> cV
+    int order_fee -> cW
+    int order_intro -> cX
+    int order_introName -> cY
+    int order_list -> cZ
+    int order_name -> da
+    int order_none -> db
+    int order_pack_intro -> dc
+    int order_pic -> dd
+    int order_remark -> de
+    int order_state -> df
+    int order_sure -> dg
+    int order_time -> dh
+    int order_type -> di
+    int orderdeatail_grade1 -> dj
+    int orderdeatail_grade2 -> dk
+    int orderdeatail_grade3 -> dl
+    int orderdeatail_grade4 -> dm
+    int orderdeatail_grade5 -> dn
+    int orderdeatail_slipButton -> do
+    int orderdeatail_slipButton2 -> dp
+    int orderdetail_addr -> dq
+    int orderdetail_caixi -> dr
+    int orderdetail_certification -> ds
+    int orderdetail_chefphone -> dt
+    int orderdetail_gold -> du
+    int orderdetail_head -> dv
+    int orderdetail_jiguan -> dw
+    int orderdetail_name -> dx
+    int orderdetail_phone -> dy
+    int orderdetail_remark -> dz
+    int orderdetail_star -> dA
+    int orderdetail_status -> dB
+    int orderdetail_time -> dC
+    int orderdetail_times -> dD
+    int phone -> dE
+    int pic -> dF
+    int pingjia -> dG
+    int pinglun -> dH
+    int price -> dI
+    int progress_bar_parent -> dJ
+    int pull_to_load_footer_content -> dK
+    int pull_to_load_footer_hint_textview -> dL
+    int pull_to_load_footer_progressbar -> dM
+    int pull_to_refresh_header_arrow -> dN
+    int pull_to_refresh_header_content -> dO
+    int pull_to_refresh_header_hint_textview -> dP
+    int pull_to_refresh_header_progressbar -> dQ
+    int pull_to_refresh_header_text -> dR
+    int pull_to_refresh_header_time -> dS
+    int pull_to_refresh_last_update_time_text -> dT
+    int quxiao -> dU
+    int radioButton -> dV
+    int radioGroup -> dW
+    int radio_button1 -> dX
+    int radio_button2 -> dY
+    int radio_button3 -> dZ
+    int radio_button4 -> ea
+    int ratingbar1 -> eb
+    int ratingbar2 -> ec
+    int ratingbar3 -> ed
+    int rb_city -> ee
+    int rb_district -> ef
+    int rb_province -> eg
+    int realtabcontent -> eh
+    int reg_again_password -> ei
+    int reg_auth -> ej
+    int reg_close -> ek
+    int reg_login -> el
+    int reg_password -> em
+    int reg_phone -> en
+    int reg_reg -> eo
+    int reg_send -> ep
+    int rg -> eq
+    int rl_img -> er
+    int scrlayout -> es
+    int scrollview -> et
+    int search_text -> eu
+    int searchlist_chushi -> ev
+    int section -> ew
+    int shicai -> ex
+    int slideBar -> ey
+    int slipButton -> ez
+    int slipButton2 -> eA
+    int tabText -> eB
+    int tijiao -> eC
+    int time -> eD
+    int times -> eE
+    int title -> eF
+    int title_back -> eG
+    int title_collect -> eH
+    int title_collect1 -> eI
+    int title_name -> eJ
+    int title_send -> eK
+    int title_share -> eL
+    int tuijiancaipin -> eM
+    int tuijianchushi -> eN
+    int tv -> eO
+    int tv1 -> eP
+    int tv2 -> eQ
+    int tv3 -> eR
+    int tv4 -> eS
+    int tv5 -> eT
+    int tv6 -> eU
+    int tv7 -> eV
+    int tv8 -> eW
+    int tv_addr -> eX
+    int tv_city -> eY
+    int tv_city1 -> eZ
+    int tv_city2 -> fa
+    int tv_search_cancel -> fb
+    int tv_tittle -> fc
+    int tv_version -> fd
+    int txt_userName -> fe
+    int umeng_socialize_alert_body -> ff
+    int umeng_socialize_alert_button -> fg
+    int umeng_socialize_alert_footer -> fh
+    int umeng_socialize_avatar_imv -> fi
+    int umeng_socialize_bind_cancel -> fj
+    int umeng_socialize_bind_douban -> fk
+    int umeng_socialize_bind_no_tip -> fl
+    int umeng_socialize_bind_qzone -> fm
+    int umeng_socialize_bind_renren -> fn
+    int umeng_socialize_bind_sina -> fo
+    int umeng_socialize_bind_tel -> fp
+    int umeng_socialize_first_area -> fq
+    int umeng_socialize_first_area_title -> fr
+    int umeng_socialize_follow -> fs
+    int umeng_socialize_follow_check -> ft
+    int umeng_socialize_follow_layout -> fu
+    int umeng_socialize_full_alert_dialog_divider -> fv
+    int umeng_socialize_full_alert_dialog_item_icon -> fw
+    int umeng_socialize_full_alert_dialog_item_status -> fx
+    int umeng_socialize_full_alert_dialog_item_text -> fy
+    int umeng_socialize_line_serach -> fz
+    int umeng_socialize_list_fds -> fA
+    int umeng_socialize_list_fds_root -> fB
+    int umeng_socialize_list_progress -> fC
+    int umeng_socialize_list_recently_fds_root -> fD
+    int umeng_socialize_location_ic -> fE
+    int umeng_socialize_location_progressbar -> fF
+    int umeng_socialize_platforms_lv -> fG
+    int umeng_socialize_platforms_lv_second -> fH
+    int umeng_socialize_post_fetch_image -> fI
+    int umeng_socialize_progress -> fJ
+    int umeng_socialize_second_area -> fK
+    int umeng_socialize_second_area_title -> fL
+    int umeng_socialize_share_at -> fM
+    int umeng_socialize_share_bottom_area -> fN
+    int umeng_socialize_share_edittext -> fO
+    int umeng_socialize_share_info -> fP
+    int umeng_socialize_share_location -> fQ
+    int umeng_socialize_share_previewImg -> fR
+    int umeng_socialize_share_previewImg_progressbar -> fS
+    int umeng_socialize_share_previewImg_remove -> fT
+    int umeng_socialize_share_root -> fU
+    int umeng_socialize_share_titlebar -> fV
+    int umeng_socialize_share_word_num -> fW
+    int umeng_socialize_shareboard_image -> fX
+    int umeng_socialize_shareboard_pltform_name -> fY
+    int umeng_socialize_spinner_img -> fZ
+    int umeng_socialize_spinner_txt -> ga
+    int umeng_socialize_switcher -> gb
+    int umeng_socialize_text_view -> gc
+    int umeng_socialize_tipinfo -> gd
+    int umeng_socialize_title -> ge
+    int umeng_socialize_title_bar_leftBt -> gf
+    int umeng_socialize_title_bar_middleTv -> gg
+    int umeng_socialize_title_bar_middle_tab -> gh
+    int umeng_socialize_title_bar_rightBt -> gi
+    int umeng_socialize_title_bar_rightBt_progress -> gj
+    int umeng_socialize_title_middle_left -> gk
+    int umeng_socialize_title_middle_right -> gl
+    int umeng_socialize_titlebar -> gm
+    int umeng_xp_ScrollView -> gn
+    int updata -> go
+    int updata_info -> gp
+    int userinfo -> gq
+    int v_dot1 -> gr
+    int v_dot2 -> gs
+    int v_dot3 -> gt
+    int viewPager -> gu
+    int viewpager -> gv
+    int webView -> gw
+    int wv -> gx
+    int xuancai -> gy
+    int xuancai_choice -> gz
+    int xuancai_desc -> gA
+    int xuancai_gridview -> gB
+    int xuancai_intro -> gC
+    int xuancai_iv -> gD
+    int xuancai_jia -> gE
+    int xuancai_jian -> gF
+    int xuancai_name -> gG
+    int xuancai_num -> gH
+    int xuancai_times -> gI
+com.goodfriends.personalchef.R$layout -> com.goodfriends.personalchef.by$g:
     int activity_add -> a
     int activity_address -> b
     int activity_bill -> c
@@ -10468,11 +10988,11 @@ com.goodfriends.personalchef.R$layout -> com.goodfriends.personalchef.bx$g:
     int view_region -> aJ
     int view_searchtext -> aK
     int xancai_grid_item -> aL
-com.goodfriends.personalchef.R$menu -> com.goodfriends.personalchef.bx$h:
+com.goodfriends.personalchef.R$menu -> com.goodfriends.personalchef.by$h:
     int main -> a
-com.goodfriends.personalchef.R$raw -> com.goodfriends.personalchef.bx$i:
+com.goodfriends.personalchef.R$raw -> com.goodfriends.personalchef.by$i:
     int city -> a
-com.goodfriends.personalchef.R$string -> com.goodfriends.personalchef.bx$j:
+com.goodfriends.personalchef.R$string -> com.goodfriends.personalchef.by$j:
     int action_settings -> a
     int app_name -> b
     int caipin -> c
@@ -10594,7 +11114,7 @@ com.goodfriends.personalchef.R$string -> com.goodfriends.personalchef.bx$j:
     int umeng_socialize_ucenter_login_title_guide -> bo
     int umeng_socialize_ucenter_login_title_platform -> bp
     int xsearch_loading -> bq
-com.goodfriends.personalchef.R$style -> com.goodfriends.personalchef.bx$k:
+com.goodfriends.personalchef.R$style -> com.goodfriends.personalchef.by$k:
     int AppBaseTheme -> a
     int AppTheme -> b
     int CustomCheckboxTheme -> c
@@ -10650,16 +11170,16 @@ com.goodfriends.personalchef.RegActivity -> com.goodfriends.personalchef.RegActi
     31:31:void access$11(com.goodfriends.personalchef.RegActivity,com.goodfriends.personalchef.RegActivity$TimeCount) -> a
     31:31:com.goodfriends.personalchef.RegActivity$TimeCount access$12(com.goodfriends.personalchef.RegActivity) -> i
     29:29:android.widget.Button access$13(com.goodfriends.personalchef.RegActivity) -> j
-com.goodfriends.personalchef.RegActivity$1 -> com.goodfriends.personalchef.by:
+com.goodfriends.personalchef.RegActivity$1 -> com.goodfriends.personalchef.bz:
     com.goodfriends.personalchef.RegActivity this$0 -> a
     51:56:void run() -> run
-com.goodfriends.personalchef.RegActivity$2 -> com.goodfriends.personalchef.bz:
+com.goodfriends.personalchef.RegActivity$2 -> com.goodfriends.personalchef.ca:
     com.goodfriends.personalchef.RegActivity this$0 -> a
     63:70:void run() -> run
-com.goodfriends.personalchef.RegActivity$3 -> com.goodfriends.personalchef.ca:
+com.goodfriends.personalchef.RegActivity$3 -> com.goodfriends.personalchef.cb:
     com.goodfriends.personalchef.RegActivity this$0 -> a
     76:99:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.RegActivity$4 -> com.goodfriends.personalchef.cb:
+com.goodfriends.personalchef.RegActivity$4 -> com.goodfriends.personalchef.cc:
     com.goodfriends.personalchef.RegActivity this$0 -> a
     104:124:void handleMessage(android.os.Message) -> handleMessage
 com.goodfriends.personalchef.RegActivity$TimeCount -> com.goodfriends.personalchef.RegActivity$a:
@@ -10682,16 +11202,16 @@ com.goodfriends.personalchef.SettingActivity -> com.goodfriends.personalchef.Set
     26:26:java.lang.String access$0(com.goodfriends.personalchef.SettingActivity) -> a
     119:119:android.os.Handler access$1(com.goodfriends.personalchef.SettingActivity) -> b
     27:27:android.widget.TextView access$2(com.goodfriends.personalchef.SettingActivity) -> c
-com.goodfriends.personalchef.SettingActivity$1 -> com.goodfriends.personalchef.cc:
+com.goodfriends.personalchef.SettingActivity$1 -> com.goodfriends.personalchef.cd:
     com.goodfriends.personalchef.SettingActivity this$0 -> a
     109:115:void run() -> run
-com.goodfriends.personalchef.SettingActivity$2 -> com.goodfriends.personalchef.cd:
+com.goodfriends.personalchef.SettingActivity$2 -> com.goodfriends.personalchef.ce:
     com.goodfriends.personalchef.SettingActivity this$0 -> a
     121:131:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.SettingActivity$3 -> com.goodfriends.personalchef.ce:
+com.goodfriends.personalchef.SettingActivity$3 -> com.goodfriends.personalchef.cf:
     com.goodfriends.personalchef.SettingActivity this$0 -> a
     69:78:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.SettingActivity$4 -> com.goodfriends.personalchef.cf:
+com.goodfriends.personalchef.SettingActivity$4 -> com.goodfriends.personalchef.cg:
     com.goodfriends.personalchef.SettingActivity this$0 -> a
     85:86:void onClick(android.content.DialogInterface,int) -> onClick
 com.goodfriends.personalchef.WebUrlActivity -> com.goodfriends.personalchef.WebUrlActivity:
@@ -10703,10 +11223,10 @@ com.goodfriends.personalchef.WebUrlActivity -> com.goodfriends.personalchef.WebU
     29:71:void onCreate(android.os.Bundle) -> onCreate
     76:84:void initView() -> a
     21:21:android.app.ProgressDialog access$0(com.goodfriends.personalchef.WebUrlActivity) -> a
-com.goodfriends.personalchef.WebUrlActivity$1 -> com.goodfriends.personalchef.cg:
+com.goodfriends.personalchef.WebUrlActivity$1 -> com.goodfriends.personalchef.ch:
     com.goodfriends.personalchef.WebUrlActivity this$0 -> a
     45:46:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.WebUrlActivity$2 -> com.goodfriends.personalchef.ch:
+com.goodfriends.personalchef.WebUrlActivity$2 -> com.goodfriends.personalchef.ci:
     com.goodfriends.personalchef.WebUrlActivity this$0 -> a
     51:54:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
     57:57:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
@@ -11143,12 +11663,13 @@ com.goodfriends.personalchef.bean.AddressBean -> com.goodfriends.personalchef.b.
     39:39:java.util.List getList() -> c
     43:44:void setList(java.util.List) -> a
 com.goodfriends.personalchef.bean.Advs -> com.goodfriends.personalchef.b.c:
-    java.lang.String imgurl -> a
-    java.lang.String url -> b
-    14:14:java.lang.String getImgurl() -> a
-    18:19:void setImgurl(java.lang.String) -> a
-    22:22:java.lang.String getUrl() -> b
-    26:27:void setUrl(java.lang.String) -> b
+    long serialVersionUID -> a
+    java.lang.String imgurl -> b
+    java.lang.String url -> c
+    20:20:java.lang.String getImgurl() -> a
+    24:25:void setImgurl(java.lang.String) -> a
+    28:28:java.lang.String getUrl() -> b
+    32:33:void setUrl(java.lang.String) -> b
 com.goodfriends.personalchef.bean.Caixi -> com.goodfriends.personalchef.b.d:
     int id -> a
     java.lang.String name -> b
@@ -11595,6 +12116,49 @@ com.goodfriends.personalchef.bean.UserInfo -> com.goodfriends.personalchef.b.aa:
     62:63:void setName(java.lang.String) -> d
     66:66:int getUserid() -> f
     70:71:void setUserid(int) -> b
+com.goodfriends.personalchef.biz.LruImageCache -> com.goodfriends.personalchef.c.a:
+    android.support.v4.util.LruCache mMemoryCache -> a
+    com.goodfriends.personalchef.biz.LruImageCache lruImageCache -> b
+    com.goodfriends.personalchef.util.CFileCache fileCache -> c
+    33:36:com.goodfriends.personalchef.biz.LruImageCache instance() -> a
+    41:49:android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    54:58:void putBitmap(java.lang.String,android.graphics.Bitmap) -> a
+com.goodfriends.personalchef.biz.LruImageCache$1 -> com.goodfriends.personalchef.c.b:
+    com.goodfriends.personalchef.biz.LruImageCache this$0 -> a
+    25:25:int sizeOf(java.lang.String,android.graphics.Bitmap) -> a
+    1:1:int sizeOf(java.lang.Object,java.lang.Object) -> b
+com.goodfriends.personalchef.biz.VolleyImage -> com.goodfriends.personalchef.c.c:
+    com.android.volley.RequestQueue mQueue -> a
+    android.os.Handler handler -> b
+    com.goodfriends.personalchef.util.CFileCache fileCache -> c
+    com.goodfriends.personalchef.biz.LruImageCache lruImageCache -> d
+    android.content.Context context -> e
+    59:89:void requestAdvs() -> a
+    98:128:void requestChefs() -> b
+    41:41:com.goodfriends.personalchef.util.CFileCache access$0(com.goodfriends.personalchef.biz.VolleyImage) -> a
+    42:42:com.goodfriends.personalchef.biz.LruImageCache access$1(com.goodfriends.personalchef.biz.VolleyImage) -> b
+    40:40:android.os.Handler access$2(com.goodfriends.personalchef.biz.VolleyImage) -> c
+    39:39:com.android.volley.RequestQueue access$3(com.goodfriends.personalchef.biz.VolleyImage) -> d
+com.goodfriends.personalchef.biz.VolleyImage$1 -> com.goodfriends.personalchef.c.d:
+    com.goodfriends.personalchef.biz.VolleyImage this$0 -> a
+    63:84:void onResponse(org.json.JSONObject) -> a
+    1:1:void onResponse(java.lang.Object) -> a
+    59:59:com.goodfriends.personalchef.biz.VolleyImage access$1(com.goodfriends.personalchef.biz.VolleyImage$1) -> a
+com.goodfriends.personalchef.biz.VolleyImage$1$1 -> com.goodfriends.personalchef.c.e:
+    com.goodfriends.personalchef.biz.VolleyImage$1 this$1 -> a
+    java.lang.String val$url -> b
+    70:72:void onResponse(android.graphics.Bitmap) -> a
+    1:1:void onResponse(java.lang.Object) -> a
+com.goodfriends.personalchef.biz.VolleyImage$2 -> com.goodfriends.personalchef.c.f:
+    com.goodfriends.personalchef.biz.VolleyImage this$0 -> a
+    102:123:void onResponse(org.json.JSONObject) -> a
+    1:1:void onResponse(java.lang.Object) -> a
+    98:98:com.goodfriends.personalchef.biz.VolleyImage access$1(com.goodfriends.personalchef.biz.VolleyImage$2) -> a
+com.goodfriends.personalchef.biz.VolleyImage$2$1 -> com.goodfriends.personalchef.c.g:
+    com.goodfriends.personalchef.biz.VolleyImage$2 this$1 -> a
+    java.lang.String val$url -> b
+    109:111:void onResponse(android.graphics.Bitmap) -> a
+    1:1:void onResponse(java.lang.Object) -> a
 com.goodfriends.personalchef.city.City -> com.goodfriends.personalchef.city.City:
     java.lang.String regionId -> a
     java.lang.String provinceCode -> b
@@ -11769,13 +12333,16 @@ com.goodfriends.personalchef.city.MyRegion -> com.goodfriends.personalchef.city.
     19:20:void setId(java.lang.String) -> b
     22:22:java.lang.String getParent_id() -> c
     25:26:void setParent_id(java.lang.String) -> c
-com.goodfriends.personalchef.common.Common -> com.goodfriends.personalchef.c.a:
+com.goodfriends.personalchef.common.App -> com.goodfriends.personalchef.d.a:
+    int screenHeight -> a
+    int screenWidth -> b
+com.goodfriends.personalchef.common.Common -> com.goodfriends.personalchef.d.b:
     int CHUSHI -> a
     int CAIPIN -> b
     28:50:java.lang.String post(java.lang.String,java.util.List) -> a
     54:73:java.lang.String get(java.lang.String,java.util.List) -> b
     77:89:boolean checkNetWork(android.content.Context) -> a
-com.goodfriends.personalchef.common.CommonFun -> com.goodfriends.personalchef.c.b:
+com.goodfriends.personalchef.common.CommonFun -> com.goodfriends.personalchef.d.c:
     java.lang.String advurl -> a
     java.lang.String dishurl -> b
     java.lang.String caixiurl -> c
@@ -11823,7 +12390,7 @@ com.goodfriends.personalchef.common.CommonFun -> com.goodfriends.personalchef.c.
     881:907:java.util.List getRecommendDishs(android.content.Context,int,int) -> c
     917:964:java.util.List getUserCollectDishs(android.content.Context,int,int,int) -> b
     973:988:boolean checkApkVersion(java.lang.String) -> b
-com.goodfriends.personalchef.common.CommonFun1 -> com.goodfriends.personalchef.c.c:
+com.goodfriends.personalchef.common.CommonFun1 -> com.goodfriends.personalchef.d.d:
     51:113:com.goodfriends.personalchef.bean.OrderBean getOrderList(int,int,int) -> a
     124:169:com.goodfriends.personalchef.bean.AddressBean getAddressList(int) -> a
     188:267:com.goodfriends.personalchef.bean.ChefBean getChefList(int,java.lang.String,int,int,int,int,java.lang.String,java.lang.String) -> a
@@ -11844,7 +12411,7 @@ com.goodfriends.personalchef.common.CommonFun1 -> com.goodfriends.personalchef.c
     976:1012:java.util.List getCouponList(int) -> b
     1016:1024:void notifyShare(int,int,java.lang.String) -> a
     1040:1113:com.goodfriends.personalchef.bean.ChefBean searchChefList(java.lang.String,int,int,int,java.lang.String) -> a
-com.goodfriends.personalchef.common.CommonUrl -> com.goodfriends.personalchef.c.d:
+com.goodfriends.personalchef.common.CommonUrl -> com.goodfriends.personalchef.d.e:
     java.lang.String SERVER -> a
     java.lang.String SHAREURL -> b
     java.lang.String ORDERLIST -> c
@@ -11870,13 +12437,18 @@ com.goodfriends.personalchef.common.CommonUrl -> com.goodfriends.personalchef.c.
     java.lang.String SHARECALLBACK -> w
     java.lang.String APP_SERVER -> x
     java.lang.String GETDISTINCT -> y
-com.goodfriends.personalchef.common.PreferencesObj -> com.goodfriends.personalchef.c.e:
+com.goodfriends.personalchef.common.Msg -> com.goodfriends.personalchef.d.f:
+    int Get_Ads_Images -> a
+    int Get_Chef_Images -> b
+    int Get_Fail -> c
+    int Get_Address -> d
+com.goodfriends.personalchef.common.PreferencesObj -> com.goodfriends.personalchef.d.g:
     java.lang.String FILENAME -> a
     29:44:void saveObject(android.content.Context,java.lang.String,java.lang.Object) -> a
     52:66:java.lang.String bytesToHexString(byte[]) -> a
     77:103:java.lang.Object readObject(android.content.Context,java.lang.String) -> a
     114:142:byte[] StringToBytes(java.lang.String) -> a
-com.goodfriends.personalchef.common.UIHelper -> com.goodfriends.personalchef.c.f:
+com.goodfriends.personalchef.common.UIHelper -> com.goodfriends.personalchef.d.h:
     30:33:void toSearchChef(android.content.Context) -> toSearchChef
     40:43:java.lang.String getVersionName(android.content.Context) -> a
     51:52:void errotNetwork(android.content.Context) -> b
@@ -11886,8 +12458,8 @@ com.goodfriends.personalchef.common.UIHelper -> com.goodfriends.personalchef.c.f
     98:101:void toSignup(android.content.Context) -> toSignup
     109:112:void toCity(android.app.Activity,com.goodfriends.personalchef.city.City) -> a
     122:149:java.lang.String friendly_distance(double) -> a
-com.goodfriends.personalchef.fragment.BaseFragment -> com.goodfriends.personalchef.d.a:
-com.goodfriends.personalchef.fragment.CategaryFragment -> com.goodfriends.personalchef.d.b:
+com.goodfriends.personalchef.fragment.BaseFragment -> com.goodfriends.personalchef.e.a:
+com.goodfriends.personalchef.fragment.CategaryFragment -> com.goodfriends.personalchef.e.b:
     com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView list_chushi -> i
     com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView list_caipin -> j
     android.widget.ListView mListView -> k
@@ -12006,69 +12578,69 @@ com.goodfriends.personalchef.fragment.CategaryFragment -> com.goodfriends.person
     478:478:void access$44(com.goodfriends.personalchef.fragment.CategaryFragment,android.view.View,java.lang.String,java.util.List,int) -> c
     58:58:com.goodfriends.personalchef.view.ViewRight access$45(com.goodfriends.personalchef.fragment.CategaryFragment) -> E
     398:398:void access$46(com.goodfriends.personalchef.fragment.CategaryFragment,android.view.View,java.lang.String,int,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$1 -> com.goodfriends.personalchef.d.c:
+com.goodfriends.personalchef.fragment.CategaryFragment$1 -> com.goodfriends.personalchef.e.c:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     521:535:void run() -> run
-com.goodfriends.personalchef.fragment.CategaryFragment$10 -> com.goodfriends.personalchef.d.d:
+com.goodfriends.personalchef.fragment.CategaryFragment$10 -> com.goodfriends.personalchef.e.d:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     177:179:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$11 -> com.goodfriends.personalchef.d.e:
+com.goodfriends.personalchef.fragment.CategaryFragment$11 -> com.goodfriends.personalchef.e.e:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     185:186:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$12 -> com.goodfriends.personalchef.d.f:
+com.goodfriends.personalchef.fragment.CategaryFragment$12 -> com.goodfriends.personalchef.e.f:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     193:194:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$13 -> com.goodfriends.personalchef.d.g:
+com.goodfriends.personalchef.fragment.CategaryFragment$13 -> com.goodfriends.personalchef.e.g:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     199:200:void getValue(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$14 -> com.goodfriends.personalchef.d.h:
+com.goodfriends.personalchef.fragment.CategaryFragment$14 -> com.goodfriends.personalchef.e.h:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     205:206:void getValue(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$15 -> com.goodfriends.personalchef.d.i:
+com.goodfriends.personalchef.fragment.CategaryFragment$15 -> com.goodfriends.personalchef.e.i:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     217:220:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$16 -> com.goodfriends.personalchef.d.j:
+com.goodfriends.personalchef.fragment.CategaryFragment$16 -> com.goodfriends.personalchef.e.j:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     227:229:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$17 -> com.goodfriends.personalchef.d.k:
+com.goodfriends.personalchef.fragment.CategaryFragment$17 -> com.goodfriends.personalchef.e.k:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     236:237:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.CategaryFragment$18 -> com.goodfriends.personalchef.d.l:
+com.goodfriends.personalchef.fragment.CategaryFragment$18 -> com.goodfriends.personalchef.e.l:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     243:244:void getValue(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$19 -> com.goodfriends.personalchef.d.m:
+com.goodfriends.personalchef.fragment.CategaryFragment$19 -> com.goodfriends.personalchef.e.m:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     249:250:void getValue(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$2 -> com.goodfriends.personalchef.d.n:
+com.goodfriends.personalchef.fragment.CategaryFragment$2 -> com.goodfriends.personalchef.e.n:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     542:557:void run() -> run
-com.goodfriends.personalchef.fragment.CategaryFragment$20 -> com.goodfriends.personalchef.d.o:
+com.goodfriends.personalchef.fragment.CategaryFragment$20 -> com.goodfriends.personalchef.e.o:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     255:256:void getValue(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.fragment.CategaryFragment$3 -> com.goodfriends.personalchef.d.p:
+com.goodfriends.personalchef.fragment.CategaryFragment$3 -> com.goodfriends.personalchef.e.p:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     567:579:void run() -> run
-com.goodfriends.personalchef.fragment.CategaryFragment$4 -> com.goodfriends.personalchef.d.q:
+com.goodfriends.personalchef.fragment.CategaryFragment$4 -> com.goodfriends.personalchef.e.q:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     586:604:void run() -> run
-com.goodfriends.personalchef.fragment.CategaryFragment$5 -> com.goodfriends.personalchef.d.r:
+com.goodfriends.personalchef.fragment.CategaryFragment$5 -> com.goodfriends.personalchef.e.r:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     610:680:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.CategaryFragment$6 -> com.goodfriends.personalchef.d.s:
+com.goodfriends.personalchef.fragment.CategaryFragment$6 -> com.goodfriends.personalchef.e.s:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     114:117:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     122:123:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.fragment.CategaryFragment$7 -> com.goodfriends.personalchef.d.t:
+com.goodfriends.personalchef.fragment.CategaryFragment$7 -> com.goodfriends.personalchef.e.t:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     131:134:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     139:140:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.fragment.CategaryFragment$8 -> com.goodfriends.personalchef.d.u:
+com.goodfriends.personalchef.fragment.CategaryFragment$8 -> com.goodfriends.personalchef.e.u:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     149:153:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.fragment.CategaryFragment$9 -> com.goodfriends.personalchef.d.v:
+com.goodfriends.personalchef.fragment.CategaryFragment$9 -> com.goodfriends.personalchef.e.v:
     com.goodfriends.personalchef.fragment.CategaryFragment this$0 -> a
     162:166:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.fragment.ChefFragment -> com.goodfriends.personalchef.d.w:
+com.goodfriends.personalchef.fragment.ChefFragment -> com.goodfriends.personalchef.e.w:
     java.util.List chefs -> b
     int page -> c
     int pagecount -> d
@@ -12101,20 +12673,20 @@ com.goodfriends.personalchef.fragment.ChefFragment -> com.goodfriends.personalch
     35:35:com.goodfriends.personalchef.adapter.ChefAdapter access$10(com.goodfriends.personalchef.fragment.ChefFragment) -> h
     36:36:com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView access$11(com.goodfriends.personalchef.fragment.ChefFragment) -> i
     139:139:void access$12(com.goodfriends.personalchef.fragment.ChefFragment) -> j
-com.goodfriends.personalchef.fragment.ChefFragment$1 -> com.goodfriends.personalchef.d.x:
+com.goodfriends.personalchef.fragment.ChefFragment$1 -> com.goodfriends.personalchef.e.x:
     com.goodfriends.personalchef.fragment.ChefFragment this$0 -> a
     102:109:void run() -> run
-com.goodfriends.personalchef.fragment.ChefFragment$2 -> com.goodfriends.personalchef.d.y:
+com.goodfriends.personalchef.fragment.ChefFragment$2 -> com.goodfriends.personalchef.e.y:
     com.goodfriends.personalchef.fragment.ChefFragment this$0 -> a
     115:136:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.ChefFragment$3 -> com.goodfriends.personalchef.d.z:
+com.goodfriends.personalchef.fragment.ChefFragment$3 -> com.goodfriends.personalchef.e.z:
     com.goodfriends.personalchef.fragment.ChefFragment this$0 -> a
     62:63:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     68:68:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.fragment.ChefFragment$4 -> com.goodfriends.personalchef.d.aa:
+com.goodfriends.personalchef.fragment.ChefFragment$4 -> com.goodfriends.personalchef.e.aa:
     com.goodfriends.personalchef.fragment.ChefFragment this$0 -> a
     77:81:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.fragment.DishFragment -> com.goodfriends.personalchef.d.ab:
+com.goodfriends.personalchef.fragment.DishFragment -> com.goodfriends.personalchef.e.ab:
     java.util.List dishs -> b
     int page -> c
     int pagecount -> d
@@ -12142,20 +12714,20 @@ com.goodfriends.personalchef.fragment.DishFragment -> com.goodfriends.personalch
     34:34:com.goodfriends.personalchef.adapter.DishAdapter access$8(com.goodfriends.personalchef.fragment.DishFragment) -> g
     35:35:com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshListView access$9(com.goodfriends.personalchef.fragment.DishFragment) -> h
     131:131:void access$10(com.goodfriends.personalchef.fragment.DishFragment) -> i
-com.goodfriends.personalchef.fragment.DishFragment$1 -> com.goodfriends.personalchef.d.ac:
+com.goodfriends.personalchef.fragment.DishFragment$1 -> com.goodfriends.personalchef.e.ac:
     com.goodfriends.personalchef.fragment.DishFragment this$0 -> a
     99:107:void run() -> run
-com.goodfriends.personalchef.fragment.DishFragment$2 -> com.goodfriends.personalchef.d.ad:
+com.goodfriends.personalchef.fragment.DishFragment$2 -> com.goodfriends.personalchef.e.ad:
     com.goodfriends.personalchef.fragment.DishFragment this$0 -> a
     113:128:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.DishFragment$3 -> com.goodfriends.personalchef.d.ae:
+com.goodfriends.personalchef.fragment.DishFragment$3 -> com.goodfriends.personalchef.e.ae:
     com.goodfriends.personalchef.fragment.DishFragment this$0 -> a
     58:59:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     64:64:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.fragment.DishFragment$4 -> com.goodfriends.personalchef.d.af:
+com.goodfriends.personalchef.fragment.DishFragment$4 -> com.goodfriends.personalchef.e.af:
     com.goodfriends.personalchef.fragment.DishFragment this$0 -> a
     73:77:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.fragment.HomeFragment -> com.goodfriends.personalchef.d.ag:
+com.goodfriends.personalchef.fragment.HomeFragment -> com.goodfriends.personalchef.e.ag:
     android.widget.TextView chushi_more -> j
     android.widget.TextView caipin_more -> k
     android.widget.TextView tuijianchushi -> l
@@ -12194,10 +12766,10 @@ com.goodfriends.personalchef.fragment.HomeFragment -> com.goodfriends.personalch
     com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager viewPager -> aI
     com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPagerAdapter pagerAdapter -> aJ
     int sleepTime -> aK
-    int[] imageViewIds -> aL
-    android.widget.RadioGroup adv_radioGroup -> aM
-    java.lang.Boolean isInit -> aN
-    int ADVCOUNT -> aO
+    android.widget.RadioGroup adv_radioGroup -> aL
+    java.lang.Boolean isInit -> aM
+    com.goodfriends.personalchef.biz.LruImageCache lruImageCache -> aN
+    com.android.volley.RequestQueue mQueue -> aO
     java.lang.Runnable advRunnable -> f
     java.lang.Runnable dishRunnable -> g
     java.lang.Runnable chefRunnable -> h
@@ -12219,98 +12791,95 @@ com.goodfriends.personalchef.fragment.HomeFragment -> com.goodfriends.personalch
     int[] mImgIds -> bd
     android.view.LayoutInflater mInflater -> be
     97:98:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> a
-    102:146:void onActivityCreated(android.os.Bundle) -> d
-    184:196:void notifyFileChanged() -> a
-    216:233:void updateAdvUI() -> b
-    237:251:void updateAdvUI2() -> c
-    323:410:void setDishImage() -> d
-    415:632:void onClick(android.view.View) -> onClick
-    637:648:void getIndexFun1() -> e
-    651:662:void getIndexFun2() -> f
-    665:677:void newCategory() -> W
-    680:683:void toChefDetail(int) -> c
-    686:689:void toDishDetail(int) -> d
-    693:718:void initViewFlipper(int) -> e
-    722:796:void initView() -> X
-    802:803:void onCreate(android.os.Bundle) -> a
-    808:809:void onStart() -> h
-    814:815:void onStop() -> i
-    821:823:void onDestroyView() -> j
-    826:831:void showDialog(java.lang.String) -> b
-    834:838:void closeDialog() -> Y
-    845:849:void setMenuVisibility(boolean) -> g
-    981:984:void initChefData() -> Z
-    989:1015:void initChefView() -> aa
-    1020:1024:void toChef(android.view.View) -> toChef
-    1029:1032:void onPause() -> J
-    1037:1040:void onResume() -> I
-    64:64:void access$0(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> a
-    64:64:java.util.List access$1(com.goodfriends.personalchef.fragment.HomeFragment) -> a
-    253:253:android.os.Handler access$2(com.goodfriends.personalchef.fragment.HomeFragment) -> b
-    66:66:void access$3(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> b
-    66:66:java.util.List access$4(com.goodfriends.personalchef.fragment.HomeFragment) -> c
-    214:214:void access$5(com.goodfriends.personalchef.fragment.HomeFragment) -> d
-    81:81:android.widget.ImageView[] access$6(com.goodfriends.personalchef.fragment.HomeFragment) -> e
-    833:833:void access$7(com.goodfriends.personalchef.fragment.HomeFragment) -> f
-    321:321:void access$8(com.goodfriends.personalchef.fragment.HomeFragment) -> g
-    634:634:java.util.List access$9(com.goodfriends.personalchef.fragment.HomeFragment) -> h
-    88:88:android.widget.RadioGroup access$10(com.goodfriends.personalchef.fragment.HomeFragment) -> i
-    84:84:com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager access$11(com.goodfriends.personalchef.fragment.HomeFragment) -> j
-    82:82:com.goodfriends.personalchef.application.SysApplication access$12(com.goodfriends.personalchef.fragment.HomeFragment) -> k
-    86:86:int access$13(com.goodfriends.personalchef.fragment.HomeFragment) -> l
-    200:200:void access$14(com.goodfriends.personalchef.fragment.HomeFragment,java.util.Timer) -> a
-    202:202:android.os.Handler access$15(com.goodfriends.personalchef.fragment.HomeFragment) -> m
-    634:634:void access$16(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> c
-com.goodfriends.personalchef.fragment.HomeFragment$1 -> com.goodfriends.personalchef.d.ah:
+    102:142:void onActivityCreated(android.os.Bundle) -> d
+    146:150:void loadBitmap(android.widget.ImageView,java.lang.String) -> a
+    187:199:void notifyFileChanged() -> a
+    219:236:void updateAdvUI() -> b
+    240:254:void updateAdvUI2() -> c
+    321:321:void setDishImage() -> d
+    326:505:void onClick(android.view.View) -> onClick
+    510:521:void getIndexFun1() -> e
+    524:535:void getIndexFun2() -> f
+    538:550:void newCategory() -> W
+    553:556:void toChefDetail(int) -> c
+    559:562:void toDishDetail(int) -> d
+    566:610:void initViewFlipper() -> X
+    615:674:void initView() -> Y
+    680:682:void onDestroyView() -> j
+    685:690:void showDialog(java.lang.String) -> b
+    693:697:void closeDialog() -> Z
+    704:708:void setMenuVisibility(boolean) -> g
+    794:797:void initChefData() -> aa
+    802:828:void initChefView() -> ab
+    833:837:void toChef(android.view.View) -> toChef
+    842:845:void onPause() -> J
+    850:853:void onResume() -> I
+    66:66:void access$0(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> a
+    66:66:java.util.List access$1(com.goodfriends.personalchef.fragment.HomeFragment) -> a
+    256:256:android.os.Handler access$2(com.goodfriends.personalchef.fragment.HomeFragment) -> b
+    68:68:void access$3(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> b
+    68:68:java.util.List access$4(com.goodfriends.personalchef.fragment.HomeFragment) -> c
+    217:217:void access$5(com.goodfriends.personalchef.fragment.HomeFragment) -> d
+    80:80:android.widget.ImageView[] access$6(com.goodfriends.personalchef.fragment.HomeFragment) -> e
+    692:692:void access$7(com.goodfriends.personalchef.fragment.HomeFragment) -> f
+    319:319:void access$8(com.goodfriends.personalchef.fragment.HomeFragment) -> g
+    507:507:java.util.List access$9(com.goodfriends.personalchef.fragment.HomeFragment) -> h
+    86:86:android.widget.RadioGroup access$10(com.goodfriends.personalchef.fragment.HomeFragment) -> i
+    83:83:com.goodfriends.personalchef.viewflipper.InfiniteLoopViewPager access$11(com.goodfriends.personalchef.fragment.HomeFragment) -> j
+    81:81:com.goodfriends.personalchef.application.SysApplication access$12(com.goodfriends.personalchef.fragment.HomeFragment) -> k
+    85:85:int access$13(com.goodfriends.personalchef.fragment.HomeFragment) -> l
+    203:203:void access$14(com.goodfriends.personalchef.fragment.HomeFragment,java.util.Timer) -> a
+    205:205:android.os.Handler access$15(com.goodfriends.personalchef.fragment.HomeFragment) -> m
+    507:507:void access$16(com.goodfriends.personalchef.fragment.HomeFragment,java.util.List) -> c
+com.goodfriends.personalchef.fragment.HomeFragment$1 -> com.goodfriends.personalchef.e.ah:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    153:157:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$10 -> com.goodfriends.personalchef.d.ai:
+    156:160:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$10 -> com.goodfriends.personalchef.e.ai:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    656:660:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$2 -> com.goodfriends.personalchef.d.aj:
+    529:533:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$11 -> com.goodfriends.personalchef.e.aj:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    165:169:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$3 -> com.goodfriends.personalchef.d.ak:
+    int val$j -> b
+    591:595:void onClick(android.view.View) -> onClick
+com.goodfriends.personalchef.fragment.HomeFragment$2 -> com.goodfriends.personalchef.e.ak:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    176:180:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$4 -> com.goodfriends.personalchef.d.al:
+    168:172:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$3 -> com.goodfriends.personalchef.e.al:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    204:211:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.HomeFragment$5 -> com.goodfriends.personalchef.d.am:
+    179:183:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$4 -> com.goodfriends.personalchef.e.am:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    256:318:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.HomeFragment$6 -> com.goodfriends.personalchef.d.an:
+    207:214:void handleMessage(android.os.Message) -> handleMessage
+com.goodfriends.personalchef.fragment.HomeFragment$5 -> com.goodfriends.personalchef.e.an:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    971:972:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
-com.goodfriends.personalchef.fragment.HomeFragment$7 -> com.goodfriends.personalchef.d.ao:
+    260:316:void handleMessage(android.os.Message) -> handleMessage
+com.goodfriends.personalchef.fragment.HomeFragment$6 -> com.goodfriends.personalchef.e.ao:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    109:125:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.HomeFragment$8 -> com.goodfriends.personalchef.d.ap:
+    784:785:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.goodfriends.personalchef.fragment.HomeFragment$7 -> com.goodfriends.personalchef.e.ap:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    190:194:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$9 -> com.goodfriends.personalchef.d.aq:
+    111:126:void handleMessage(android.os.Message) -> handleMessage
+com.goodfriends.personalchef.fragment.HomeFragment$8 -> com.goodfriends.personalchef.e.aq:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    642:646:void run() -> run
-com.goodfriends.personalchef.fragment.HomeFragment$MyLoopViewPagerAdatper -> com.goodfriends.personalchef.d.ag$a:
+    193:197:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$9 -> com.goodfriends.personalchef.e.ar:
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
-    930:930:int getCount() -> a
-    935:935:boolean isViewFromObject(android.view.View,java.lang.Object) -> a
-    941:942:void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
-    947:963:java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
-    926:926:com.goodfriends.personalchef.fragment.HomeFragment access$1(com.goodfriends.personalchef.fragment.HomeFragment$MyLoopViewPagerAdatper) -> a
-com.goodfriends.personalchef.fragment.HomeFragment$MyLoopViewPagerAdatper$1 -> com.goodfriends.personalchef.d.ar:
-    com.goodfriends.personalchef.fragment.HomeFragment$MyLoopViewPagerAdatper this$1 -> a
-    int val$position -> b
-    952:960:void onClick(android.view.View) -> onClick
-com.goodfriends.personalchef.fragment.HomeFragment$MyOnPageChangeListener -> com.goodfriends.personalchef.d.ag$b:
+    515:519:void run() -> run
+com.goodfriends.personalchef.fragment.HomeFragment$MyLoopViewPagerAdatper -> com.goodfriends.personalchef.e.ag$a:
+    com.goodfriends.personalchef.fragment.HomeFragment this$0 -> a
+    759:759:int getCount() -> a
+    764:764:boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    769:770:void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    774:776:java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+com.goodfriends.personalchef.fragment.HomeFragment$MyOnPageChangeListener -> com.goodfriends.personalchef.e.ag$b:
     int SCROLL_STATE_IDLE -> a
     int SCROLL_STATE_DRAGGING -> b
     int SCROLL_STATE_SETTLING -> c
     com.goodfriends.personalchef.fragment.HomeFragment this$0 -> d
-    903:912:void onPageScrollStateChanged(int) -> a
-    917:918:void onPageScrolled(int,float,int) -> a
-    922:922:void onPageSelected(int) -> b
-com.goodfriends.personalchef.fragment.MeFragment -> com.goodfriends.personalchef.d.as:
+    732:741:void onPageScrollStateChanged(int) -> a
+    746:747:void onPageScrolled(int,float,int) -> a
+    751:751:void onPageSelected(int) -> b
+com.goodfriends.personalchef.fragment.MeFragment -> com.goodfriends.personalchef.e.as:
     android.widget.ImageView setting -> c
     android.content.SharedPreferences preferences -> a
     java.lang.String name -> d
@@ -12353,33 +12922,33 @@ com.goodfriends.personalchef.fragment.MeFragment -> com.goodfriends.personalchef
     70:70:com.umeng.socialize.controller.listener.SocializeListeners$SnsPostListener access$7(com.goodfriends.personalchef.fragment.MeFragment) -> f
     62:62:java.lang.String access$8(com.goodfriends.personalchef.fragment.MeFragment) -> g
     271:271:void access$9(com.goodfriends.personalchef.fragment.MeFragment,java.util.List) -> a
-com.goodfriends.personalchef.fragment.MeFragment$1 -> com.goodfriends.personalchef.d.at:
+com.goodfriends.personalchef.fragment.MeFragment$1 -> com.goodfriends.personalchef.e.at:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     262:268:void run() -> run
-com.goodfriends.personalchef.fragment.MeFragment$2 -> com.goodfriends.personalchef.d.au:
+com.goodfriends.personalchef.fragment.MeFragment$2 -> com.goodfriends.personalchef.e.au:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     290:367:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.MeFragment$3 -> com.goodfriends.personalchef.d.av:
+com.goodfriends.personalchef.fragment.MeFragment$3 -> com.goodfriends.personalchef.e.av:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     89:89:void onStart() -> a
     95:126:void onComplete(com.umeng.socialize.bean.SHARE_MEDIA,int,com.umeng.socialize.bean.SocializeEntity) -> a
     83:83:com.goodfriends.personalchef.fragment.MeFragment access$0(com.goodfriends.personalchef.fragment.MeFragment$3) -> a
-com.goodfriends.personalchef.fragment.MeFragment$3$1 -> com.goodfriends.personalchef.d.aw:
+com.goodfriends.personalchef.fragment.MeFragment$3$1 -> com.goodfriends.personalchef.e.aw:
     com.goodfriends.personalchef.fragment.MeFragment$3 this$1 -> a
     int val$channelcopy -> b
     com.umeng.socialize.bean.SocializeEntity val$shareEntity -> c
     119:122:void run() -> run
-com.goodfriends.personalchef.fragment.MeFragment$4 -> com.goodfriends.personalchef.d.ax:
+com.goodfriends.personalchef.fragment.MeFragment$4 -> com.goodfriends.personalchef.e.ax:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     223:227:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.fragment.MeFragment$5 -> com.goodfriends.personalchef.d.ay:
+com.goodfriends.personalchef.fragment.MeFragment$5 -> com.goodfriends.personalchef.e.ay:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     234:235:void onClick(android.content.DialogInterface,int) -> onClick
-com.goodfriends.personalchef.fragment.MeFragment$6 -> com.goodfriends.personalchef.d.az:
+com.goodfriends.personalchef.fragment.MeFragment$6 -> com.goodfriends.personalchef.e.az:
     com.goodfriends.personalchef.fragment.MeFragment this$0 -> a
     int val$count -> b
     278:282:void run() -> run
-com.goodfriends.personalchef.fragment.OrderFragment -> com.goodfriends.personalchef.d.ba:
+com.goodfriends.personalchef.fragment.OrderFragment -> com.goodfriends.personalchef.e.ba:
     android.widget.TextView tv1 -> d
     int userId -> e
     int page -> f
@@ -12426,23 +12995,23 @@ com.goodfriends.personalchef.fragment.OrderFragment -> com.goodfriends.personalc
     38:38:void access$16(com.goodfriends.personalchef.fragment.OrderFragment,int) -> a
     38:38:void access$17(com.goodfriends.personalchef.fragment.OrderFragment,int) -> b
     125:125:void access$18(com.goodfriends.personalchef.fragment.OrderFragment) -> m
-com.goodfriends.personalchef.fragment.OrderFragment$1 -> com.goodfriends.personalchef.d.bb:
+com.goodfriends.personalchef.fragment.OrderFragment$1 -> com.goodfriends.personalchef.e.bb:
     com.goodfriends.personalchef.fragment.OrderFragment this$0 -> a
     153:159:void run() -> run
-com.goodfriends.personalchef.fragment.OrderFragment$2 -> com.goodfriends.personalchef.d.bc:
+com.goodfriends.personalchef.fragment.OrderFragment$2 -> com.goodfriends.personalchef.e.bc:
     com.goodfriends.personalchef.fragment.OrderFragment this$0 -> a
     167:173:void run() -> run
-com.goodfriends.personalchef.fragment.OrderFragment$3 -> com.goodfriends.personalchef.d.bd:
+com.goodfriends.personalchef.fragment.OrderFragment$3 -> com.goodfriends.personalchef.e.bd:
     com.goodfriends.personalchef.fragment.OrderFragment this$0 -> a
     179:224:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.fragment.OrderFragment$4 -> com.goodfriends.personalchef.d.be:
+com.goodfriends.personalchef.fragment.OrderFragment$4 -> com.goodfriends.personalchef.e.be:
     com.goodfriends.personalchef.fragment.OrderFragment this$0 -> a
     94:101:void onPullDownToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> a
     106:107:void onPullUpToRefresh(com.goodfriends.personalchef.view.PullToRefreshListView.PullToRefreshBase) -> b
-com.goodfriends.personalchef.fragment.OrderFragment$5 -> com.goodfriends.personalchef.d.bf:
+com.goodfriends.personalchef.fragment.OrderFragment$5 -> com.goodfriends.personalchef.e.bf:
     com.goodfriends.personalchef.fragment.OrderFragment this$0 -> a
     116:121:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.goodfriends.personalchef.util.AsynImageLoader -> com.goodfriends.personalchef.e.a:
+com.goodfriends.personalchef.util.AsynImageLoader -> com.goodfriends.personalchef.f.a:
     java.util.Map caches -> a
     java.util.List taskQueue -> b
     boolean isRunning -> c
@@ -12455,47 +13024,56 @@ com.goodfriends.personalchef.util.AsynImageLoader -> com.goodfriends.personalche
     21:21:java.util.List access$1(com.goodfriends.personalchef.util.AsynImageLoader) -> b
     19:19:java.util.Map access$2(com.goodfriends.personalchef.util.AsynImageLoader) -> c
     109:109:android.os.Handler access$3(com.goodfriends.personalchef.util.AsynImageLoader) -> d
-com.goodfriends.personalchef.util.AsynImageLoader$1 -> com.goodfriends.personalchef.e.b:
+com.goodfriends.personalchef.util.AsynImageLoader$1 -> com.goodfriends.personalchef.f.b:
     com.goodfriends.personalchef.util.AsynImageLoader this$0 -> a
     114:117:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.util.AsynImageLoader$2 -> com.goodfriends.personalchef.e.c:
+com.goodfriends.personalchef.util.AsynImageLoader$2 -> com.goodfriends.personalchef.f.c:
     com.goodfriends.personalchef.util.AsynImageLoader this$0 -> a
     125:152:void run() -> run
-com.goodfriends.personalchef.util.AsynImageLoader$3 -> com.goodfriends.personalchef.e.d:
+com.goodfriends.personalchef.util.AsynImageLoader$3 -> com.goodfriends.personalchef.f.d:
     com.goodfriends.personalchef.util.AsynImageLoader this$0 -> a
     android.widget.ImageView val$imageView -> b
     int val$resId -> c
     99:104:void loadImage(java.lang.String,android.graphics.Bitmap) -> a
-com.goodfriends.personalchef.util.AsynImageLoader$ImageCallback -> com.goodfriends.personalchef.e.a$a:
+com.goodfriends.personalchef.util.AsynImageLoader$ImageCallback -> com.goodfriends.personalchef.f.a$a:
     void loadImage(java.lang.String,android.graphics.Bitmap) -> a
-com.goodfriends.personalchef.util.AsynImageLoader$Task -> com.goodfriends.personalchef.e.a$b:
+com.goodfriends.personalchef.util.AsynImageLoader$Task -> com.goodfriends.personalchef.f.a$b:
     java.lang.String path -> a
     android.graphics.Bitmap bitmap -> b
     com.goodfriends.personalchef.util.AsynImageLoader$ImageCallback callback -> c
     com.goodfriends.personalchef.util.AsynImageLoader this$0 -> d
     170:171:boolean equals(java.lang.Object) -> equals
-com.goodfriends.personalchef.util.CacheManager -> com.goodfriends.personalchef.e.e:
+com.goodfriends.personalchef.util.CFileCache -> com.goodfriends.personalchef.f.e:
+    android.content.Context context -> a
+    java.lang.String externalCacheDir -> b
+    43:52:java.lang.String getSDCacheDir() -> a
+    62:79:boolean isExist(java.lang.String) -> a
+    84:84:java.lang.String getFilePath(java.lang.String) -> b
+    89:90:java.lang.String getFileName(java.lang.String) -> c
+    97:103:android.graphics.Bitmap getBitmapFromSD(java.lang.String) -> d
+    112:144:void putBitmapToSD(java.lang.String,android.graphics.Bitmap) -> a
+com.goodfriends.personalchef.util.CacheManager -> com.goodfriends.personalchef.f.f:
     int chche_length -> a
     java.util.ArrayList list_cahce -> b
     28:38:void addData(java.lang.String,android.graphics.Bitmap) -> a
     41:53:android.graphics.Bitmap getBitmap(java.lang.String) -> a
     60:63:void changeUse() -> a
-com.goodfriends.personalchef.util.FileUtil -> com.goodfriends.personalchef.e.f:
+com.goodfriends.personalchef.util.FileUtil -> com.goodfriends.personalchef.f.g:
     java.lang.String TAG -> a
     14:34:java.io.File getCacheFile(java.lang.String) -> a
     38:39:java.lang.String getFileName(java.lang.String) -> b
-com.goodfriends.personalchef.util.HttpGetImage -> com.goodfriends.personalchef.e.g:
+com.goodfriends.personalchef.util.HttpGetImage -> com.goodfriends.personalchef.f.h:
     14:43:android.graphics.Bitmap get1_5BitmapByNet(java.lang.String) -> a
     48:77:android.graphics.Bitmap getBitmapByNet(java.lang.String) -> b
-com.goodfriends.personalchef.util.ImageCallback -> com.goodfriends.personalchef.e.h:
+com.goodfriends.personalchef.util.ImageCallback -> com.goodfriends.personalchef.f.i:
     void imageLoaded(android.graphics.Bitmap) -> a
-com.goodfriends.personalchef.util.ImageHelper -> com.goodfriends.personalchef.e.i:
+com.goodfriends.personalchef.util.ImageHelper -> com.goodfriends.personalchef.f.j:
     android.graphics.BitmapFactory$Options options -> a
     25:36:boolean saveBitmap(java.lang.String,java.lang.String,android.graphics.Bitmap) -> a
     41:45:void createSdcardPath(java.lang.String) -> a
     56:60:android.graphics.Bitmap getBitmapFromSD(java.lang.String,java.lang.String) -> a
     73:79:android.graphics.Bitmap getBitmapFromSD(java.lang.String,java.lang.String,int) -> a
-com.goodfriends.personalchef.util.ImageTools -> com.goodfriends.personalchef.e.j:
+com.goodfriends.personalchef.util.ImageTools -> com.goodfriends.personalchef.f.k:
     42:51:android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable) -> a
     61:61:android.graphics.drawable.Drawable bitmapToDrawable(android.graphics.Bitmap) -> a
     73:73:android.graphics.Bitmap inputStreamToBitmap(java.io.InputStream) -> a
@@ -12513,36 +13091,36 @@ com.goodfriends.personalchef.util.ImageTools -> com.goodfriends.personalchef.e.j
     322:352:void savePhotoToSDCard(android.graphics.Bitmap,java.lang.String,java.lang.String) -> a
     361:368:void deleteAllPhoto(java.lang.String) -> a
     371:380:void deletePhotoAtPathAndName(java.lang.String,java.lang.String) -> c
-com.goodfriends.personalchef.util.Img$Key -> com.goodfriends.personalchef.e.k:
+com.goodfriends.personalchef.util.Img$Key -> com.goodfriends.personalchef.f.l:
     boolean isUse -> a
     java.lang.String keyString -> b
     java.lang.ref.SoftReference softReference -> c
-com.goodfriends.personalchef.util.LoadImage -> com.goodfriends.personalchef.e.l:
+com.goodfriends.personalchef.util.LoadImage -> com.goodfriends.personalchef.f.m:
     android.content.res.Resources res -> a
     com.goodfriends.personalchef.util.CacheManager cacheManager -> b
     28:65:void loadImage(java.lang.String,com.goodfriends.personalchef.util.ImageCallback) -> a
     70:107:void loadImage1_5(java.lang.String,com.goodfriends.personalchef.util.ImageCallback) -> b
     16:16:com.goodfriends.personalchef.util.CacheManager access$0() -> a
     14:14:android.content.res.Resources access$1(com.goodfriends.personalchef.util.LoadImage) -> a
-com.goodfriends.personalchef.util.LoadImage$1 -> com.goodfriends.personalchef.e.m:
+com.goodfriends.personalchef.util.LoadImage$1 -> com.goodfriends.personalchef.f.n:
     com.goodfriends.personalchef.util.LoadImage this$0 -> a
     com.goodfriends.personalchef.util.ImageCallback val$imageCallback -> b
     32:33:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.util.LoadImage$2 -> com.goodfriends.personalchef.e.n:
+com.goodfriends.personalchef.util.LoadImage$2 -> com.goodfriends.personalchef.f.o:
     com.goodfriends.personalchef.util.LoadImage this$0 -> a
     java.lang.String val$imageUrl -> b
     android.os.Handler val$myHandler -> c
     49:62:void run() -> run
-com.goodfriends.personalchef.util.LoadImage$3 -> com.goodfriends.personalchef.e.o:
+com.goodfriends.personalchef.util.LoadImage$3 -> com.goodfriends.personalchef.f.p:
     com.goodfriends.personalchef.util.LoadImage this$0 -> a
     com.goodfriends.personalchef.util.ImageCallback val$imageCallback -> b
     74:75:void handleMessage(android.os.Message) -> handleMessage
-com.goodfriends.personalchef.util.LoadImage$4 -> com.goodfriends.personalchef.e.p:
+com.goodfriends.personalchef.util.LoadImage$4 -> com.goodfriends.personalchef.f.q:
     com.goodfriends.personalchef.util.LoadImage this$0 -> a
     java.lang.String val$imageUrl -> b
     android.os.Handler val$myHandler -> c
     91:104:void run() -> run
-com.goodfriends.personalchef.util.PicUtil -> com.goodfriends.personalchef.e.q:
+com.goodfriends.personalchef.util.PicUtil -> com.goodfriends.personalchef.f.r:
     43:51:android.graphics.drawable.BitmapDrawable getfriendicon(java.net.URL) -> a
     62:75:android.graphics.drawable.BitmapDrawable getcontentPic(java.lang.String) -> a
     86:99:android.graphics.Bitmap getusericon(java.net.URL) -> b
@@ -12555,7 +13133,7 @@ com.goodfriends.personalchef.util.PicUtil -> com.goodfriends.personalchef.e.q:
     263:271:android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable) -> a
     277:297:android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,float) -> a
     302:333:android.graphics.Bitmap createReflectionImageWithOrigin(android.graphics.Bitmap) -> a
-com.goodfriends.personalchef.util.Utility -> com.goodfriends.personalchef.e.r:
+com.goodfriends.personalchef.util.Utility -> com.goodfriends.personalchef.f.s:
     10:27:void setListViewHeightBasedOnChildren(android.widget.ListView) -> a
 com.goodfriends.personalchef.view.ExpandTabView -> com.goodfriends.personalchef.view.ExpandTabView:
     android.widget.ToggleButton selectedButton -> a

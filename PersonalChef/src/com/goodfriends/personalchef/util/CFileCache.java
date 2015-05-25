@@ -40,14 +40,14 @@ public class CFileCache {
 	 * @return 获取外部存储器缓存目录
 	 */
 	public String getSDCacheDir() {
-		if(externalCacheDir!=null){
+		if (externalCacheDir != null) {
 			return externalCacheDir;
 		}
 		String sdState = Environment.getExternalStorageState();
 		if (sdState.equals(Environment.MEDIA_MOUNTED)) {
 			File cacheDir = context.getExternalCacheDir();
 			externalCacheDir = cacheDir.getAbsolutePath();
-			System.out.println("externalCacheDir "+externalCacheDir);
+			System.out.println("externalCacheDir " + externalCacheDir);
 		}
 		return externalCacheDir;
 	}
@@ -57,13 +57,12 @@ public class CFileCache {
 	 * @param url
 	 * @return
 	 */
-	public boolean isExist(String url) {
+	public boolean isExist(String fileName) {
 		// SD卡不可用
 		if (externalCacheDir == null) {
 			return false;
 		}
-		
-		String filePath = getFilePath(url);
+
 		File cacheDir = new File(externalCacheDir);
 		File[] cacheFiles = cacheDir.listFiles();
 		if (cacheFiles == null) {
@@ -71,8 +70,8 @@ public class CFileCache {
 		}
 		// 查找本地文件
 		for (int i = 0; i < cacheFiles.length; i++) {
-			String fileName = cacheFiles[i].getName();
-			if (filePath.equals(fileName)) {
+			String name = cacheFiles[i].getName();
+			if (name.equals(fileName)) {
 				System.out.println("文件本地存在");
 				return true;
 			}
@@ -80,24 +79,26 @@ public class CFileCache {
 		return false;
 
 	}
-	
-	public String getFilePath(String url){
+
+	public String getFilePath(String url) {
+		return externalCacheDir + "/" + getFileName(url);
+	}
+
+	public String getFileName(String url) {
 		// 截取文件名
 		int begin = url.lastIndexOf("/");
-		String bitmapName = url.substring(begin + 1);
-		String fileName = externalCacheDir + "/" + bitmapName;
-		return fileName;
+		return  url.substring(begin + 1);
 	}
 
 	/**
 	 * 对本地缓存的查找
 	 */
 	public Bitmap getBitmapFromSD(String url) {
-		if(isExist(url)){
-			String filePath = getFilePath(url);
-			System.out.println("对本地缓存的查找 "+filePath);
-			return BitmapFactory.decodeFile(filePath);
-		}else{
+		String fileName = getFileName(url);
+		if (isExist(fileName)) {
+			System.out.println("对本地缓存的查找 " );
+			return BitmapFactory.decodeFile(getFilePath(url));
+		} else {
 			System.out.println("本地文件不存在");
 			return null;
 		}
@@ -109,30 +110,30 @@ public class CFileCache {
 	 */
 	public void putBitmapToSD(String url, Bitmap bitmap) {
 		System.out.println("保存文件到本地");
-		if(isExist(url)){
+		String fileName = getFileName(url);
+
+		if (isExist(fileName)) {
 			System.out.println("保存文件到本地，但是已经存在");
 			return;
 		}
-		
 
-		String fileName = getFilePath(url);
-//		
-		System.out.println("对本地缓存的保存 "+fileName);
-		File file = new File(fileName);
+		//
+		System.out.println("对本地缓存的保存 " + fileName);
+		File file = new File(getFilePath(url));
 		// 保存
 		try {
 			if (!file.exists()) {
 				file.createNewFile();
 			}
 			FileOutputStream fos = new FileOutputStream(file);
-			if(url.endsWith(".png") || url.endsWith(".PNG")){
+			if (url.endsWith(".png") || url.endsWith(".PNG")) {
 				System.out.println("保存文件到本地，png");
 				bitmap.compress(Bitmap.CompressFormat.PNG, 100, fos);
-			}else{
+			} else {
 				System.out.println("保存文件到本地，jpg");
 				bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fos);
 			}
-			
+
 			fos.flush();
 			fos.close();
 		} catch (FileNotFoundException e) {

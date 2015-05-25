@@ -1,7 +1,13 @@
 package com.goodfriends.personalchef.bean;
 
-public class Advs {
+import java.io.Serializable;
 
+public class Advs implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String imgurl;
 	private String url;
 

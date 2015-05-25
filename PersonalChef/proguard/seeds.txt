@@ -46,6 +46,11 @@ android.support.v4.widget.SlidingPaneLayout$SavedState
 android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
 android.support.v4.widget.SwipeRefreshLayout
 android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+com.android.volley.Request$Priority: com.android.volley.Request$Priority[] values()
+com.android.volley.Request$Priority: com.android.volley.Request$Priority valueOf(java.lang.String)
+com.android.volley.toolbox.NetworkImageView
+com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet)
+com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet,int)
 com.baidu.location.BDLocation
 com.baidu.location.BDLocation: android.os.Parcelable$Creator CREATOR
 com.baidu.location.CommonEncrypt

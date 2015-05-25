@@ -1,5 +1,6 @@
 package com.goodfriends.personalchef;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import com.goodfriends.personalchef.application.SysApplication;
@@ -81,11 +82,11 @@ public class GuideViewActivity extends Activity {
 			}
 		});
 	}
-	
-	public void toHome(View v)
-	{
-		startActivity(new Intent(GuideViewActivity.this,
-				MainActivity.class));
+
+	public void toHome(View v) {
+		Intent intentMain = new Intent(this, MainActivity.class);
+		intentMain.putExtra("advs", this.getIntent().getSerializableExtra("advs"));
+		startActivity(intentMain);
 		GuideViewActivity.this.finish();
 	}
 

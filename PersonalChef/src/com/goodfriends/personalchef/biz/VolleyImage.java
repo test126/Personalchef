@@ -51,7 +51,7 @@ public class VolleyImage {
 	}
 
 	/**
-	 * 根据url发送get请求 返回json字符串,并解析
+	 * 读广告图片
 	 * 
 	 * @param url
 	 */
@@ -68,6 +68,46 @@ public class VolleyImage {
 							 Listener<Bitmap> imgListener = new Response.Listener<Bitmap>(){
 								public void onResponse(Bitmap response) {
 									lruImageCache.putBitmap(url, response);
+									handler.sendEmptyMessage(Msg.Get_Ads_Images);
+								}
+							 };
+							 ImageRequest imgRequest=new ImageRequest(url, imgListener , 0, 0, Config.ARGB_8888, null);
+							 mQueue.add(imgRequest);
+						}
+					}
+					
+				} catch (JSONException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		};
+		JsonObjectRequest  request = new JsonObjectRequest(CommonFun.advurl, null, listener, null);
+		mQueue.add(request);
+		mQueue.start();
+	}
+	
+	
+	/**
+	 * 读广告图片
+	 * 
+	 * @param url
+	 */
+	public void requestChefs() {
+		Listener listener = new Response.Listener<JSONObject>() {
+			@Override
+			public void onResponse(JSONObject response) {
+				try {
+					JSONArray content = response.getJSONArray("content");
+					for(int i =0 ;i<content.length();i++){
+						JSONObject adv = content.getJSONObject(i);
+						final String url = adv.getString("imgurl");
+						if(!fileCache.isExist(url)){
+							 Listener<Bitmap> imgListener = new Response.Listener<Bitmap>(){
+								public void onResponse(Bitmap response) {
+									lruImageCache.putBitmap(url, response);
+									handler.sendEmptyMessage(Msg.Get_Ads_Images);
 								}
 							 };
 							 ImageRequest imgRequest=new ImageRequest(url, imgListener , 0, 0, Config.ARGB_8888, null);

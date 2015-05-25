@@ -39,11 +39,13 @@ public class LruImageCache implements ImageCache{
   @Override
   public Bitmap getBitmap(String url) {	
 	  Bitmap bitmap = mMemoryCache.get(url);
-	  
 	  if(bitmap == null){
 		  System.out.println("缓冲文件不存在");
 		  bitmap = fileCache.getBitmapFromSD(url) ;
+	  }else{
+		  System.out.println("缓冲存在");  
 	  }
+	  
     return bitmap;	
   }
 

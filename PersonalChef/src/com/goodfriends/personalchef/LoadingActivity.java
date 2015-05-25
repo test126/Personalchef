@@ -1,5 +1,6 @@
 package com.goodfriends.personalchef;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,12 +25,14 @@ import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.location.LocationClientOption.LocationMode;
 import com.goodfriends.personalchef.application.SysApplication;
+import com.goodfriends.personalchef.bean.Advs;
 import com.goodfriends.personalchef.bean.Caixi;
 import com.goodfriends.personalchef.bean.Loca;
 import com.goodfriends.personalchef.biz.VolleyImage;
 import com.goodfriends.personalchef.common.App;
 import com.goodfriends.personalchef.common.Common;
 import com.goodfriends.personalchef.common.CommonFun;
+import com.goodfriends.personalchef.common.Msg;
 import com.goodfriends.personalchef.common.UIHelper;
 
 
@@ -39,6 +42,7 @@ public class LoadingActivity extends Activity {
 	public static List<String> jiguans;
 	public static List<String> distinctStrings;
 	public static List<String> foodStrings;
+	 List<Advs> advs;
 	
 	public static Boolean isNetWorkOK = true;
 	private String[] distincts = {"罗湖区","福田区","南山区","宝安区","龙岗区","盐田区","其他区"};
@@ -49,16 +53,17 @@ public class LoadingActivity extends Activity {
 	public LocationClient mLocationClient = null;
 
 	public VolleyImage volleyImage;
+	
+	private boolean receiveLocation = false;
+	private boolean isTurnNext = false;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		new Thread(getFoodsRunnable).start();
-		new Thread(getDistrict).start();
 		SysApplication.getInstance().addActivity(this);
 		setContentView(R.layout.activity_loading);
-
+		volleyImage =  new VolleyImage(this,myHandler);
         DisplayMetrics dm = new DisplayMetrics();
       getWindowManager().getDefaultDisplay().getMetrics(dm);
         App.screenHeight = dm.widthPixels;
@@ -77,22 +82,19 @@ public class LoadingActivity extends Activity {
 
 			@Override
 			public void onReceiveLocation(BDLocation location) {
-				// TODO Auto-generated method stub
 				if (location == null)
 					return;
-//				String lat = location.getAddrStr();
-				/*
-				String pro = location.getProvince();
-				String city = location.getCity();
-				String dis = location.getDistrict();
-				String lat = location.getStreet() + location.getStreetNumber();
-				*/
 				String pro = location.getCity();
 				String city = location.getDistrict();
 				String dis = location.getProvince();
 				String lat = location.getStreet() + location.getStreetNumber();
 				loca = new Loca(pro, city, dis, lat);
-				new Thread(jiguanRunnable).start();
+				 System.out.println("地图定位返回");
+				 if(receiveLocation == false){
+					 new Thread(getDistrict).start();
+				 }
+				 receiveLocation = true;
+				 
 			}
 		});
 
@@ -111,79 +113,102 @@ public class LoadingActivity extends Activity {
 			e.printStackTrace();
 		}
 		
-		
-		
-		volleyImage =  new VolleyImage(this,myHandler);
 	}
 
 	protected void onDestroy() {
 		super.onDestroy();
 		mLocationClient.stop();
 	};
-
-	Runnable caixiRunnable = new Runnable() {
-		@Override
-		public void run() {
-			// TODO Auto-generated method stub
-			caixis = CommonFun.getCaixi(LoadingActivity.this);
-			if (caixis != null) {
-				myHandler.sendEmptyMessage(456);
-			} else {
-				myHandler.sendEmptyMessage(444);
-			}
-		}
-	};
 	
 	
 	Runnable getDistrict = new Runnable() {
 		@Override
 		public void run() {
+			System.out.println("地区线程启动");
 			distinctStrings = CommonFun.getDistrict(LoadingActivity.this);
-			if(distinctStrings != null)
-			{
-				distinctStrings.add(0, "由近到远");
-				myHandler.sendEmptyMessage(GETFOODSYES);
-			}else {
-				myHandler.sendEmptyMessage(GETFOODSNO);
+			if (distinctStrings != null) {
+				new Thread(jiguanRunnable).start();
+			} else {
+				myHandler.sendEmptyMessage(Msg.Get_Fail);
 			}
+			
 		}
 	};
 	
-	private final int GETFOODSYES = 11;
-	private final int GETFOODSNO = 444;
-	Runnable getFoodsRunnable = new Runnable() {
-		
-		@Override
-		public void run() {
-			foodStrings = CommonFun.getFoods(LoadingActivity.this);
-			if(foodStrings != null)
-			{
-				myHandler.sendEmptyMessage(GETFOODSYES);
-			}else {
-				myHandler.sendEmptyMessage(GETFOODSNO);
-			}
-		}
-	};
-
 	public Runnable jiguanRunnable = new Runnable() {
 
 		@Override
 		public void run() {
-			// TODO Auto-generated method stub
+			
+			 System.out.println("籍贯线程启动");
 			jiguans = CommonFun.getjiguan(LoadingActivity.this);
 			if (jiguans != null) {
-				myHandler.sendEmptyMessage(1);
+				new Thread(caixiRunnable).start();
 			} else {
-				myHandler.sendEmptyMessage(444);
+				myHandler.sendEmptyMessage(Msg.Get_Fail);
+			}
+		}
+	};
+
+	Runnable caixiRunnable = new Runnable() {
+		@Override
+		public void run() {
+			System.out.println("菜系线程启动");
+			caixis = CommonFun.getCaixi(LoadingActivity.this);
+			if (caixis != null) {
+				new Thread(getFoodsRunnable).start();
+			} else {
+				myHandler.sendEmptyMessage(Msg.Get_Fail);
 			}
 		}
 	};
 	
+	Runnable getFoodsRunnable = new Runnable() {
+		@Override
+		public void run() {
+			System.out.println("食物线程启动");
+			foodStrings = CommonFun.getFoods(LoadingActivity.this);
+			if (foodStrings != null) {
+				new Thread(advRunnable).start();
+			} else {
+				myHandler.sendEmptyMessage(Msg.Get_Fail);
+			}
+		}
+	};
+	
+	Runnable advRunnable = new Runnable() {
+		public void run() {
+			System.out.println("广告线程启动");
+			// TODO Auto-generated method stub
+			advs = CommonFun.getAdv(LoadingActivity.this);
+			if (advs != null) {
+				volleyImage.requestAdvs();
+			} else {
+				myHandler.sendEmptyMessage(Msg.Get_Fail);
+			}
+		}
+	};
+	
+	
+	
+
+
+	
+	
 	private void toHome()
 	{
+		
+		
+		if(isTurnNext == true)
+		{
+			return;
+		}
+		System.out.println("toHome");
+		isTurnNext = true;
 		new Handler().postDelayed(new Runnable() {
 			public void run() {
 				// TODO Auto-generated method stub
+				
 				if (b) {
 					SharedPreferences preferences = getSharedPreferences(
 							"ISFIRST", MODE_PRIVATE);
@@ -192,11 +217,15 @@ public class LoadingActivity extends Activity {
 					editor.commit();
 					Intent intent = new Intent(LoadingActivity.this,
 							GuideViewActivity.class);
+					intent.putExtra("advs", (Serializable) advs);
+					
 					startActivity(intent);
 					LoadingActivity.this.finish();
 				} else {
-					startActivity(new Intent(LoadingActivity.this,
-							MainActivity.class));
+					Intent intentMain = new Intent(LoadingActivity.this,
+							MainActivity.class);
+					intentMain.putExtra("advs", (Serializable) advs);
+					startActivity(intentMain);
 					LoadingActivity.this.finish();
 				}
 			}
@@ -219,17 +248,10 @@ public class LoadingActivity extends Activity {
 	private Handler myHandler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
-			case 0:
+			case Msg.Get_Ads_Images:
 				toHome();
 				break;
-			case 1:
-				new Thread(caixiRunnable).start();
-				break;
-			case 456:
-				//下载广告图片
-				volleyImage.requestAdvs();
-				break;
-			case 444:
+			case Msg.Get_Fail:
 				errotServer();
 				builder_call = new AlertDialog.Builder(LoadingActivity.this);
 				builder_call.setMessage("服务器连接异常");
@@ -269,8 +291,6 @@ public class LoadingActivity extends Activity {
 						});
 				builder_call.create();
 				builder_call.show();
-				break;
-			case GETFOODSYES:
 				break;
 			default:
 				break;

@@ -856,6 +856,7 @@ public class CommonFun {
 				.toString(pagecount)));
 		String result = Common.post(recommendMastersUrl, postParameters);
 		try {
+			System.out.println("cs "+result);
 			JSONObject jsonObject1 = new JSONObject(result);
 			JSONObject jsonObject = jsonObject1.getJSONObject("content");
 			JSONArray array = jsonObject.getJSONArray("list");

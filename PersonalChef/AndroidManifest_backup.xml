@@ -27,7 +27,13 @@
         android:theme="@android:style/Theme.NoTitleBar" >
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="GQWv8sCHNqpPaMGBbwp5HQCd" /> <!-- 正式key  ：mzEW402hdYZBcgoeBY5RWOPp -->
+            android:value="BaS0bvyTM6CT58SLQpcaosGK" /> 
+            
+            
+            <!-- 正式key  ：BaS0bvyTM6CT58SLQpcaosGK 
+            
+            GQWv8sCHNqpPaMGBbwp5HQCd
+            -->
 
         <activity
             android:name="com.goodfriends.personalchef.LoadingActivity"
